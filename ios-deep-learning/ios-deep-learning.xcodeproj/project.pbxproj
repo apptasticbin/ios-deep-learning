@@ -19,7 +19,6 @@
 		79752E791DFAB4EF00D10272 /* ios_deep_learningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79752E781DFAB4EF00D10272 /* ios_deep_learningTests.m */; };
 		79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0731DFB5F310049473E /* ProjectTableViewController.m */; };
 		79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0791DFB62DA0049473E /* ProjectController.m */; };
-		79A7C0801DFB6F5A0049473E /* ProjectGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C07F1DFB6F5A0049473E /* ProjectGroupModel.m */; };
 		79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0821DFB6F830049473E /* ProjectModel.m */; };
 /* End PBXBuildFile section */
 
@@ -56,8 +55,6 @@
 		79A7C0731DFB5F310049473E /* ProjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectTableViewController.m; path = Application/ProjectTableViewController/ProjectTableViewController.m; sourceTree = "<group>"; };
 		79A7C0781DFB62DA0049473E /* ProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectController.h; path = Application/ProjectController/ProjectController.h; sourceTree = "<group>"; };
 		79A7C0791DFB62DA0049473E /* ProjectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectController.m; path = Application/ProjectController/ProjectController.m; sourceTree = "<group>"; };
-		79A7C07E1DFB6F5A0049473E /* ProjectGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectGroupModel.h; path = Application/ProjectGroupModel/ProjectGroupModel.h; sourceTree = "<group>"; };
-		79A7C07F1DFB6F5A0049473E /* ProjectGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectGroupModel.m; path = Application/ProjectGroupModel/ProjectGroupModel.m; sourceTree = "<group>"; };
 		79A7C0811DFB6F830049473E /* ProjectModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectModel.h; path = Application/ProjectModel/ProjectModel.h; sourceTree = "<group>"; };
 		79A7C0821DFB6F830049473E /* ProjectModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectModel.m; path = Application/ProjectModel/ProjectModel.m; sourceTree = "<group>"; };
 		79A7C0841DFB8A540049473E /* Project.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Project.h; path = Application/Project/Project.h; sourceTree = "<group>"; };
@@ -209,7 +206,6 @@
 				79A7C0701DFB52590049473E /* ProjectTableViewController */,
 				79A7C0771DFB5F7C0049473E /* ProjectController */,
 				79A7C07B1DFB65EA0049473E /* ProjectModel */,
-				79A7C07C1DFB66E60049473E /* ProjectGroupModel */,
 			);
 			name = Application;
 			sourceTree = "<group>";
@@ -239,15 +235,6 @@
 				79A7C0821DFB6F830049473E /* ProjectModel.m */,
 			);
 			name = ProjectModel;
-			sourceTree = "<group>";
-		};
-		79A7C07C1DFB66E60049473E /* ProjectGroupModel */ = {
-			isa = PBXGroup;
-			children = (
-				79A7C07E1DFB6F5A0049473E /* ProjectGroupModel.h */,
-				79A7C07F1DFB6F5A0049473E /* ProjectGroupModel.m */,
-			);
-			name = ProjectGroupModel;
 			sourceTree = "<group>";
 		};
 		79A7C07D1DFB66F80049473E /* Project */ = {
@@ -368,7 +355,6 @@
 				79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */,
 				79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */,
 				79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */,
-				79A7C0801DFB6F5A0049473E /* ProjectGroupModel.m in Sources */,
 				79752E601DFAB4EF00D10272 /* main.m in Sources */,
 				790EFDBB1DFCBE86004D97EE /* ProjectGroupNames.m in Sources */,
 				79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */,
