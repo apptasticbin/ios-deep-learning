@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PlayGroundViewController.h"
 #import "Project.h"
 
-@interface AutoLayoutPlayGroundViewController : UIViewController<Project>
+@interface AutoLayoutPlayGroundViewController : PlayGroundViewController<Project>
 
 @end

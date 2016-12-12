@@ -10,30 +10,41 @@
 
 @implementation PlayRect
 
+#pragma mark - Public
+
++ (instancetype)rectWithColor:(UIColor *)color {
+    return [self rectWithColor:color name:NSStringFromClass([self class])];
+}
+
++ (instancetype)rectWithColor:(UIColor *)color name:(NSString *)name {
+    PlayRect *rect = [self new];
+    rect.backgroundColor = color;
+    rect.name = name;
+    return rect;
+}
+
 #pragma mark - Private
 
-+ (__kindof PlayRect *)rectWithColor:(UIColor *)color {
-    PlayRect *rect = [PlayRect new];
-    rect.backgroundColor = color;
-    return rect;
+- (NSString *)description {
+    return [NSString stringWithFormat:@"Rect(%@) at %@", self.name, NSStringFromCGRect(self.frame)];
 }
 
 #pragma mark - Colourful Rects
 
-+ (__kindof PlayRect *)redRect {
-    return [self rectWithColor:[UIColor redColor]];
++ (instancetype)redRect {
+    return [self rectWithColor:[UIColor redColor] name:@"Red Rect"];
 }
 
-+ (__kindof PlayRect *)blueRect {
-    return [self rectWithColor:[UIColor blueColor]];
++ (instancetype)blueRect {
+    return [self rectWithColor:[UIColor blueColor] name:@"Blue Rect"];
 }
 
-+ (__kindof PlayRect *)yellowRect {
-    return [self rectWithColor:[UIColor yellowColor]];
++ (instancetype)orangeRect {
+    return [self rectWithColor:[UIColor orangeColor] name:@"Orange Rect"];
 }
 
-+ (__kindof PlayRect *)greenRect {
-    return [self rectWithColor:[UIColor greenColor]];
++ (instancetype)greenRect {
+    return [self rectWithColor:[UIColor greenColor] name:@"Green Rect"];
 }
 
 @end

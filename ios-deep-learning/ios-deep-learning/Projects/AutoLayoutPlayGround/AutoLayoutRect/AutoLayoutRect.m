@@ -10,12 +10,46 @@
 
 @implementation AutoLayoutRect
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (void)willMoveToSuperview:(nullable UIView *)newSuperview {
+    MarkStart;
+    [super willMoveToSuperview:newSuperview];
+    MarkEnd;
 }
-*/
+
+- (void)didMoveToSuperview {
+    MarkStart;
+    [super didMoveToSuperview];
+    MarkEnd;
+}
+
+- (void)willMoveToWindow:(nullable UIWindow *)newWindow {
+    MarkStart;
+    [super willMoveToWindow:newWindow];
+    MarkEnd;
+}
+
+- (void)didMoveToWindow {
+    MarkStart;
+    [super didMoveToWindow];
+    MarkEnd;
+}
+
+- (void)layoutSubviews {
+    MarkStart;
+    [super layoutSubviews];
+    MarkEnd;
+}
+
+- (void)updateConstraints {
+    MarkStart;
+    [super updateConstraints];
+    MarkEnd;
+}
+
+- (void)drawRect:(CGRect)rect {
+    MarkStart;
+    [super drawRect:rect];
+    MarkEnd;
+}
 
 @end

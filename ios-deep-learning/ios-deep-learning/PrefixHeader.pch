@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  ios-deep-learning
+//
+//  Created by Bin Yu on 12/12/2016.
+//  Copyright © 2016 Bin Yu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define Mark        NSLog(@"[%@] %@", self, NSStringFromSelector(_cmd))
+#define MarkStart   NSLog(@"[%@] %@ [Start]", self, NSStringFromSelector(_cmd))
+#define MarkEnd     NSLog(@"[%@] %@ [End]", self, NSStringFromSelector(_cmd))
+
+#include "UIView+Helper.h"
+
+#endif /* PrefixHeader_pch */

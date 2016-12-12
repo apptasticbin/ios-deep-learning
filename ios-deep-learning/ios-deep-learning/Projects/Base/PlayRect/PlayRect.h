@@ -10,10 +10,15 @@
 
 @interface PlayRect : UIView
 
+@property (nonatomic, strong) NSString *name;
+
++ (instancetype)rectWithColor:(UIColor *)color;
++ (instancetype)rectWithColor:(UIColor *)color name:(NSString *)name;
+
 // colourful rects
-+ (__kindof PlayRect *)redRect;
-+ (__kindof PlayRect *)blueRect;
-+ (__kindof PlayRect *)yellowRect;
-+ (__kindof PlayRect *)greenRect;
++ (instancetype)redRect;
++ (instancetype)blueRect;
++ (instancetype)orangeRect;
++ (instancetype)greenRect;
 
 @end

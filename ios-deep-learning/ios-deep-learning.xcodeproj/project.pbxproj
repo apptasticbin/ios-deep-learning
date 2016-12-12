@@ -10,9 +10,11 @@
 		790EFDBB1DFCBE86004D97EE /* ProjectGroupNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDBA1DFCBE86004D97EE /* ProjectGroupNames.m */; };
 		790EFDBF1DFDB257004D97EE /* UIStoryboard+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDBE1DFDB257004D97EE /* UIStoryboard+Helper.m */; };
 		790EFDC51DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDC31DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.m */; };
-		790EFDC61DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 790EFDC41DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.xib */; };
 		790EFDCD1DFDF72E004D97EE /* PlayRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDCC1DFDF72E004D97EE /* PlayRect.m */; };
 		790EFDD01DFE01FB004D97EE /* AutoLayoutRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDCF1DFE01FB004D97EE /* AutoLayoutRect.m */; };
+		790EFDD51DFEB80C004D97EE /* PlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDD41DFEB80C004D97EE /* PlayGroundViewController.m */; };
+		790EFDDC1DFEEFC0004D97EE /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDDB1DFEEFC0004D97EE /* UIView+Helper.m */; };
+		790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDDF1DFF2A81004D97EE /* PlayGroundControlAction.m */; };
 		79752E601DFAB4EF00D10272 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79752E5F1DFAB4EF00D10272 /* main.m */; };
 		79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79752E621DFAB4EF00D10272 /* AppDelegate.m */; };
 		79752E691DFAB4EF00D10272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79752E671DFAB4EF00D10272 /* Main.storyboard */; };
@@ -41,11 +43,17 @@
 		790EFDBE1DFDB257004D97EE /* UIStoryboard+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIStoryboard+Helper.m"; path = "Misc/UIStoryBoard+Helper/UIStoryboard+Helper.m"; sourceTree = "<group>"; };
 		790EFDC21DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutPlayGroundViewController.h; sourceTree = "<group>"; };
 		790EFDC31DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutPlayGroundViewController.m; sourceTree = "<group>"; };
-		790EFDC41DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutPlayGroundViewController.xib; sourceTree = "<group>"; };
 		790EFDCB1DFDF72E004D97EE /* PlayRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayRect.h; path = Projects/Base/PlayRect/PlayRect.h; sourceTree = "<group>"; };
 		790EFDCC1DFDF72E004D97EE /* PlayRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayRect.m; path = Projects/Base/PlayRect/PlayRect.m; sourceTree = "<group>"; };
 		790EFDCE1DFE01FB004D97EE /* AutoLayoutRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutoLayoutRect.h; path = Projects/AutoLayoutPlayGround/AutoLayoutRect/AutoLayoutRect.h; sourceTree = "<group>"; };
 		790EFDCF1DFE01FB004D97EE /* AutoLayoutRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutoLayoutRect.m; path = Projects/AutoLayoutPlayGround/AutoLayoutRect/AutoLayoutRect.m; sourceTree = "<group>"; };
+		790EFDD11DFEA61C004D97EE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		790EFDD31DFEB80C004D97EE /* PlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayGroundViewController.h; path = Projects/Base/PlayGroundViewController/PlayGroundViewController.h; sourceTree = "<group>"; };
+		790EFDD41DFEB80C004D97EE /* PlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayGroundViewController.m; path = Projects/Base/PlayGroundViewController/PlayGroundViewController.m; sourceTree = "<group>"; };
+		790EFDDA1DFEEFC0004D97EE /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Helper.h"; path = "Misc/UIView+Helper/UIView+Helper.h"; sourceTree = "<group>"; };
+		790EFDDB1DFEEFC0004D97EE /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Helper.m"; path = "Misc/UIView+Helper/UIView+Helper.m"; sourceTree = "<group>"; };
+		790EFDDE1DFF2A81004D97EE /* PlayGroundControlAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayGroundControlAction.h; path = Projects/Base/PlayGroundControlAction/PlayGroundControlAction.h; sourceTree = "<group>"; };
+		790EFDDF1DFF2A81004D97EE /* PlayGroundControlAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayGroundControlAction.m; path = Projects/Base/PlayGroundControlAction/PlayGroundControlAction.m; sourceTree = "<group>"; };
 		79752E5B1DFAB4EF00D10272 /* ios-deep-learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-deep-learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79752E5F1DFAB4EF00D10272 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79752E611DFAB4EF00D10272 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -116,7 +124,6 @@
 			children = (
 				790EFDC21DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.h */,
 				790EFDC31DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.m */,
-				790EFDC41DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.xib */,
 			);
 			name = AutoLayoutPlayGroundViewController;
 			path = Projects/AutoLayoutPlayGround/AutoLayoutPlayGroundViewController;
@@ -134,6 +141,8 @@
 		790EFDC91DFDF6E1004D97EE /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				790EFDDD1DFF2A4F004D97EE /* PlayGroundControlAction */,
+				790EFDD21DFEB7E5004D97EE /* PlayGroundViewController */,
 				790EFDCA1DFDF6EF004D97EE /* PlayRect */,
 			);
 			name = Base;
@@ -146,6 +155,33 @@
 				790EFDCC1DFDF72E004D97EE /* PlayRect.m */,
 			);
 			name = PlayRect;
+			sourceTree = "<group>";
+		};
+		790EFDD21DFEB7E5004D97EE /* PlayGroundViewController */ = {
+			isa = PBXGroup;
+			children = (
+				790EFDD31DFEB80C004D97EE /* PlayGroundViewController.h */,
+				790EFDD41DFEB80C004D97EE /* PlayGroundViewController.m */,
+			);
+			name = PlayGroundViewController;
+			sourceTree = "<group>";
+		};
+		790EFDD61DFEEF82004D97EE /* UIView+Helper */ = {
+			isa = PBXGroup;
+			children = (
+				790EFDDA1DFEEFC0004D97EE /* UIView+Helper.h */,
+				790EFDDB1DFEEFC0004D97EE /* UIView+Helper.m */,
+			);
+			name = "UIView+Helper";
+			sourceTree = "<group>";
+		};
+		790EFDDD1DFF2A4F004D97EE /* PlayGroundControlAction */ = {
+			isa = PBXGroup;
+			children = (
+				790EFDDE1DFF2A81004D97EE /* PlayGroundControlAction.h */,
+				790EFDDF1DFF2A81004D97EE /* PlayGroundControlAction.m */,
+			);
+			name = PlayGroundControlAction;
 			sourceTree = "<group>";
 		};
 		79752E521DFAB4EF00D10272 = {
@@ -184,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				79752E5F1DFAB4EF00D10272 /* main.m */,
+				790EFDD11DFEA61C004D97EE /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -227,6 +264,7 @@
 		79752E881DFAD15800D10272 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
+				790EFDD61DFEEF82004D97EE /* UIView+Helper */,
 				790EFDBC1DFDB1FF004D97EE /* UIStoryBoard+Helper */,
 			);
 			name = Misc;
@@ -374,7 +412,6 @@
 			files = (
 				79752E6E1DFAB4EF00D10272 /* LaunchScreen.storyboard in Resources */,
 				79752E6B1DFAB4EF00D10272 /* Assets.xcassets in Resources */,
-				790EFDC61DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.xib in Resources */,
 				79752E691DFAB4EF00D10272 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,12 +432,15 @@
 			files = (
 				790EFDBF1DFDB257004D97EE /* UIStoryboard+Helper.m in Sources */,
 				79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */,
+				790EFDDC1DFEEFC0004D97EE /* UIView+Helper.m in Sources */,
 				790EFDC51DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.m in Sources */,
+				790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */,
 				79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */,
 				79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */,
 				79752E601DFAB4EF00D10272 /* main.m in Sources */,
 				790EFDBB1DFCBE86004D97EE /* ProjectGroupNames.m in Sources */,
 				79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */,
+				790EFDD51DFEB80C004D97EE /* PlayGroundViewController.m in Sources */,
 				790EFDD01DFE01FB004D97EE /* AutoLayoutRect.m in Sources */,
 				790EFDCD1DFDF72E004D97EE /* PlayRect.m in Sources */,
 			);
@@ -537,6 +577,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8BMD2QL62M;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ios-deep-learning/PrefixHeader.pch";
 				INFOPLIST_FILE = "ios-deep-learning/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "biyu.ios-deep-learning";
@@ -549,6 +591,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8BMD2QL62M;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ios-deep-learning/PrefixHeader.pch";
 				INFOPLIST_FILE = "ios-deep-learning/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "biyu.ios-deep-learning";
