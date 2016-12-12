@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		790EFDB31DFC0A4F004D97EE /* AutoLayoutPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDB11DFC0A4F004D97EE /* AutoLayoutPlayGroundViewController.m */; };
-		790EFDB41DFC0A4F004D97EE /* AutoLayoutPlayGroundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 790EFDB21DFC0A4F004D97EE /* AutoLayoutPlayGroundViewController.xib */; };
 		790EFDBB1DFCBE86004D97EE /* ProjectGroupNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDBA1DFCBE86004D97EE /* ProjectGroupNames.m */; };
 		790EFDBF1DFDB257004D97EE /* UIStoryboard+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDBE1DFDB257004D97EE /* UIStoryboard+Helper.m */; };
+		790EFDC51DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDC31DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.m */; };
+		790EFDC61DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 790EFDC41DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.xib */; };
+		790EFDCD1DFDF72E004D97EE /* PlayRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDCC1DFDF72E004D97EE /* PlayRect.m */; };
+		790EFDD01DFE01FB004D97EE /* AutoLayoutRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDCF1DFE01FB004D97EE /* AutoLayoutRect.m */; };
 		79752E601DFAB4EF00D10272 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79752E5F1DFAB4EF00D10272 /* main.m */; };
 		79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79752E621DFAB4EF00D10272 /* AppDelegate.m */; };
 		79752E691DFAB4EF00D10272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79752E671DFAB4EF00D10272 /* Main.storyboard */; };
@@ -33,13 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		790EFDB01DFC0A4F004D97EE /* AutoLayoutPlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutoLayoutPlayGroundViewController.h; path = Projects/AutoLayoutPlayGround/AutoLayoutPlayGroundViewController.h; sourceTree = "<group>"; };
-		790EFDB11DFC0A4F004D97EE /* AutoLayoutPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutoLayoutPlayGroundViewController.m; path = Projects/AutoLayoutPlayGround/AutoLayoutPlayGroundViewController.m; sourceTree = "<group>"; };
-		790EFDB21DFC0A4F004D97EE /* AutoLayoutPlayGroundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AutoLayoutPlayGroundViewController.xib; path = Projects/AutoLayoutPlayGround/AutoLayoutPlayGroundViewController.xib; sourceTree = "<group>"; };
 		790EFDB91DFCBE86004D97EE /* ProjectGroupNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectGroupNames.h; path = Application/ProjectGroupNames/ProjectGroupNames.h; sourceTree = "<group>"; };
 		790EFDBA1DFCBE86004D97EE /* ProjectGroupNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectGroupNames.m; path = Application/ProjectGroupNames/ProjectGroupNames.m; sourceTree = "<group>"; };
 		790EFDBD1DFDB257004D97EE /* UIStoryboard+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIStoryboard+Helper.h"; path = "Misc/UIStoryBoard+Helper/UIStoryboard+Helper.h"; sourceTree = "<group>"; };
 		790EFDBE1DFDB257004D97EE /* UIStoryboard+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIStoryboard+Helper.m"; path = "Misc/UIStoryBoard+Helper/UIStoryboard+Helper.m"; sourceTree = "<group>"; };
+		790EFDC21DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutPlayGroundViewController.h; sourceTree = "<group>"; };
+		790EFDC31DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutPlayGroundViewController.m; sourceTree = "<group>"; };
+		790EFDC41DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutPlayGroundViewController.xib; sourceTree = "<group>"; };
+		790EFDCB1DFDF72E004D97EE /* PlayRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayRect.h; path = Projects/Base/PlayRect/PlayRect.h; sourceTree = "<group>"; };
+		790EFDCC1DFDF72E004D97EE /* PlayRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayRect.m; path = Projects/Base/PlayRect/PlayRect.m; sourceTree = "<group>"; };
+		790EFDCE1DFE01FB004D97EE /* AutoLayoutRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AutoLayoutRect.h; path = Projects/AutoLayoutPlayGround/AutoLayoutRect/AutoLayoutRect.h; sourceTree = "<group>"; };
+		790EFDCF1DFE01FB004D97EE /* AutoLayoutRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AutoLayoutRect.m; path = Projects/AutoLayoutPlayGround/AutoLayoutRect/AutoLayoutRect.m; sourceTree = "<group>"; };
 		79752E5B1DFAB4EF00D10272 /* ios-deep-learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-deep-learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79752E5F1DFAB4EF00D10272 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79752E611DFAB4EF00D10272 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,9 +87,8 @@
 		790EFDAF1DFC0A05004D97EE /* AutoLayoutPlayGround */ = {
 			isa = PBXGroup;
 			children = (
-				790EFDB01DFC0A4F004D97EE /* AutoLayoutPlayGroundViewController.h */,
-				790EFDB11DFC0A4F004D97EE /* AutoLayoutPlayGroundViewController.m */,
-				790EFDB21DFC0A4F004D97EE /* AutoLayoutPlayGroundViewController.xib */,
+				790EFDC81DFDF6B9004D97EE /* AutoLayoutRect */,
+				790EFDC11DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController */,
 			);
 			name = AutoLayoutPlayGround;
 			sourceTree = "<group>";
@@ -104,6 +109,43 @@
 				790EFDBE1DFDB257004D97EE /* UIStoryboard+Helper.m */,
 			);
 			name = "UIStoryBoard+Helper";
+			sourceTree = "<group>";
+		};
+		790EFDC11DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController */ = {
+			isa = PBXGroup;
+			children = (
+				790EFDC21DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.h */,
+				790EFDC31DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.m */,
+				790EFDC41DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.xib */,
+			);
+			name = AutoLayoutPlayGroundViewController;
+			path = Projects/AutoLayoutPlayGround/AutoLayoutPlayGroundViewController;
+			sourceTree = "<group>";
+		};
+		790EFDC81DFDF6B9004D97EE /* AutoLayoutRect */ = {
+			isa = PBXGroup;
+			children = (
+				790EFDCE1DFE01FB004D97EE /* AutoLayoutRect.h */,
+				790EFDCF1DFE01FB004D97EE /* AutoLayoutRect.m */,
+			);
+			name = AutoLayoutRect;
+			sourceTree = "<group>";
+		};
+		790EFDC91DFDF6E1004D97EE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				790EFDCA1DFDF6EF004D97EE /* PlayRect */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		790EFDCA1DFDF6EF004D97EE /* PlayRect */ = {
+			isa = PBXGroup;
+			children = (
+				790EFDCB1DFDF72E004D97EE /* PlayRect.h */,
+				790EFDCC1DFDF72E004D97EE /* PlayRect.m */,
+			);
+			name = PlayRect;
 			sourceTree = "<group>";
 		};
 		79752E521DFAB4EF00D10272 = {
@@ -193,6 +235,7 @@
 		79A7C06E1DFB51E80049473E /* Projects */ = {
 			isa = PBXGroup;
 			children = (
+				790EFDC91DFDF6E1004D97EE /* Base */,
 				790EFDAF1DFC0A05004D97EE /* AutoLayoutPlayGround */,
 			);
 			name = Projects;
@@ -331,7 +374,7 @@
 			files = (
 				79752E6E1DFAB4EF00D10272 /* LaunchScreen.storyboard in Resources */,
 				79752E6B1DFAB4EF00D10272 /* Assets.xcassets in Resources */,
-				790EFDB41DFC0A4F004D97EE /* AutoLayoutPlayGroundViewController.xib in Resources */,
+				790EFDC61DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.xib in Resources */,
 				79752E691DFAB4EF00D10272 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,14 +393,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				790EFDB31DFC0A4F004D97EE /* AutoLayoutPlayGroundViewController.m in Sources */,
 				790EFDBF1DFDB257004D97EE /* UIStoryboard+Helper.m in Sources */,
 				79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */,
+				790EFDC51DFDF5D6004D97EE /* AutoLayoutPlayGroundViewController.m in Sources */,
 				79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */,
 				79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */,
 				79752E601DFAB4EF00D10272 /* main.m in Sources */,
 				790EFDBB1DFCBE86004D97EE /* ProjectGroupNames.m in Sources */,
 				79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */,
+				790EFDD01DFE01FB004D97EE /* AutoLayoutRect.m in Sources */,
+				790EFDCD1DFDF72E004D97EE /* PlayRect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
