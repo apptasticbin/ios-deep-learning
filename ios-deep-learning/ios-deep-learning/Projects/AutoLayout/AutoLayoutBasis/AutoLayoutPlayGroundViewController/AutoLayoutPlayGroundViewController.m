@@ -8,8 +8,6 @@
 
 #import "AutoLayoutPlayGroundViewController.h"
 #import "AutoLayoutRect.h"
-#import "PlayGroundControlAction.h"
-#import "ProjectGroupNames.h"
 
 /*
  * APIs need to try out:
@@ -242,7 +240,7 @@
 }
 
 + (NSString *)desc {
-    return @"Try to deep understand how exactly Auto Layout works.";
+    return @"Try to deeply understand how exactly Auto Layout works.";
 }
 
 + (NSString *)groupName {

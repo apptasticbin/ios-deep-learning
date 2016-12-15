@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "PlayGroundViewController.h"
-#import "Project.h"
 
 @interface AutoLayoutPlayGroundViewController : PlayGroundViewController<Project>
 

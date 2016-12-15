@@ -12,6 +12,10 @@
 
 @property (nonatomic, strong) NSString *name;
 
+- (void)initializeView;
+- (void)initializeSubviews;
+- (void)initializeConstraints;
+
 + (instancetype)rectWithColor:(UIColor *)color;
 + (instancetype)rectWithColor:(UIColor *)color name:(NSString *)name;
 

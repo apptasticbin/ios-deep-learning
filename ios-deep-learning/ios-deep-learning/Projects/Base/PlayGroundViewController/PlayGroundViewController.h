@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@class PlayGroundControlAction;
+#import "PlayGroundControlAction.h"
 
 @interface PlayGroundViewController : UIViewController
 

@@ -23,7 +23,32 @@
     return rect;
 }
 
-#pragma mark - Private
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        [self initializeView];
+        [self initializeSubviews];
+        [self initializeConstraints];
+    }
+    return self;
+}
+
+#pragma mark - Initialization
+
+- (void)initializeView {
+    // override in subclass
+}
+
+- (void)initializeSubviews {
+    // override in subclass
+}
+
+- (void)initializeConstraints {
+    // override in subclass
+}
+
+#pragma mark - NSObject Protocal
 
 - (NSString *)description {
     return [NSString stringWithFormat:@"Rect(%@) at %@", self.name, NSStringFromCGRect(self.frame)];

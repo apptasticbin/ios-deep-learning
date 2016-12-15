@@ -15,6 +15,9 @@
 		790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDDF1DFF2A81004D97EE /* PlayGroundControlAction.m */; };
 		794EF2791E00A90C00E8032C /* AutoLayoutPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794EF2751E00A90C00E8032C /* AutoLayoutPlayGroundViewController.m */; };
 		794EF27A1E00A90C00E8032C /* AutoLayoutRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 794EF2781E00A90C00E8032C /* AutoLayoutRect.m */; };
+		794EF27E1E00AA6400E8032C /* IntransicContentSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794EF27D1E00AA6400E8032C /* IntransicContentSizeViewController.m */; };
+		794EF2821E00AF1E00E8032C /* CustomIntransicRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 794EF2811E00AF1E00E8032C /* CustomIntransicRect.m */; };
+		794EF2861E018C2F00E8032C /* NSLayoutConstraint+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 794EF2851E018C2F00E8032C /* NSLayoutConstraint+Helper.m */; };
 		79752E601DFAB4EF00D10272 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79752E5F1DFAB4EF00D10272 /* main.m */; };
 		79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79752E621DFAB4EF00D10272 /* AppDelegate.m */; };
 		79752E691DFAB4EF00D10272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79752E671DFAB4EF00D10272 /* Main.storyboard */; };
@@ -54,6 +57,12 @@
 		794EF2751E00A90C00E8032C /* AutoLayoutPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutPlayGroundViewController.m; sourceTree = "<group>"; };
 		794EF2771E00A90C00E8032C /* AutoLayoutRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutRect.h; sourceTree = "<group>"; };
 		794EF2781E00A90C00E8032C /* AutoLayoutRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutRect.m; sourceTree = "<group>"; };
+		794EF27C1E00AA6400E8032C /* IntransicContentSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntransicContentSizeViewController.h; path = Projects/AutoLayout/CustomViewForAutoLayout/IntransicContentSizeViewController/IntransicContentSizeViewController.h; sourceTree = "<group>"; };
+		794EF27D1E00AA6400E8032C /* IntransicContentSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntransicContentSizeViewController.m; path = Projects/AutoLayout/CustomViewForAutoLayout/IntransicContentSizeViewController/IntransicContentSizeViewController.m; sourceTree = "<group>"; };
+		794EF2801E00AF1E00E8032C /* CustomIntransicRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomIntransicRect.h; path = Projects/AutoLayout/CustomViewForAutoLayout/CustomIntransicRect/CustomIntransicRect.h; sourceTree = "<group>"; };
+		794EF2811E00AF1E00E8032C /* CustomIntransicRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomIntransicRect.m; path = Projects/AutoLayout/CustomViewForAutoLayout/CustomIntransicRect/CustomIntransicRect.m; sourceTree = "<group>"; };
+		794EF2841E018C2F00E8032C /* NSLayoutConstraint+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+Helper.h"; path = "Misc/NSLayoutConstraint+Helper/NSLayoutConstraint+Helper.h"; sourceTree = "<group>"; };
+		794EF2851E018C2F00E8032C /* NSLayoutConstraint+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+Helper.m"; path = "Misc/NSLayoutConstraint+Helper/NSLayoutConstraint+Helper.m"; sourceTree = "<group>"; };
 		79752E5B1DFAB4EF00D10272 /* ios-deep-learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-deep-learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79752E5F1DFAB4EF00D10272 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79752E611DFAB4EF00D10272 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -156,17 +165,22 @@
 			name = PlayGroundControlAction;
 			sourceTree = "<group>";
 		};
-		794EF26F1E00A7D300E8032C /* IntransicContentSize */ = {
+		794EF26F1E00A7D300E8032C /* CustomViewForAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				797ADDF81E02D4F8001F82D9 /* CRCHViewController */,
+				794EF27F1E00AEB400E8032C /* CustomIntransicRect */,
+				794EF27B1E00A94D00E8032C /* IntransicContentSizeViewController */,
 			);
-			name = IntransicContentSize;
+			name = CustomViewForAutoLayout;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		794EF2711E00A90C00E8032C /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
 				794EF2721E00A90C00E8032C /* AutoLayoutBasis */,
+				794EF26F1E00A7D300E8032C /* CustomViewForAutoLayout */,
 			);
 			name = AutoLayout;
 			path = Projects/AutoLayout;
@@ -175,8 +189,8 @@
 		794EF2721E00A90C00E8032C /* AutoLayoutBasis */ = {
 			isa = PBXGroup;
 			children = (
-				794EF2731E00A90C00E8032C /* AutoLayoutPlayGroundViewController */,
 				794EF2761E00A90C00E8032C /* AutoLayoutRect */,
+				794EF2731E00A90C00E8032C /* AutoLayoutPlayGroundViewController */,
 			);
 			path = AutoLayoutBasis;
 			sourceTree = "<group>";
@@ -197,6 +211,33 @@
 				794EF2781E00A90C00E8032C /* AutoLayoutRect.m */,
 			);
 			path = AutoLayoutRect;
+			sourceTree = "<group>";
+		};
+		794EF27B1E00A94D00E8032C /* IntransicContentSizeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				794EF27C1E00AA6400E8032C /* IntransicContentSizeViewController.h */,
+				794EF27D1E00AA6400E8032C /* IntransicContentSizeViewController.m */,
+			);
+			name = IntransicContentSizeViewController;
+			sourceTree = "<group>";
+		};
+		794EF27F1E00AEB400E8032C /* CustomIntransicRect */ = {
+			isa = PBXGroup;
+			children = (
+				794EF2801E00AF1E00E8032C /* CustomIntransicRect.h */,
+				794EF2811E00AF1E00E8032C /* CustomIntransicRect.m */,
+			);
+			name = CustomIntransicRect;
+			sourceTree = "<group>";
+		};
+		794EF2831E018C0500E8032C /* NSLayoutConstraint+Helper */ = {
+			isa = PBXGroup;
+			children = (
+				794EF2841E018C2F00E8032C /* NSLayoutConstraint+Helper.h */,
+				794EF2851E018C2F00E8032C /* NSLayoutConstraint+Helper.m */,
+			);
+			name = "NSLayoutConstraint+Helper";
 			sourceTree = "<group>";
 		};
 		79752E521DFAB4EF00D10272 = {
@@ -279,10 +320,18 @@
 		79752E881DFAD15800D10272 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
+				794EF2831E018C0500E8032C /* NSLayoutConstraint+Helper */,
 				790EFDD61DFEEF82004D97EE /* UIView+Helper */,
 				790EFDBC1DFDB1FF004D97EE /* UIStoryBoard+Helper */,
 			);
 			name = Misc;
+			sourceTree = "<group>";
+		};
+		797ADDF81E02D4F8001F82D9 /* CRCHViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CRCHViewController;
 			sourceTree = "<group>";
 		};
 		79A7C06E1DFB51E80049473E /* Projects */ = {
@@ -290,7 +339,6 @@
 			children = (
 				790EFDC91DFDF6E1004D97EE /* Base */,
 				794EF2711E00A90C00E8032C /* AutoLayout */,
-				794EF26F1E00A7D300E8032C /* IntransicContentSize */,
 			);
 			name = Projects;
 			sourceTree = "<group>";
@@ -451,12 +499,15 @@
 				794EF2791E00A90C00E8032C /* AutoLayoutPlayGroundViewController.m in Sources */,
 				790EFDDC1DFEEFC0004D97EE /* UIView+Helper.m in Sources */,
 				790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */,
+				794EF2861E018C2F00E8032C /* NSLayoutConstraint+Helper.m in Sources */,
 				794EF27A1E00A90C00E8032C /* AutoLayoutRect.m in Sources */,
+				794EF2821E00AF1E00E8032C /* CustomIntransicRect.m in Sources */,
 				79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */,
 				79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */,
 				79752E601DFAB4EF00D10272 /* main.m in Sources */,
 				790EFDBB1DFCBE86004D97EE /* ProjectGroupNames.m in Sources */,
 				79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */,
+				794EF27E1E00AA6400E8032C /* IntransicContentSizeViewController.m in Sources */,
 				790EFDD51DFEB80C004D97EE /* PlayGroundViewController.m in Sources */,
 				790EFDCD1DFDF72E004D97EE /* PlayRect.m in Sources */,
 			);
