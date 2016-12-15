@@ -30,11 +30,6 @@
     [self.playStage addConstraints:centerConstraints];
 }
 
-- (void)initializeControlPanel {
-    [super initializeControlPanel];
-    self.controlActions = [self controlPanelActions];
-}
-
 #pragma mark - Private
 
 - (NSArray<PlayGroundControlAction *> *)controlPanelActions {

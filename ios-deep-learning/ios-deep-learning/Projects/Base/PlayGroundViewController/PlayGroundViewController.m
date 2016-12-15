@@ -101,6 +101,7 @@
 - (void)initializeControlPanel {
     self.controlPanel.dataSource = self;
     self.controlPanel.delegate = self;
+    self.controlActions = [self controlPanelActions];
 }
 
 #pragma mark - Accessors
@@ -108,6 +109,10 @@
 - (void)setControlActions:(NSArray<PlayGroundControlAction *> *)controlActions {
     _controlActions = controlActions;
     [self.controlPanel reloadData];
+}
+
+- (NSArray<PlayGroundControlAction *> *)controlPanelActions {
+    return nil;
 }
 
 #pragma mark - UITableViewDataSource

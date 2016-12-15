@@ -24,6 +24,7 @@
 		79752E6B1DFAB4EF00D10272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79752E6A1DFAB4EF00D10272 /* Assets.xcassets */; };
 		79752E6E1DFAB4EF00D10272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79752E6C1DFAB4EF00D10272 /* LaunchScreen.storyboard */; };
 		79752E791DFAB4EF00D10272 /* ios_deep_learningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79752E781DFAB4EF00D10272 /* ios_deep_learningTests.m */; };
+		797ADDFB1E02D7C0001F82D9 /* CRCHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ADDFA1E02D7C0001F82D9 /* CRCHViewController.m */; };
 		79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0731DFB5F310049473E /* ProjectTableViewController.m */; };
 		79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0791DFB62DA0049473E /* ProjectController.m */; };
 		79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0821DFB6F830049473E /* ProjectModel.m */; };
@@ -74,6 +75,8 @@
 		79752E741DFAB4EF00D10272 /* ios-deep-learningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-deep-learningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79752E781DFAB4EF00D10272 /* ios_deep_learningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_deep_learningTests.m; sourceTree = "<group>"; };
 		79752E7A1DFAB4EF00D10272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797ADDF91E02D7C0001F82D9 /* CRCHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRCHViewController.h; path = Projects/AutoLayout/UnderstandCRCH/CRCHViewController/CRCHViewController.h; sourceTree = "<group>"; };
+		797ADDFA1E02D7C0001F82D9 /* CRCHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRCHViewController.m; path = Projects/AutoLayout/UnderstandCRCH/CRCHViewController/CRCHViewController.m; sourceTree = "<group>"; };
 		79A7C0721DFB5F310049473E /* ProjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectTableViewController.h; path = Application/ProjectTableViewController/ProjectTableViewController.h; sourceTree = "<group>"; };
 		79A7C0731DFB5F310049473E /* ProjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectTableViewController.m; path = Application/ProjectTableViewController/ProjectTableViewController.m; sourceTree = "<group>"; };
 		79A7C0781DFB62DA0049473E /* ProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectController.h; path = Application/ProjectController/ProjectController.h; sourceTree = "<group>"; };
@@ -168,7 +171,6 @@
 		794EF26F1E00A7D300E8032C /* CustomViewForAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
-				797ADDF81E02D4F8001F82D9 /* CRCHViewController */,
 				794EF27F1E00AEB400E8032C /* CustomIntransicRect */,
 				794EF27B1E00A94D00E8032C /* IntransicContentSizeViewController */,
 			);
@@ -181,6 +183,7 @@
 			children = (
 				794EF2721E00A90C00E8032C /* AutoLayoutBasis */,
 				794EF26F1E00A7D300E8032C /* CustomViewForAutoLayout */,
+				797ADDFC1E02D7E6001F82D9 /* UnderstandCRCH */,
 			);
 			name = AutoLayout;
 			path = Projects/AutoLayout;
@@ -330,8 +333,19 @@
 		797ADDF81E02D4F8001F82D9 /* CRCHViewController */ = {
 			isa = PBXGroup;
 			children = (
+				797ADDF91E02D7C0001F82D9 /* CRCHViewController.h */,
+				797ADDFA1E02D7C0001F82D9 /* CRCHViewController.m */,
 			);
 			name = CRCHViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		797ADDFC1E02D7E6001F82D9 /* UnderstandCRCH */ = {
+			isa = PBXGroup;
+			children = (
+				797ADDF81E02D4F8001F82D9 /* CRCHViewController */,
+			);
+			name = UnderstandCRCH;
 			sourceTree = "<group>";
 		};
 		79A7C06E1DFB51E80049473E /* Projects */ = {
@@ -496,6 +510,7 @@
 			files = (
 				790EFDBF1DFDB257004D97EE /* UIStoryboard+Helper.m in Sources */,
 				79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */,
+				797ADDFB1E02D7C0001F82D9 /* CRCHViewController.m in Sources */,
 				794EF2791E00A90C00E8032C /* AutoLayoutPlayGroundViewController.m in Sources */,
 				790EFDDC1DFEEFC0004D97EE /* UIView+Helper.m in Sources */,
 				790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */,

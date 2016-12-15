@@ -20,5 +20,6 @@
 - (void)initializeViews NS_REQUIRES_SUPER;
 - (void)initializeViewConstraints NS_REQUIRES_SUPER;
 - (void)initializeControlPanel NS_REQUIRES_SUPER;
+- (NSArray<PlayGroundControlAction *> *)controlPanelActions;
 
 @end
