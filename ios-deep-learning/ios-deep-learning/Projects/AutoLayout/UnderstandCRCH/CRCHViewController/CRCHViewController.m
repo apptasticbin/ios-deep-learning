@@ -24,7 +24,6 @@
 
 - (void)initializeViews {
     [super initializeViews];
-    self.playStage.backgroundColor = [UIColor orangeColor];
     
     self.nameLabel = [UILabel new];
     self.nameTextField = [UITextField new];
@@ -55,6 +54,7 @@
 
 - (void)initializeViewConstraints {
     [super initializeViewConstraints];
+    [self.verticalStackView addConstraints:[self textFieldsWidthEqualConstraints]];
     [self.playStage addConstraints:[self verticalStackViewHorizontalConstraints]];
     [self.playStage addConstraints:[self verticalStackViewVerticalConstraints]];
 }
@@ -75,9 +75,18 @@
                                                      views:[self layoutViews]];
 }
 
+- (NSArray *)textFieldsWidthEqualConstraints {
+    return [NSLayoutConstraint constraintsWithVisualFormat:@"[nameTextField(==addressTextField)]"
+                                                   options:0
+                                                   metrics:nil
+                                                     views:[self layoutViews]];
+}
+
 - (NSDictionary *)layoutViews {
     return @{
-             @"verticalStackView" : self.verticalStackView
+             @"verticalStackView"   :   self.verticalStackView,
+             @"nameTextField"       :   self.nameTextField,
+             @"addressTextField"    :   self.addressTextField
              };
 }
 
@@ -85,7 +94,8 @@
 
 - (void)configLabel:(UILabel *)label withText:(NSString *)text {
     label.text = text;
-    label.layer.borderColor = [[UIColor blackColor] CGColor];
+    label.textColor = [UIColor whiteColor];
+    label.layer.borderColor = [[UIColor whiteColor] CGColor];
     label.layer.borderWidth = 1.0f;
     label.layer.cornerRadius = 5.0f;
     label.textAlignment = NSTextAlignmentCenter;
@@ -94,9 +104,7 @@
 
 - (void)configTextField:(UITextField *)textField withPlaceholderText:(NSString *)placeholderText {
     textField.attributedPlaceholder = [[NSAttributedString alloc] initWithString:placeholderText];
-    textField.layer.borderColor = [[UIColor blackColor] CGColor];
-    textField.layer.cornerRadius = 5.0f;
-    textField.layer.borderWidth = 1.0f;
+    textField.borderStyle = UITextBorderStyleRoundedRect;
     [textField setContentHuggingPriority:249 forAxis:UILayoutConstraintAxisHorizontal];
 }
 
