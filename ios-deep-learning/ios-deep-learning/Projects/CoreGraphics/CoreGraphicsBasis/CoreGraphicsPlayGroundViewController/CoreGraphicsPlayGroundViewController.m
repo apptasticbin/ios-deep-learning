@@ -75,7 +75,7 @@
 
 - (NSArray *)maskedButtonVerticalConstraints {
     return [NSLayoutConstraint constraintsWithVisualFormat:@"V:[maskedButton(60)]"
-                                                   options:NSLayoutFormatAlignAllCenterY
+                                                   options:0
                                                    metrics:0
                                                      views:[self layoutViews]];
 }
