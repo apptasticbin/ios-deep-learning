@@ -79,8 +79,8 @@
     return ProjectGroupNameAutoLayout;
 }
 
-+ (__kindof UIViewController *)projectViewController {
-    return [IntransicContentSizeViewController new];
++ (instancetype)projectViewController {
+    return [self new];
 }
 
 

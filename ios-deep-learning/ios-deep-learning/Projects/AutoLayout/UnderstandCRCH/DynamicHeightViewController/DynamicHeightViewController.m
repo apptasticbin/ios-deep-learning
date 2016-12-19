@@ -140,8 +140,8 @@
     return ProjectGroupNameAutoLayout;
 }
 
-+ (__kindof UIViewController *)projectViewController {
-    return [DynamicHeightViewController new];
++ (instancetype)projectViewController {
+    return [self new];
 }
 
 @end

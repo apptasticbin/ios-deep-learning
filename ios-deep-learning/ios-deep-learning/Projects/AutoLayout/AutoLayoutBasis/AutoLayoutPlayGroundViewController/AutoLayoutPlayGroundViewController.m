@@ -242,8 +242,8 @@
     return ProjectGroupNameAutoLayout;
 }
 
-+ (__kindof UIViewController *)projectViewController {
-    return [AutoLayoutPlayGroundViewController new];
++ (instancetype)projectViewController {
+    return [self new];
 }
 
 @end

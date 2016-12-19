@@ -11,3 +11,5 @@
 NSString * const ProjectGroupNameAutoLayout         = @"Auto Layout";
 NSString * const ProjectGroupNameViewController     = @"View Controller";
 NSString * const ProjectGroupNameBasicKnowledge     = @"Basic Knowledge";
+NSString * const ProjectGroupNameCoreGraphics       = @"Core Graphics";
+

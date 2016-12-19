@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)name;
 + (NSString *)desc;
 + (NSString *)groupName;
-+ (__kindof UIViewController *)projectViewController;
++ (instancetype)projectViewController;
 NS_ASSUME_NONNULL_END
 
 @end

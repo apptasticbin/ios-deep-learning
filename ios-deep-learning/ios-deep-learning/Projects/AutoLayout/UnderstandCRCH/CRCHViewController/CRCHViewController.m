@@ -122,8 +122,8 @@
     return ProjectGroupNameAutoLayout;
 }
 
-+ (__kindof UIViewController *)projectViewController {
-    return [CRCHViewController new];
++ (instancetype)projectViewController {
+    return [self new];
 }
 
 @end

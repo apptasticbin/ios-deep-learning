@@ -14,6 +14,9 @@
 		790EFDDC1DFEEFC0004D97EE /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDDB1DFEEFC0004D97EE /* UIView+Helper.m */; };
 		790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDDF1DFF2A81004D97EE /* PlayGroundControlAction.m */; };
 		792863D71E04BE43007F5916 /* DynamicHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792863D61E04BE43007F5916 /* DynamicHeightViewController.m */; };
+		792863DD1E05EF22007F5916 /* CoreGraphicsPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792863DC1E05EF22007F5916 /* CoreGraphicsPlayGroundViewController.m */; };
+		792863E51E060831007F5916 /* SimpleRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 792863E41E060831007F5916 /* SimpleRoundButton.m */; };
+		792863E91E072421007F5916 /* MaskedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 792863E81E072421007F5916 /* MaskedButton.m */; };
 		794EF2791E00A90C00E8032C /* AutoLayoutPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794EF2751E00A90C00E8032C /* AutoLayoutPlayGroundViewController.m */; };
 		794EF27A1E00A90C00E8032C /* AutoLayoutRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 794EF2781E00A90C00E8032C /* AutoLayoutRect.m */; };
 		794EF27E1E00AA6400E8032C /* IntransicContentSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794EF27D1E00AA6400E8032C /* IntransicContentSizeViewController.m */; };
@@ -57,6 +60,12 @@
 		790EFDDF1DFF2A81004D97EE /* PlayGroundControlAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayGroundControlAction.m; path = Projects/Base/PlayGroundControlAction/PlayGroundControlAction.m; sourceTree = "<group>"; };
 		792863D51E04BE43007F5916 /* DynamicHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DynamicHeightViewController.h; path = UnderstandCRCH/DynamicHeightViewController/DynamicHeightViewController.h; sourceTree = "<group>"; };
 		792863D61E04BE43007F5916 /* DynamicHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DynamicHeightViewController.m; path = UnderstandCRCH/DynamicHeightViewController/DynamicHeightViewController.m; sourceTree = "<group>"; };
+		792863DB1E05EF22007F5916 /* CoreGraphicsPlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreGraphicsPlayGroundViewController.h; path = Projects/CoreGraphics/CoreGraphicsBasis/CoreGraphicsPlayGroundViewController/CoreGraphicsPlayGroundViewController.h; sourceTree = "<group>"; };
+		792863DC1E05EF22007F5916 /* CoreGraphicsPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreGraphicsPlayGroundViewController.m; path = Projects/CoreGraphics/CoreGraphicsBasis/CoreGraphicsPlayGroundViewController/CoreGraphicsPlayGroundViewController.m; sourceTree = "<group>"; };
+		792863E31E060831007F5916 /* SimpleRoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleRoundButton.h; sourceTree = "<group>"; };
+		792863E41E060831007F5916 /* SimpleRoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleRoundButton.m; sourceTree = "<group>"; };
+		792863E71E072421007F5916 /* MaskedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaskedButton.h; path = Projects/CoreGraphics/CoreGraphicsBasis/MaskedButton/MaskedButton.h; sourceTree = "<group>"; };
+		792863E81E072421007F5916 /* MaskedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaskedButton.m; path = Projects/CoreGraphics/CoreGraphicsBasis/MaskedButton/MaskedButton.m; sourceTree = "<group>"; };
 		794EF2741E00A90C00E8032C /* AutoLayoutPlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutPlayGroundViewController.h; sourceTree = "<group>"; };
 		794EF2751E00A90C00E8032C /* AutoLayoutPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutPlayGroundViewController.m; sourceTree = "<group>"; };
 		794EF2771E00A90C00E8032C /* AutoLayoutRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutRect.h; sourceTree = "<group>"; };
@@ -178,6 +187,52 @@
 				792863D61E04BE43007F5916 /* DynamicHeightViewController.m */,
 			);
 			name = DynamicHeightViewController;
+			sourceTree = "<group>";
+		};
+		792863D81E05BDA6007F5916 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				792863D91E05C012007F5916 /* CoreGraphicsBasis */,
+			);
+			name = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		792863D91E05C012007F5916 /* CoreGraphicsBasis */ = {
+			isa = PBXGroup;
+			children = (
+				792863E21E060831007F5916 /* SimpleRoundButton */,
+				792863E61E0723FD007F5916 /* MaskedButton */,
+				792863DA1E05C1E1007F5916 /* CoreGraphicsPlayGroundViewController */,
+			);
+			name = CoreGraphicsBasis;
+			sourceTree = "<group>";
+		};
+		792863DA1E05C1E1007F5916 /* CoreGraphicsPlayGroundViewController */ = {
+			isa = PBXGroup;
+			children = (
+				792863DB1E05EF22007F5916 /* CoreGraphicsPlayGroundViewController.h */,
+				792863DC1E05EF22007F5916 /* CoreGraphicsPlayGroundViewController.m */,
+			);
+			name = CoreGraphicsPlayGroundViewController;
+			sourceTree = "<group>";
+		};
+		792863E21E060831007F5916 /* SimpleRoundButton */ = {
+			isa = PBXGroup;
+			children = (
+				792863E31E060831007F5916 /* SimpleRoundButton.h */,
+				792863E41E060831007F5916 /* SimpleRoundButton.m */,
+			);
+			name = SimpleRoundButton;
+			path = Projects/CoreGraphics/CoreGraphicsBasis/SimpleRoundButton;
+			sourceTree = "<group>";
+		};
+		792863E61E0723FD007F5916 /* MaskedButton */ = {
+			isa = PBXGroup;
+			children = (
+				792863E71E072421007F5916 /* MaskedButton.h */,
+				792863E81E072421007F5916 /* MaskedButton.m */,
+			);
+			name = MaskedButton;
 			sourceTree = "<group>";
 		};
 		794EF26F1E00A7D300E8032C /* CustomViewForAutoLayout */ = {
@@ -366,6 +421,7 @@
 			children = (
 				790EFDC91DFDF6E1004D97EE /* Base */,
 				794EF2711E00A90C00E8032C /* AutoLayout */,
+				792863D81E05BDA6007F5916 /* CoreGraphics */,
 			);
 			name = Projects;
 			sourceTree = "<group>";
@@ -522,9 +578,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				790EFDBF1DFDB257004D97EE /* UIStoryboard+Helper.m in Sources */,
+				792863E91E072421007F5916 /* MaskedButton.m in Sources */,
 				79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */,
 				797ADDFB1E02D7C0001F82D9 /* CRCHViewController.m in Sources */,
 				794EF2791E00A90C00E8032C /* AutoLayoutPlayGroundViewController.m in Sources */,
+				792863E51E060831007F5916 /* SimpleRoundButton.m in Sources */,
 				790EFDDC1DFEEFC0004D97EE /* UIView+Helper.m in Sources */,
 				790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */,
 				794EF2861E018C2F00E8032C /* NSLayoutConstraint+Helper.m in Sources */,
@@ -535,6 +593,7 @@
 				79752E601DFAB4EF00D10272 /* main.m in Sources */,
 				790EFDBB1DFCBE86004D97EE /* ProjectGroupNames.m in Sources */,
 				79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */,
+				792863DD1E05EF22007F5916 /* CoreGraphicsPlayGroundViewController.m in Sources */,
 				794EF27E1E00AA6400E8032C /* IntransicContentSizeViewController.m in Sources */,
 				790EFDD51DFEB80C004D97EE /* PlayGroundViewController.m in Sources */,
 				790EFDCD1DFDF72E004D97EE /* PlayRect.m in Sources */,
