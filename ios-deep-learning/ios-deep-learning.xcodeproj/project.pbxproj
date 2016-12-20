@@ -29,6 +29,7 @@
 		79752E6B1DFAB4EF00D10272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79752E6A1DFAB4EF00D10272 /* Assets.xcassets */; };
 		79752E6E1DFAB4EF00D10272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79752E6C1DFAB4EF00D10272 /* LaunchScreen.storyboard */; };
 		79752E791DFAB4EF00D10272 /* ios_deep_learningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79752E781DFAB4EF00D10272 /* ios_deep_learningTests.m */; };
+		79760BBC1E082BC800676E15 /* CircleProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79760BBB1E082BC800676E15 /* CircleProgressBarView.m */; };
 		797ADDFB1E02D7C0001F82D9 /* CRCHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ADDFA1E02D7C0001F82D9 /* CRCHViewController.m */; };
 		79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0731DFB5F310049473E /* ProjectTableViewController.m */; };
 		79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0791DFB62DA0049473E /* ProjectController.m */; };
@@ -90,6 +91,8 @@
 		79752E741DFAB4EF00D10272 /* ios-deep-learningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-deep-learningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79752E781DFAB4EF00D10272 /* ios_deep_learningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_deep_learningTests.m; sourceTree = "<group>"; };
 		79752E7A1DFAB4EF00D10272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79760BBA1E082BC800676E15 /* CircleProgressBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircleProgressBarView.h; path = Projects/CoreGraphics/CoreGraphicsBasis/CanvasView/CircleProgressBarView.h; sourceTree = "<group>"; };
+		79760BBB1E082BC800676E15 /* CircleProgressBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircleProgressBarView.m; path = Projects/CoreGraphics/CoreGraphicsBasis/CanvasView/CircleProgressBarView.m; sourceTree = "<group>"; };
 		797ADDF91E02D7C0001F82D9 /* CRCHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRCHViewController.h; path = Projects/AutoLayout/UnderstandCRCH/CRCHViewController/CRCHViewController.h; sourceTree = "<group>"; };
 		797ADDFA1E02D7C0001F82D9 /* CRCHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRCHViewController.m; path = Projects/AutoLayout/UnderstandCRCH/CRCHViewController/CRCHViewController.m; sourceTree = "<group>"; };
 		79A7C0721DFB5F310049473E /* ProjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectTableViewController.h; path = Application/ProjectTableViewController/ProjectTableViewController.h; sourceTree = "<group>"; };
@@ -204,6 +207,7 @@
 		792863D91E05C012007F5916 /* CoreGraphicsBasis */ = {
 			isa = PBXGroup;
 			children = (
+				79760BB91E08241000676E15 /* CanvasView */,
 				792863DA1E05C1E1007F5916 /* CoreGraphicsPlayGroundViewController */,
 			);
 			name = CoreGraphicsBasis;
@@ -441,6 +445,15 @@
 			name = Misc;
 			sourceTree = "<group>";
 		};
+		79760BB91E08241000676E15 /* CanvasView */ = {
+			isa = PBXGroup;
+			children = (
+				79760BBA1E082BC800676E15 /* CircleProgressBarView.h */,
+				79760BBB1E082BC800676E15 /* CircleProgressBarView.m */,
+			);
+			name = CanvasView;
+			sourceTree = "<group>";
+		};
 		797ADDF81E02D4F8001F82D9 /* CRCHViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -629,6 +642,7 @@
 				7936E6661E08059300CD7A75 /* SimpleRoundButton.m in Sources */,
 				790EFDDC1DFEEFC0004D97EE /* UIView+Helper.m in Sources */,
 				790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */,
+				79760BBC1E082BC800676E15 /* CircleProgressBarView.m in Sources */,
 				794EF2861E018C2F00E8032C /* NSLayoutConstraint+Helper.m in Sources */,
 				794EF27A1E00A90C00E8032C /* AutoLayoutRect.m in Sources */,
 				7936E66D1E08075F00CD7A75 /* CoreGraphicsPlayGroundViewController.m in Sources */,
