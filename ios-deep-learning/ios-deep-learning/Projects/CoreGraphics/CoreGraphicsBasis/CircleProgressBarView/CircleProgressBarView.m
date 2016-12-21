@@ -82,6 +82,45 @@
     CGContextSetLineWidth(context, outerPathLineWidth);
     CGContextAddPath(context, outerPath.CGPath);
     CGContextStrokePath(context);
+    
+    // draw marks on progress bar
+    
+    // save context state
+    CGContextSaveGState(context);
+    
+    // set outer color as fill color for marks
+    CGContextSetFillColorWithColor(context, outerColor);
+    
+    // create mark path
+    CGFloat markWidth = 5.0f;
+    CGFloat markHeight = 10.0f;
+    CGRect markRect = CGRectMake(-markWidth/2, 0, markWidth, markHeight);
+    UIBezierPath *markPath = [UIBezierPath bezierPathWithRect:markRect];
+    
+    // translate the context to bottom-right. This will make top-left be the center now.
+    CGContextTranslateCTM(context, width/2, height/2);
+    
+    // we separate the circle into 10 segments
+    for (NSInteger i=1; i<=10; i++) {
+        // translate path to each position, and fill them
+        // save and restore context for each mark path
+        CGContextSaveGState(context);
+        
+        // radian angle between start and end angles for circle
+        CGFloat totalAngle = 2 * M_PI - (startRadianAngle - endRadianAngle);
+        CGContextRotateCTM(context, totalAngle / 10 * i + M_PI - startRadianAngle);
+        
+        // translate to position on the circle
+        CGContextTranslateCTM(context, 0, radius + innerPathLineWidth / 2 - markHeight);
+        
+        // fill mark path
+        CGContextAddPath(context, markPath.CGPath);
+        CGContextFillPath(context);
+        
+        CGContextRestoreGState(context);
+    }
+    
+    CGContextRestoreGState(context);
 }
 
 
