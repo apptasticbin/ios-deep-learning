@@ -12,3 +12,4 @@ FOUNDATION_EXPORT NSString * const ProjectGroupNameAutoLayout;
 FOUNDATION_EXPORT NSString * const ProjectGroupNameViewController;
 FOUNDATION_EXPORT NSString * const ProjectGroupNameBasicKnowledge;
 FOUNDATION_EXPORT NSString * const ProjectGroupNameCoreGraphics;
+FOUNDATION_EXPORT NSString * const ProjectGroupNameCoreAnimation;

@@ -154,11 +154,11 @@
 #pragma mark - Project
 
 + (NSString *)name {
-    return @"Core Graphics Play Ground";
+    return @"Core Graphics Basis";
 }
 
 + (NSString *)desc {
-    return @"Try to deeply understand core grahpics API:s";
+    return @"Try to deeply understand Core Grahpics API:s";
 }
 
 + (NSString *)groupName {

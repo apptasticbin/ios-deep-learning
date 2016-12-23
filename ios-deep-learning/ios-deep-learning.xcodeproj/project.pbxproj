@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79040D701E0BEC6D00111757 /* AnimatableLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 79040D6F1E0BEC6D00111757 /* AnimatableLayer.m */; };
 		790EFDBB1DFCBE86004D97EE /* ProjectGroupNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDBA1DFCBE86004D97EE /* ProjectGroupNames.m */; };
 		790EFDBF1DFDB257004D97EE /* UIStoryboard+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDBE1DFDB257004D97EE /* UIStoryboard+Helper.m */; };
 		790EFDCD1DFDF72E004D97EE /* PlayRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDCC1DFDF72E004D97EE /* PlayRect.m */; };
@@ -14,6 +15,7 @@
 		790EFDDC1DFEEFC0004D97EE /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDDB1DFEEFC0004D97EE /* UIView+Helper.m */; };
 		790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 790EFDDF1DFF2A81004D97EE /* PlayGroundControlAction.m */; };
 		791277A41E096E3A00C69671 /* ShowOffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791277A31E096E3A00C69671 /* ShowOffViewController.m */; };
+		791BAB881E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BAB871E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m */; };
 		792863D71E04BE43007F5916 /* DynamicHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792863D61E04BE43007F5916 /* DynamicHeightViewController.m */; };
 		7936E6651E08059300CD7A75 /* MaskedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7936E6611E08059300CD7A75 /* MaskedButton.m */; };
 		7936E6661E08059300CD7A75 /* SimpleRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7936E6641E08059300CD7A75 /* SimpleRoundButton.m */; };
@@ -49,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79040D6E1E0BEC6D00111757 /* AnimatableLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimatableLayer.h; path = Projects/CoreAnimation/CoreAnimationBasis/AnimatableLayer/AnimatableLayer.h; sourceTree = "<group>"; };
+		79040D6F1E0BEC6D00111757 /* AnimatableLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimatableLayer.m; path = Projects/CoreAnimation/CoreAnimationBasis/AnimatableLayer/AnimatableLayer.m; sourceTree = "<group>"; };
 		790EFDB91DFCBE86004D97EE /* ProjectGroupNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectGroupNames.h; path = Application/ProjectGroupNames/ProjectGroupNames.h; sourceTree = "<group>"; };
 		790EFDBA1DFCBE86004D97EE /* ProjectGroupNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectGroupNames.m; path = Application/ProjectGroupNames/ProjectGroupNames.m; sourceTree = "<group>"; };
 		790EFDBD1DFDB257004D97EE /* UIStoryboard+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIStoryboard+Helper.h"; path = "Misc/UIStoryBoard+Helper/UIStoryboard+Helper.h"; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 		790EFDDF1DFF2A81004D97EE /* PlayGroundControlAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayGroundControlAction.m; path = Projects/Base/PlayGroundControlAction/PlayGroundControlAction.m; sourceTree = "<group>"; };
 		791277A21E096E3A00C69671 /* ShowOffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowOffViewController.h; path = Projects/Base/ShowOffViewController/ShowOffViewController.h; sourceTree = "<group>"; };
 		791277A31E096E3A00C69671 /* ShowOffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowOffViewController.m; path = Projects/Base/ShowOffViewController/ShowOffViewController.m; sourceTree = "<group>"; };
+		791BAB861E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreAnimationPlayGroundViewController.h; path = Projects/CoreAnimation/CoreAnimationBasis/CoreAnimationPlayGroundViewController/CoreAnimationPlayGroundViewController.h; sourceTree = "<group>"; };
+		791BAB871E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreAnimationPlayGroundViewController.m; path = Projects/CoreAnimation/CoreAnimationBasis/CoreAnimationPlayGroundViewController/CoreAnimationPlayGroundViewController.m; sourceTree = "<group>"; };
 		792863D51E04BE43007F5916 /* DynamicHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DynamicHeightViewController.h; path = UnderstandCRCH/DynamicHeightViewController/DynamicHeightViewController.h; sourceTree = "<group>"; };
 		792863D61E04BE43007F5916 /* DynamicHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DynamicHeightViewController.m; path = UnderstandCRCH/DynamicHeightViewController/DynamicHeightViewController.m; sourceTree = "<group>"; };
 		7936E6601E08059300CD7A75 /* MaskedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskedButton.h; sourceTree = "<group>"; };
@@ -128,6 +134,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79040D6D1E0BEBF400111757 /* AnimatableLayer */ = {
+			isa = PBXGroup;
+			children = (
+				79040D6E1E0BEC6D00111757 /* AnimatableLayer.h */,
+				79040D6F1E0BEC6D00111757 /* AnimatableLayer.m */,
+			);
+			name = AnimatableLayer;
+			sourceTree = "<group>";
+		};
 		790EFDB51DFCBDD2004D97EE /* ProjectGroupNames */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +217,15 @@
 			name = ShowOffViewController;
 			sourceTree = "<group>";
 		};
+		791BAB851E0B08D0008BF2F5 /* CoreAnimationPlayGroundViewController */ = {
+			isa = PBXGroup;
+			children = (
+				791BAB861E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.h */,
+				791BAB871E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m */,
+			);
+			name = CoreAnimationPlayGroundViewController;
+			sourceTree = "<group>";
+		};
 		792863D41E04BDE5007F5916 /* DynamicHeightViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,6 +273,7 @@
 		7936E65C1E07DC1000CD7A75 /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				79040D6D1E0BEBF400111757 /* AnimatableLayer */,
 				7936E65D1E07DC2100CD7A75 /* CoreAnimationBasis */,
 				7936E65B1E07DA5C00CD7A75 /* SimpleAnimatableButton */,
 			);
@@ -258,6 +283,7 @@
 		7936E65D1E07DC2100CD7A75 /* CoreAnimationBasis */ = {
 			isa = PBXGroup;
 			children = (
+				791BAB851E0B08D0008BF2F5 /* CoreAnimationPlayGroundViewController */,
 			);
 			name = CoreAnimationBasis;
 			sourceTree = "<group>";
@@ -669,6 +695,7 @@
 				794EF2791E00A90C00E8032C /* AutoLayoutPlayGroundViewController.m in Sources */,
 				7936E6661E08059300CD7A75 /* SimpleRoundButton.m in Sources */,
 				791277A41E096E3A00C69671 /* ShowOffViewController.m in Sources */,
+				79040D701E0BEC6D00111757 /* AnimatableLayer.m in Sources */,
 				790EFDDC1DFEEFC0004D97EE /* UIView+Helper.m in Sources */,
 				790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */,
 				794EF2861E018C2F00E8032C /* NSLayoutConstraint+Helper.m in Sources */,
@@ -679,6 +706,7 @@
 				7936E66A1E08069400CD7A75 /* CustomUIViewController.m in Sources */,
 				79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */,
 				79CB52861E09C8AD00413099 /* GraphicsView.m in Sources */,
+				791BAB881E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m in Sources */,
 				79752E601DFAB4EF00D10272 /* main.m in Sources */,
 				790EFDBB1DFCBE86004D97EE /* ProjectGroupNames.m in Sources */,
 				79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */,

@@ -9,7 +9,7 @@
 #import "ProjectController.h"
 #import "Project.h"
 #import "ProjectModel.h"
-#import <objc/objc-runtime.h>
+#import <objc/runtime.h>
 
 @implementation ProjectController
 
@@ -61,6 +61,11 @@
         ProjectModel *projectModel = [self buildProjectModelByClassName:className];
         [projectModels addObject:projectModel];
     }
+    
+    // sort projects based on project name
+    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES];
+    [projectModels sortUsingDescriptors:@[sortDescriptor]];
+    
     return projectModels;
 }
 
@@ -87,7 +92,9 @@
             [group addChild:project];
         }
     }
-    return groups.allValues;
+    
+    NSSortDescriptor *sortDescriptor = [NSSortDescriptor sortDescriptorWithKey:@"name" ascending:YES];
+    return [groups.allValues sortedArrayUsingDescriptors:@[sortDescriptor]];
 }
 
 @end
