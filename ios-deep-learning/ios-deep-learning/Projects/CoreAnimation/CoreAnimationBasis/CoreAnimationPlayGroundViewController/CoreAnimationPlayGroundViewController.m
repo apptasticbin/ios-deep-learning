@@ -44,6 +44,9 @@ typedef NS_ENUM(NSInteger, MoveDirection) {
 
 - (NSArray<PlayGroundControlAction *> *)controlPanelActions {
     return @[
+             [[PlayGroundControlAction alloc] initWithName:@"Transition"
+                                                    target:self
+                                                    action:@selector(transition)],
              [[PlayGroundControlAction alloc] initWithName:@"Move Left"
                                                     target:self
                                                     action:@selector(moveLeft)],
@@ -87,6 +90,17 @@ typedef NS_ENUM(NSInteger, MoveDirection) {
     [self.animatableLayer addAnimation:shakeAnimation forKey:@"shakeAnimation"];
 }
 
+- (void)transition {
+    CATransition *transition = [CATransition animation];
+    transition.type = kCATransitionPush;
+    transition.subtype = kCATransitionFromLeft;
+    transition.startProgress = 0.0f;
+    transition.endProgress = 1.0f;
+    transition.duration = 1.0;
+    
+    [self.animatableLayer addAnimation:transition forKey:@"pushTransition"];
+}
+
 #pragma mark - Private
 
 - (void)move:(MoveDirection)direction {
@@ -97,6 +111,9 @@ typedef NS_ENUM(NSInteger, MoveDirection) {
             // CAAnimation is only for one layer each time
             [CATransaction begin];
             [CATransaction setAnimationDuration:1.0f];
+            [CATransaction setCompletionBlock:^{
+                NSLog(@"Move up done");
+            }];
             
             CGPoint endPoint = self.animatableLayer.position;
             endPoint.y -= moveDistance;

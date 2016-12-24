@@ -8,6 +8,6 @@
 
 #import <QuartzCore/QuartzCore.h>
 
-@interface AnimatableLayer : CALayer
+@interface AnimatableLayer : CAShapeLayer
 
 @end
