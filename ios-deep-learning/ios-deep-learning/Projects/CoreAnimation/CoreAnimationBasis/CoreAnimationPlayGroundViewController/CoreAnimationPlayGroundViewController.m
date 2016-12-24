@@ -44,6 +44,9 @@ typedef NS_ENUM(NSInteger, MoveDirection) {
 
 - (NSArray<PlayGroundControlAction *> *)controlPanelActions {
     return @[
+             [[PlayGroundControlAction alloc] initWithName:@"Change Shape"
+                                                    target:self
+                                                    action:@selector(changeShape)],
              [[PlayGroundControlAction alloc] initWithName:@"Transition"
                                                     target:self
                                                     action:@selector(transition)],
@@ -99,6 +102,10 @@ typedef NS_ENUM(NSInteger, MoveDirection) {
     transition.duration = 1.0;
     
     [self.animatableLayer addAnimation:transition forKey:@"pushTransition"];
+}
+
+- (void)changeShape {
+    [self.animatableLayer changeShape];
 }
 
 #pragma mark - Private

@@ -10,4 +10,6 @@
 
 @interface AnimatableLayer : CAShapeLayer
 
+- (void)changeShape;
+
 @end
