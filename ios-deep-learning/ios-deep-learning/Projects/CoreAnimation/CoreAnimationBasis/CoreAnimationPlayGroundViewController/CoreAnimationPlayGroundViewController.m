@@ -102,6 +102,7 @@ typedef NS_ENUM(NSInteger, MoveDirection) {
     transition.duration = 1.0;
     
     [self.animatableLayer addAnimation:transition forKey:@"pushTransition"];
+    [self.animatableLayer changeShape];
 }
 
 - (void)changeShape {
