@@ -8,10 +8,12 @@
 
 #import "CAAdvancedViewController.h"
 #import "LoadIngIndicator.h"
+#import "NumberCounter.h"
 
 @interface CAAdvancedViewController ()
 
 @property (nonatomic, strong) LoadIngIndicator *loadingIndicator;
+@property (nonatomic, strong) NumberCounter *numberCounter;
 
 @end
 
@@ -25,6 +27,10 @@
     _loadingIndicator = [LoadIngIndicator new];
     _loadingIndicator.frame = CGRectMake(50, 50, 100, 100);
     [self.view.layer addSublayer:_loadingIndicator];
+    
+    _numberCounter = [NumberCounter new];
+    _numberCounter.frame = CGRectMake(250, 50, 100, 100);
+    [self.view.layer addSublayer:_numberCounter];
 }
 
 #pragma mark - Control Panel
@@ -36,7 +42,13 @@
                                                     action:@selector(startLoading)],
              [[PlayGroundControlAction alloc] initWithName:@"End Loading"
                                                     target:self
-                                                    action:@selector(endLoading)]
+                                                    action:@selector(endLoading)],
+             [[PlayGroundControlAction alloc] initWithName:@"Increase Number"
+                                                    target:self
+                                                    action:@selector(increaseNumber)],
+             [[PlayGroundControlAction alloc] initWithName:@"Decrease Number"
+                                                    target:self
+                                                    action:@selector(decreaseNumber)]
              ];
 }
 
@@ -48,6 +60,21 @@
 
 - (void)endLoading {
     self.loadingIndicator.loading = NO;
+}
+
+- (void)increaseNumber {
+    // Seems that it is impossible to override property setter of custom dynamic properties.
+    // In order to achieve more control for the animation, we can add logic to the custom layer’s wrapper,
+    // like UIView or parent layer.
+    self.numberCounter.subtype = kCATransitionFromTop;
+    self.numberCounter.count += 1;
+}
+
+- (void)decreaseNumber {
+    if (self.numberCounter.count > 0) {
+        self.numberCounter.subtype = kCATransitionFromBottom;
+        self.numberCounter.count -= 1;
+    }
 }
 
 #pragma mark - Project

@@ -38,6 +38,7 @@
 		79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0821DFB6F830049473E /* ProjectModel.m */; };
 		79A8795B1E1020A100D1AFA0 /* LoadIngIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A8795A1E1020A000D1AFA0 /* LoadIngIndicator.m */; };
 		79A8795E1E1020FC00D1AFA0 /* CAAdvancedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A8795D1E1020FC00D1AFA0 /* CAAdvancedViewController.m */; };
+		79A879631E1083D000D1AFA0 /* NumberCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A879621E1083D000D1AFA0 /* NumberCounter.m */; };
 		79CB52821E09C81C00413099 /* CircleProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB52811E09C81C00413099 /* CircleProgressBarView.m */; };
 		79CB52861E09C8AD00413099 /* GraphicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB52851E09C8AD00413099 /* GraphicsView.m */; };
 /* End PBXBuildFile section */
@@ -116,6 +117,8 @@
 		79A8795A1E1020A000D1AFA0 /* LoadIngIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadIngIndicator.m; path = Projects/CoreAnimation/CoreAnimationAdvanced/LoadingIndicator/LoadIngIndicator.m; sourceTree = "<group>"; };
 		79A8795C1E1020FC00D1AFA0 /* CAAdvancedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAAdvancedViewController.h; path = Projects/CoreAnimation/CoreAnimationAdvanced/CAAdvancedViewController/CAAdvancedViewController.h; sourceTree = "<group>"; };
 		79A8795D1E1020FC00D1AFA0 /* CAAdvancedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAAdvancedViewController.m; path = Projects/CoreAnimation/CoreAnimationAdvanced/CAAdvancedViewController/CAAdvancedViewController.m; sourceTree = "<group>"; };
+		79A879611E1083D000D1AFA0 /* NumberCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NumberCounter.h; path = Projects/CoreAnimation/CoreAnimationAdvanced/NumberCounter/NumberCounter.h; sourceTree = "<group>"; };
+		79A879621E1083D000D1AFA0 /* NumberCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NumberCounter.m; path = Projects/CoreAnimation/CoreAnimationAdvanced/NumberCounter/NumberCounter.m; sourceTree = "<group>"; };
 		79CB52801E09C81C00413099 /* CircleProgressBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressBarView.h; sourceTree = "<group>"; };
 		79CB52811E09C81C00413099 /* CircleProgressBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressBarView.m; sourceTree = "<group>"; };
 		79CB52841E09C8AD00413099 /* GraphicsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphicsView.h; path = Projects/CoreGraphics/CoreGraphicsBasis/GraphicsView/GraphicsView.h; sourceTree = "<group>"; };
@@ -567,6 +570,7 @@
 		79A879571E0FF77000D1AFA0 /* CoreAnimationAdvanced */ = {
 			isa = PBXGroup;
 			children = (
+				79A879601E10783000D1AFA0 /* NumberCounter */,
 				79A879581E101D8C00D1AFA0 /* LoadingIndicator */,
 				79A8795F1E10210C00D1AFA0 /* CAAdvancedViewController */,
 			);
@@ -589,6 +593,15 @@
 				79A8795D1E1020FC00D1AFA0 /* CAAdvancedViewController.m */,
 			);
 			name = CAAdvancedViewController;
+			sourceTree = "<group>";
+		};
+		79A879601E10783000D1AFA0 /* NumberCounter */ = {
+			isa = PBXGroup;
+			children = (
+				79A879611E1083D000D1AFA0 /* NumberCounter.h */,
+				79A879621E1083D000D1AFA0 /* NumberCounter.m */,
+			);
+			name = NumberCounter;
 			sourceTree = "<group>";
 		};
 		79CB527F1E09C81C00413099 /* CircleProgressBarView */ = {
@@ -739,6 +752,7 @@
 				79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */,
 				794EF27E1E00AA6400E8032C /* IntransicContentSizeViewController.m in Sources */,
 				79A8795E1E1020FC00D1AFA0 /* CAAdvancedViewController.m in Sources */,
+				79A879631E1083D000D1AFA0 /* NumberCounter.m in Sources */,
 				790EFDD51DFEB80C004D97EE /* PlayGroundViewController.m in Sources */,
 				790EFDCD1DFDF72E004D97EE /* PlayRect.m in Sources */,
 				7936E6651E08059300CD7A75 /* MaskedButton.m in Sources */,
