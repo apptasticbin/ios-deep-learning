@@ -11,5 +11,6 @@
 @interface UIView (Helper)
 
 - (void)addSubviewWithoutAutoResizing:(UIView *)view;
+- (void)addSubview:(UIView *)view andCenterWithSize:(CGSize)size;
 
 @end

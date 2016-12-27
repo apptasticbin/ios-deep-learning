@@ -15,4 +15,15 @@
     [self addSubview:view];
 }
 
+- (void)addSubview:(UIView *)view andCenterWithSize:(CGSize)size {
+    [self addSubviewWithoutAutoResizing:view];
+    CGFloat width = CGRectGetWidth(self.frame);
+    CGFloat height = CGRectGetHeight(self.frame);
+    CGRect rect = CGRectMake((width-size.width)/2.0f,
+                             (height-size.height)/2.0f,
+                             size.width,
+                             size.height);
+    view.frame = rect;
+}
+
 @end

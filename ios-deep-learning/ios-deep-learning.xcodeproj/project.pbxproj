@@ -17,6 +17,7 @@
 		791277A41E096E3A00C69671 /* ShowOffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791277A31E096E3A00C69671 /* ShowOffViewController.m */; };
 		791BAB881E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BAB871E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m */; };
 		792863D71E04BE43007F5916 /* DynamicHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792863D61E04BE43007F5916 /* DynamicHeightViewController.m */; };
+		79350AC01E1306D400542BED /* VCAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 79350ABF1E1306D400542BED /* VCAnimator.m */; };
 		7936E6651E08059300CD7A75 /* MaskedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7936E6611E08059300CD7A75 /* MaskedButton.m */; };
 		7936E6661E08059300CD7A75 /* SimpleRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7936E6641E08059300CD7A75 /* SimpleRoundButton.m */; };
 		7936E66A1E08069400CD7A75 /* CustomUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7936E6691E08069400CD7A75 /* CustomUIViewController.m */; };
@@ -39,6 +40,9 @@
 		79A8795B1E1020A100D1AFA0 /* LoadIngIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A8795A1E1020A000D1AFA0 /* LoadIngIndicator.m */; };
 		79A8795E1E1020FC00D1AFA0 /* CAAdvancedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A8795D1E1020FC00D1AFA0 /* CAAdvancedViewController.m */; };
 		79A879631E1083D000D1AFA0 /* NumberCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A879621E1083D000D1AFA0 /* NumberCounter.m */; };
+		79A879691E11A6CD00D1AFA0 /* VCAnimationPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A879681E11A6CD00D1AFA0 /* VCAnimationPlayGroundViewController.m */; };
+		79A879761E11C24600D1AFA0 /* VCAnimationPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A879741E11C24600D1AFA0 /* VCAnimationPopViewController.m */; };
+		79A879771E11C24600D1AFA0 /* VCAnimationPopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79A879751E11C24600D1AFA0 /* VCAnimationPopViewController.xib */; };
 		79CB52821E09C81C00413099 /* CircleProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB52811E09C81C00413099 /* CircleProgressBarView.m */; };
 		79CB52861E09C8AD00413099 /* GraphicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB52851E09C8AD00413099 /* GraphicsView.m */; };
 /* End PBXBuildFile section */
@@ -75,6 +79,8 @@
 		791BAB871E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreAnimationPlayGroundViewController.m; path = Projects/CoreAnimation/CoreAnimationBasis/CoreAnimationPlayGroundViewController/CoreAnimationPlayGroundViewController.m; sourceTree = "<group>"; };
 		792863D51E04BE43007F5916 /* DynamicHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DynamicHeightViewController.h; path = UnderstandCRCH/DynamicHeightViewController/DynamicHeightViewController.h; sourceTree = "<group>"; };
 		792863D61E04BE43007F5916 /* DynamicHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DynamicHeightViewController.m; path = UnderstandCRCH/DynamicHeightViewController/DynamicHeightViewController.m; sourceTree = "<group>"; };
+		79350ABE1E1306D400542BED /* VCAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAnimator.h; sourceTree = "<group>"; };
+		79350ABF1E1306D400542BED /* VCAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAnimator.m; sourceTree = "<group>"; };
 		7936E6601E08059300CD7A75 /* MaskedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskedButton.h; sourceTree = "<group>"; };
 		7936E6611E08059300CD7A75 /* MaskedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskedButton.m; sourceTree = "<group>"; };
 		7936E6631E08059300CD7A75 /* SimpleRoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleRoundButton.h; sourceTree = "<group>"; };
@@ -119,6 +125,11 @@
 		79A8795D1E1020FC00D1AFA0 /* CAAdvancedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAAdvancedViewController.m; path = Projects/CoreAnimation/CoreAnimationAdvanced/CAAdvancedViewController/CAAdvancedViewController.m; sourceTree = "<group>"; };
 		79A879611E1083D000D1AFA0 /* NumberCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NumberCounter.h; path = Projects/CoreAnimation/CoreAnimationAdvanced/NumberCounter/NumberCounter.h; sourceTree = "<group>"; };
 		79A879621E1083D000D1AFA0 /* NumberCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NumberCounter.m; path = Projects/CoreAnimation/CoreAnimationAdvanced/NumberCounter/NumberCounter.m; sourceTree = "<group>"; };
+		79A879671E11A6CD00D1AFA0 /* VCAnimationPlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCAnimationPlayGroundViewController.h; path = Projects/ViewController/ViewControllerAnimation/VCAnimationPlayGroundViewController/VCAnimationPlayGroundViewController.h; sourceTree = "<group>"; };
+		79A879681E11A6CD00D1AFA0 /* VCAnimationPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCAnimationPlayGroundViewController.m; path = Projects/ViewController/ViewControllerAnimation/VCAnimationPlayGroundViewController/VCAnimationPlayGroundViewController.m; sourceTree = "<group>"; };
+		79A879731E11C24600D1AFA0 /* VCAnimationPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCAnimationPopViewController.h; path = Projects/ViewController/ViewControllerAnimation/VCAnimationPopViewController/VCAnimationPopViewController.h; sourceTree = "<group>"; };
+		79A879741E11C24600D1AFA0 /* VCAnimationPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCAnimationPopViewController.m; path = Projects/ViewController/ViewControllerAnimation/VCAnimationPopViewController/VCAnimationPopViewController.m; sourceTree = "<group>"; };
+		79A879751E11C24600D1AFA0 /* VCAnimationPopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VCAnimationPopViewController.xib; path = Projects/ViewController/ViewControllerAnimation/VCAnimationPopViewController/VCAnimationPopViewController.xib; sourceTree = "<group>"; };
 		79CB52801E09C81C00413099 /* CircleProgressBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressBarView.h; sourceTree = "<group>"; };
 		79CB52811E09C81C00413099 /* CircleProgressBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressBarView.m; sourceTree = "<group>"; };
 		79CB52841E09C8AD00413099 /* GraphicsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphicsView.h; path = Projects/CoreGraphics/CoreGraphicsBasis/GraphicsView/GraphicsView.h; sourceTree = "<group>"; };
@@ -270,6 +281,16 @@
 				7936E66C1E08075F00CD7A75 /* CoreGraphicsPlayGroundViewController.m */,
 			);
 			name = CoreGraphicsPlayGroundViewController;
+			sourceTree = "<group>";
+		};
+		79350ABD1E1306D400542BED /* VCAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				79350ABE1E1306D400542BED /* VCAnimator.h */,
+				79350ABF1E1306D400542BED /* VCAnimator.m */,
+			);
+			name = VCAnimator;
+			path = Projects/ViewController/ViewControllerAnimation/VCAnimator;
 			sourceTree = "<group>";
 		};
 		7936E65C1E07DC1000CD7A75 /* CoreAnimation */ = {
@@ -516,6 +537,7 @@
 				794EF2711E00A90C00E8032C /* AutoLayout */,
 				792863D81E05BDA6007F5916 /* CoreGraphics */,
 				7936E65C1E07DC1000CD7A75 /* CoreAnimation */,
+				79A879641E11A5DF00D1AFA0 /* ViewController */,
 			);
 			name = Projects;
 			sourceTree = "<group>";
@@ -602,6 +624,43 @@
 				79A879621E1083D000D1AFA0 /* NumberCounter.m */,
 			);
 			name = NumberCounter;
+			sourceTree = "<group>";
+		};
+		79A879641E11A5DF00D1AFA0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				79A879651E11A61400D1AFA0 /* ViewControllerAnimation */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		79A879651E11A61400D1AFA0 /* ViewControllerAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				79350ABD1E1306D400542BED /* VCAnimator */,
+				79A8796E1E11C17000D1AFA0 /* VCAnimationPopViewController */,
+				79A879661E11A62000D1AFA0 /* VCAnimationPlayGroundViewController */,
+			);
+			name = ViewControllerAnimation;
+			sourceTree = "<group>";
+		};
+		79A879661E11A62000D1AFA0 /* VCAnimationPlayGroundViewController */ = {
+			isa = PBXGroup;
+			children = (
+				79A879671E11A6CD00D1AFA0 /* VCAnimationPlayGroundViewController.h */,
+				79A879681E11A6CD00D1AFA0 /* VCAnimationPlayGroundViewController.m */,
+			);
+			name = VCAnimationPlayGroundViewController;
+			sourceTree = "<group>";
+		};
+		79A8796E1E11C17000D1AFA0 /* VCAnimationPopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				79A879731E11C24600D1AFA0 /* VCAnimationPopViewController.h */,
+				79A879741E11C24600D1AFA0 /* VCAnimationPopViewController.m */,
+				79A879751E11C24600D1AFA0 /* VCAnimationPopViewController.xib */,
+			);
+			name = VCAnimationPopViewController;
 			sourceTree = "<group>";
 		};
 		79CB527F1E09C81C00413099 /* CircleProgressBarView */ = {
@@ -707,6 +766,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A879771E11C24600D1AFA0 /* VCAnimationPopViewController.xib in Resources */,
 				79752E6E1DFAB4EF00D10272 /* LaunchScreen.storyboard in Resources */,
 				79752E6B1DFAB4EF00D10272 /* Assets.xcassets in Resources */,
 				79752E691DFAB4EF00D10272 /* Main.storyboard in Resources */,
@@ -743,7 +803,9 @@
 				794EF2821E00AF1E00E8032C /* CustomIntransicRect.m in Sources */,
 				79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */,
 				7936E66A1E08069400CD7A75 /* CustomUIViewController.m in Sources */,
+				79A879761E11C24600D1AFA0 /* VCAnimationPopViewController.m in Sources */,
 				79A8795B1E1020A100D1AFA0 /* LoadIngIndicator.m in Sources */,
+				79A879691E11A6CD00D1AFA0 /* VCAnimationPlayGroundViewController.m in Sources */,
 				79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */,
 				79CB52861E09C8AD00413099 /* GraphicsView.m in Sources */,
 				791BAB881E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m in Sources */,
@@ -754,6 +816,7 @@
 				79A8795E1E1020FC00D1AFA0 /* CAAdvancedViewController.m in Sources */,
 				79A879631E1083D000D1AFA0 /* NumberCounter.m in Sources */,
 				790EFDD51DFEB80C004D97EE /* PlayGroundViewController.m in Sources */,
+				79350AC01E1306D400542BED /* VCAnimator.m in Sources */,
 				790EFDCD1DFDF72E004D97EE /* PlayRect.m in Sources */,
 				7936E6651E08059300CD7A75 /* MaskedButton.m in Sources */,
 				792863D71E04BE43007F5916 /* DynamicHeightViewController.m in Sources */,
