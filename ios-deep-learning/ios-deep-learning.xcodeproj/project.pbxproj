@@ -37,6 +37,9 @@
 		799134241E1318A700424E8F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134231E1318A700424E8F /* BaseViewController.m */; };
 		799134271E131A2B00424E8F /* CVPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134261E131A2B00424E8F /* CVPlayGroundViewController.m */; };
 		7991342B1E143E5B00424E8F /* CVSupplementaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991342A1E143E5B00424E8F /* CVSupplementaryView.m */; };
+		7991342F1E14413E00424E8F /* UIColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991342E1E14413E00424E8F /* UIColor+Helper.m */; };
+		799134331E1442FD00424E8F /* CVCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134321E1442FD00424E8F /* CVCellView.m */; };
+		799134371E145CE700424E8F /* CVFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134361E145CE700424E8F /* CVFlowLayout.m */; };
 		79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0731DFB5F310049473E /* ProjectTableViewController.m */; };
 		79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0791DFB62DA0049473E /* ProjectController.m */; };
 		79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0821DFB6F830049473E /* ProjectModel.m */; };
@@ -121,6 +124,12 @@
 		799134261E131A2B00424E8F /* CVPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVPlayGroundViewController.m; path = Projects/CollectionView/CollectionViewPlayGround/CVPlayGroundViewController/CVPlayGroundViewController.m; sourceTree = "<group>"; };
 		799134291E143E5B00424E8F /* CVSupplementaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVSupplementaryView.h; path = Projects/CollectionView/CollectionViewPlayGround/CVSupplementaryView/CVSupplementaryView.h; sourceTree = "<group>"; };
 		7991342A1E143E5B00424E8F /* CVSupplementaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVSupplementaryView.m; path = Projects/CollectionView/CollectionViewPlayGround/CVSupplementaryView/CVSupplementaryView.m; sourceTree = "<group>"; };
+		7991342D1E14413E00424E8F /* UIColor+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Helper.h"; path = "Misc/UIColor+Helper/UIColor+Helper.h"; sourceTree = "<group>"; };
+		7991342E1E14413E00424E8F /* UIColor+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Helper.m"; path = "Misc/UIColor+Helper/UIColor+Helper.m"; sourceTree = "<group>"; };
+		799134311E1442FD00424E8F /* CVCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVCellView.h; path = Projects/CollectionView/CollectionViewPlayGround/CVCellView/CVCellView.h; sourceTree = "<group>"; };
+		799134321E1442FD00424E8F /* CVCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVCellView.m; path = Projects/CollectionView/CollectionViewPlayGround/CVCellView/CVCellView.m; sourceTree = "<group>"; };
+		799134351E145CE700424E8F /* CVFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVFlowLayout.h; path = Projects/CollectionView/CollectionViewPlayGround/CVFlowLayout/CVFlowLayout.h; sourceTree = "<group>"; };
+		799134361E145CE700424E8F /* CVFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVFlowLayout.m; path = Projects/CollectionView/CollectionViewPlayGround/CVFlowLayout/CVFlowLayout.m; sourceTree = "<group>"; };
 		79A7C0721DFB5F310049473E /* ProjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectTableViewController.h; path = Application/ProjectTableViewController/ProjectTableViewController.h; sourceTree = "<group>"; };
 		79A7C0731DFB5F310049473E /* ProjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectTableViewController.m; path = Application/ProjectTableViewController/ProjectTableViewController.m; sourceTree = "<group>"; };
 		79A7C0781DFB62DA0049473E /* ProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectController.h; path = Application/ProjectController/ProjectController.h; sourceTree = "<group>"; };
@@ -517,6 +526,7 @@
 				794EF2831E018C0500E8032C /* NSLayoutConstraint+Helper */,
 				790EFDD61DFEEF82004D97EE /* UIView+Helper */,
 				790EFDBC1DFDB1FF004D97EE /* UIStoryBoard+Helper */,
+				7991342C1E143FB900424E8F /* UIColor+Helper */,
 			);
 			name = Misc;
 			sourceTree = "<group>";
@@ -552,6 +562,8 @@
 		799134161E13158700424E8F /* CollectionViewPlayGround */ = {
 			isa = PBXGroup;
 			children = (
+				799134341E145CBB00424E8F /* CVFlowLayout */,
+				799134301E1442AC00424E8F /* CVCellView */,
 				799134281E143C6200424E8F /* CVSupplementaryView */,
 				799134171E1315A900424E8F /* CVPlayGroundViewController */,
 			);
@@ -590,6 +602,33 @@
 				7991342A1E143E5B00424E8F /* CVSupplementaryView.m */,
 			);
 			name = CVSupplementaryView;
+			sourceTree = "<group>";
+		};
+		7991342C1E143FB900424E8F /* UIColor+Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7991342D1E14413E00424E8F /* UIColor+Helper.h */,
+				7991342E1E14413E00424E8F /* UIColor+Helper.m */,
+			);
+			name = "UIColor+Helper";
+			sourceTree = "<group>";
+		};
+		799134301E1442AC00424E8F /* CVCellView */ = {
+			isa = PBXGroup;
+			children = (
+				799134311E1442FD00424E8F /* CVCellView.h */,
+				799134321E1442FD00424E8F /* CVCellView.m */,
+			);
+			name = CVCellView;
+			sourceTree = "<group>";
+		};
+		799134341E145CBB00424E8F /* CVFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				799134351E145CE700424E8F /* CVFlowLayout.h */,
+				799134361E145CE700424E8F /* CVFlowLayout.m */,
+			);
+			name = CVFlowLayout;
 			sourceTree = "<group>";
 		};
 		79A7C06E1DFB51E80049473E /* Projects */ = {
@@ -852,6 +891,7 @@
 			files = (
 				790EFDBF1DFDB257004D97EE /* UIStoryboard+Helper.m in Sources */,
 				7991342B1E143E5B00424E8F /* CVSupplementaryView.m in Sources */,
+				799134331E1442FD00424E8F /* CVCellView.m in Sources */,
 				79CB52821E09C81C00413099 /* CircleProgressBarView.m in Sources */,
 				79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */,
 				797ADDFB1E02D7C0001F82D9 /* CRCHViewController.m in Sources */,
@@ -870,6 +910,8 @@
 				7936E66A1E08069400CD7A75 /* CustomUIViewController.m in Sources */,
 				79A879761E11C24600D1AFA0 /* VCAnimationPopViewController.m in Sources */,
 				79A8795B1E1020A100D1AFA0 /* LoadIngIndicator.m in Sources */,
+				7991342F1E14413E00424E8F /* UIColor+Helper.m in Sources */,
+				799134371E145CE700424E8F /* CVFlowLayout.m in Sources */,
 				79A879691E11A6CD00D1AFA0 /* VCAnimationPlayGroundViewController.m in Sources */,
 				79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */,
 				79CB52861E09C8AD00413099 /* GraphicsView.m in Sources */,
