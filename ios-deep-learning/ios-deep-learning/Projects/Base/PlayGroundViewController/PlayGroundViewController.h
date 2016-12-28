@@ -7,18 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 #import "PlayGroundControlAction.h"
 
-@interface PlayGroundViewController : UIViewController
+@interface PlayGroundViewController : BaseViewController
 
 @property (nonatomic, strong, readonly) UIView *playStage;
 @property (nonatomic, strong, readonly) UITableView *controlPanel;
 @property (nonatomic, strong) NSArray<PlayGroundControlAction *> *controlActions;
 @property (nonatomic, assign) BOOL enableDebugMode;
 
-- (void)initializeViewController NS_REQUIRES_SUPER;
-- (void)initializeViews NS_REQUIRES_SUPER;
-- (void)initializeViewConstraints NS_REQUIRES_SUPER;
 - (void)initializeControlPanel NS_REQUIRES_SUPER;
 - (NSArray<PlayGroundControlAction *> *)controlPanelActions;
 

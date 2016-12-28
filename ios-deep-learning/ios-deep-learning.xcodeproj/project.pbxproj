@@ -34,6 +34,9 @@
 		79752E6E1DFAB4EF00D10272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79752E6C1DFAB4EF00D10272 /* LaunchScreen.storyboard */; };
 		79752E791DFAB4EF00D10272 /* ios_deep_learningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79752E781DFAB4EF00D10272 /* ios_deep_learningTests.m */; };
 		797ADDFB1E02D7C0001F82D9 /* CRCHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ADDFA1E02D7C0001F82D9 /* CRCHViewController.m */; };
+		799134241E1318A700424E8F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134231E1318A700424E8F /* BaseViewController.m */; };
+		799134271E131A2B00424E8F /* CVPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134261E131A2B00424E8F /* CVPlayGroundViewController.m */; };
+		7991342B1E143E5B00424E8F /* CVSupplementaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991342A1E143E5B00424E8F /* CVSupplementaryView.m */; };
 		79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0731DFB5F310049473E /* ProjectTableViewController.m */; };
 		79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0791DFB62DA0049473E /* ProjectController.m */; };
 		79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0821DFB6F830049473E /* ProjectModel.m */; };
@@ -112,6 +115,12 @@
 		79752E7A1DFAB4EF00D10272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		797ADDF91E02D7C0001F82D9 /* CRCHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRCHViewController.h; path = Projects/AutoLayout/UnderstandCRCH/CRCHViewController/CRCHViewController.h; sourceTree = "<group>"; };
 		797ADDFA1E02D7C0001F82D9 /* CRCHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRCHViewController.m; path = Projects/AutoLayout/UnderstandCRCH/CRCHViewController/CRCHViewController.m; sourceTree = "<group>"; };
+		799134221E1318A700424E8F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = Projects/Base/BaseViewController/BaseViewController.h; sourceTree = "<group>"; };
+		799134231E1318A700424E8F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = Projects/Base/BaseViewController/BaseViewController.m; sourceTree = "<group>"; };
+		799134251E131A2B00424E8F /* CVPlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVPlayGroundViewController.h; path = Projects/CollectionView/CollectionViewPlayGround/CVPlayGroundViewController/CVPlayGroundViewController.h; sourceTree = "<group>"; };
+		799134261E131A2B00424E8F /* CVPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVPlayGroundViewController.m; path = Projects/CollectionView/CollectionViewPlayGround/CVPlayGroundViewController/CVPlayGroundViewController.m; sourceTree = "<group>"; };
+		799134291E143E5B00424E8F /* CVSupplementaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVSupplementaryView.h; path = Projects/CollectionView/CollectionViewPlayGround/CVSupplementaryView/CVSupplementaryView.h; sourceTree = "<group>"; };
+		7991342A1E143E5B00424E8F /* CVSupplementaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVSupplementaryView.m; path = Projects/CollectionView/CollectionViewPlayGround/CVSupplementaryView/CVSupplementaryView.m; sourceTree = "<group>"; };
 		79A7C0721DFB5F310049473E /* ProjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectTableViewController.h; path = Application/ProjectTableViewController/ProjectTableViewController.h; sourceTree = "<group>"; };
 		79A7C0731DFB5F310049473E /* ProjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectTableViewController.m; path = Application/ProjectTableViewController/ProjectTableViewController.m; sourceTree = "<group>"; };
 		79A7C0781DFB62DA0049473E /* ProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectController.h; path = Application/ProjectController/ProjectController.h; sourceTree = "<group>"; };
@@ -184,6 +193,7 @@
 		790EFDC91DFDF6E1004D97EE /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				799134211E13187D00424E8F /* BaseViewController */,
 				790EFDDD1DFF2A4F004D97EE /* PlayGroundControlAction */,
 				790EFDD21DFEB7E5004D97EE /* PlayGroundViewController */,
 				790EFDCA1DFDF6EF004D97EE /* PlayRect */,
@@ -530,11 +540,64 @@
 			name = UnderstandCRCH;
 			sourceTree = "<group>";
 		};
+		799134151E13157400424E8F /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				799134161E13158700424E8F /* CollectionViewPlayGround */,
+				799134181E1315B500424E8F /* CustomCollectionViewLayout */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		799134161E13158700424E8F /* CollectionViewPlayGround */ = {
+			isa = PBXGroup;
+			children = (
+				799134281E143C6200424E8F /* CVSupplementaryView */,
+				799134171E1315A900424E8F /* CVPlayGroundViewController */,
+			);
+			name = CollectionViewPlayGround;
+			sourceTree = "<group>";
+		};
+		799134171E1315A900424E8F /* CVPlayGroundViewController */ = {
+			isa = PBXGroup;
+			children = (
+				799134251E131A2B00424E8F /* CVPlayGroundViewController.h */,
+				799134261E131A2B00424E8F /* CVPlayGroundViewController.m */,
+			);
+			name = CVPlayGroundViewController;
+			sourceTree = "<group>";
+		};
+		799134181E1315B500424E8F /* CustomCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomCollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		799134211E13187D00424E8F /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				799134221E1318A700424E8F /* BaseViewController.h */,
+				799134231E1318A700424E8F /* BaseViewController.m */,
+			);
+			name = BaseViewController;
+			sourceTree = "<group>";
+		};
+		799134281E143C6200424E8F /* CVSupplementaryView */ = {
+			isa = PBXGroup;
+			children = (
+				799134291E143E5B00424E8F /* CVSupplementaryView.h */,
+				7991342A1E143E5B00424E8F /* CVSupplementaryView.m */,
+			);
+			name = CVSupplementaryView;
+			sourceTree = "<group>";
+		};
 		79A7C06E1DFB51E80049473E /* Projects */ = {
 			isa = PBXGroup;
 			children = (
 				790EFDC91DFDF6E1004D97EE /* Base */,
 				794EF2711E00A90C00E8032C /* AutoLayout */,
+				799134151E13157400424E8F /* CollectionView */,
 				792863D81E05BDA6007F5916 /* CoreGraphics */,
 				7936E65C1E07DC1000CD7A75 /* CoreAnimation */,
 				79A879641E11A5DF00D1AFA0 /* ViewController */,
@@ -788,6 +851,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				790EFDBF1DFDB257004D97EE /* UIStoryboard+Helper.m in Sources */,
+				7991342B1E143E5B00424E8F /* CVSupplementaryView.m in Sources */,
 				79CB52821E09C81C00413099 /* CircleProgressBarView.m in Sources */,
 				79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */,
 				797ADDFB1E02D7C0001F82D9 /* CRCHViewController.m in Sources */,
@@ -799,6 +863,7 @@
 				790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */,
 				794EF2861E018C2F00E8032C /* NSLayoutConstraint+Helper.m in Sources */,
 				794EF27A1E00A90C00E8032C /* AutoLayoutRect.m in Sources */,
+				799134271E131A2B00424E8F /* CVPlayGroundViewController.m in Sources */,
 				7936E66D1E08075F00CD7A75 /* CoreGraphicsPlayGroundViewController.m in Sources */,
 				794EF2821E00AF1E00E8032C /* CustomIntransicRect.m in Sources */,
 				79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */,
@@ -813,6 +878,7 @@
 				790EFDBB1DFCBE86004D97EE /* ProjectGroupNames.m in Sources */,
 				79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */,
 				794EF27E1E00AA6400E8032C /* IntransicContentSizeViewController.m in Sources */,
+				799134241E1318A700424E8F /* BaseViewController.m in Sources */,
 				79A8795E1E1020FC00D1AFA0 /* CAAdvancedViewController.m in Sources */,
 				79A879631E1083D000D1AFA0 /* NumberCounter.m in Sources */,
 				790EFDD51DFEB80C004D97EE /* PlayGroundViewController.m in Sources */,

@@ -25,14 +25,11 @@
     [self initializeViewConstraints];
 }
 
-- (void)loadView {
-    [super loadView];
-    [self initializeViews];
-}
-
 #pragma mark - Initialization
 
 - (void)initializeViewController {
+    [super initializeViewController];
+    
     self.extendedLayoutIncludesOpaqueBars = NO;
     self.edgesForExtendedLayout = UIRectEdgeNone;
     
@@ -40,6 +37,8 @@
 }
 
 - (void)initializeViews {
+    [super initializeViews];
+    
     self.playStage = [UIView new];
     self.playStage.backgroundColor = [UIColor blackColor];
     [self.view addSubviewWithoutAutoResizing:self.playStage];
@@ -49,6 +48,8 @@
 }
 
 - (void)initializeViewConstraints {
+    [super initializeViewConstraints];
+    
     NSDictionary *views = @{
                             @"playStage"    : self.playStage,
                             @"controlPanel" : self.controlPanel
