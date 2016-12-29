@@ -7,6 +7,7 @@
 //
 
 #import "CVSupplementaryView.h"
+#import "UIColor+Helper.h"
 
 @implementation CVSupplementaryView
 
@@ -14,7 +15,7 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        _color = [UIColor blueColor];
+        _color = [UIColor randomColor];
         self.backgroundColor = _color;
     }
     return self;

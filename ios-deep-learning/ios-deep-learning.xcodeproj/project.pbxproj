@@ -40,6 +40,8 @@
 		7991342F1E14413E00424E8F /* UIColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991342E1E14413E00424E8F /* UIColor+Helper.m */; };
 		799134331E1442FD00424E8F /* CVCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134321E1442FD00424E8F /* CVCellView.m */; };
 		799134371E145CE700424E8F /* CVFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134361E145CE700424E8F /* CVFlowLayout.m */; };
+		799134491E15388B00424E8F /* CVHorizontalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134481E15388B00424E8F /* CVHorizontalLayout.m */; };
+		7991344D1E1538AA00424E8F /* CVCustomLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991344C1E1538AA00424E8F /* CVCustomLayoutViewController.m */; };
 		79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0731DFB5F310049473E /* ProjectTableViewController.m */; };
 		79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0791DFB62DA0049473E /* ProjectController.m */; };
 		79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0821DFB6F830049473E /* ProjectModel.m */; };
@@ -130,6 +132,10 @@
 		799134321E1442FD00424E8F /* CVCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVCellView.m; path = Projects/CollectionView/CollectionViewPlayGround/CVCellView/CVCellView.m; sourceTree = "<group>"; };
 		799134351E145CE700424E8F /* CVFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVFlowLayout.h; path = Projects/CollectionView/CollectionViewPlayGround/CVFlowLayout/CVFlowLayout.h; sourceTree = "<group>"; };
 		799134361E145CE700424E8F /* CVFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVFlowLayout.m; path = Projects/CollectionView/CollectionViewPlayGround/CVFlowLayout/CVFlowLayout.m; sourceTree = "<group>"; };
+		799134471E15388B00424E8F /* CVHorizontalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVHorizontalLayout.h; path = Projects/CollectionView/CustomCollectionViewLayout/CVHorizontalLayout/CVHorizontalLayout.h; sourceTree = "<group>"; };
+		799134481E15388B00424E8F /* CVHorizontalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVHorizontalLayout.m; path = Projects/CollectionView/CustomCollectionViewLayout/CVHorizontalLayout/CVHorizontalLayout.m; sourceTree = "<group>"; };
+		7991344B1E1538AA00424E8F /* CVCustomLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVCustomLayoutViewController.h; sourceTree = "<group>"; };
+		7991344C1E1538AA00424E8F /* CVCustomLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVCustomLayoutViewController.m; sourceTree = "<group>"; };
 		79A7C0721DFB5F310049473E /* ProjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectTableViewController.h; path = Application/ProjectTableViewController/ProjectTableViewController.h; sourceTree = "<group>"; };
 		79A7C0731DFB5F310049473E /* ProjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectTableViewController.m; path = Application/ProjectTableViewController/ProjectTableViewController.m; sourceTree = "<group>"; };
 		79A7C0781DFB62DA0049473E /* ProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectController.h; path = Application/ProjectController/ProjectController.h; sourceTree = "<group>"; };
@@ -582,6 +588,8 @@
 		799134181E1315B500424E8F /* CustomCollectionViewLayout */ = {
 			isa = PBXGroup;
 			children = (
+				799134391E15272C00424E8F /* CVHorizontalLayout */,
+				7991344A1E1538AA00424E8F /* CVCustomLayoutViewController */,
 			);
 			name = CustomCollectionViewLayout;
 			sourceTree = "<group>";
@@ -629,6 +637,25 @@
 				799134361E145CE700424E8F /* CVFlowLayout.m */,
 			);
 			name = CVFlowLayout;
+			sourceTree = "<group>";
+		};
+		799134391E15272C00424E8F /* CVHorizontalLayout */ = {
+			isa = PBXGroup;
+			children = (
+				799134471E15388B00424E8F /* CVHorizontalLayout.h */,
+				799134481E15388B00424E8F /* CVHorizontalLayout.m */,
+			);
+			name = CVHorizontalLayout;
+			sourceTree = "<group>";
+		};
+		7991344A1E1538AA00424E8F /* CVCustomLayoutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7991344B1E1538AA00424E8F /* CVCustomLayoutViewController.h */,
+				7991344C1E1538AA00424E8F /* CVCustomLayoutViewController.m */,
+			);
+			name = CVCustomLayoutViewController;
+			path = Projects/CollectionView/CustomCollectionViewLayout/CVCustomLayoutViewController;
 			sourceTree = "<group>";
 		};
 		79A7C06E1DFB51E80049473E /* Projects */ = {
@@ -899,6 +926,7 @@
 				7936E6661E08059300CD7A75 /* SimpleRoundButton.m in Sources */,
 				791277A41E096E3A00C69671 /* ShowOffViewController.m in Sources */,
 				79040D701E0BEC6D00111757 /* AnimatableLayer.m in Sources */,
+				799134491E15388B00424E8F /* CVHorizontalLayout.m in Sources */,
 				790EFDDC1DFEEFC0004D97EE /* UIView+Helper.m in Sources */,
 				790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */,
 				794EF2861E018C2F00E8032C /* NSLayoutConstraint+Helper.m in Sources */,
@@ -915,6 +943,7 @@
 				79A879691E11A6CD00D1AFA0 /* VCAnimationPlayGroundViewController.m in Sources */,
 				79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */,
 				79CB52861E09C8AD00413099 /* GraphicsView.m in Sources */,
+				7991344D1E1538AA00424E8F /* CVCustomLayoutViewController.m in Sources */,
 				791BAB881E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m in Sources */,
 				79752E601DFAB4EF00D10272 /* main.m in Sources */,
 				790EFDBB1DFCBE86004D97EE /* ProjectGroupNames.m in Sources */,

@@ -72,4 +72,8 @@ NSString * const CollectionViewDecorationKind = @"CollectionViewDecorationView";
     return self.decorationAttributes[indexPath];
 }
 
+- (CGSize)collectionViewContentSize {
+    return [super collectionViewContentSize];
+}
+
 @end

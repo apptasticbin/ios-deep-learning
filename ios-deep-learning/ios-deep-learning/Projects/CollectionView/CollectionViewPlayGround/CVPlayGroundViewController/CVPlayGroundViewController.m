@@ -104,6 +104,7 @@ NSString * const CollectionViewSupplementaryId = @"CollectionViewSupplementaryId
 - (CVFlowLayout *)flowLayout {
     if (!_flowLayout) {
         _flowLayout = [CVFlowLayout new];
+        _flowLayout.sectionHeadersPinToVisibleBounds = YES;
 //        _flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     }
     return _flowLayout;
