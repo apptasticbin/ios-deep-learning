@@ -10,4 +10,7 @@
 
 @interface CRCHViewController : PlayGroundViewController<Project>
 
+@property (nonatomic, readonly, strong) UITextField *nameTextField;
+@property (nonatomic, readonly, strong) UITextField *addressTextField;
+
 @end

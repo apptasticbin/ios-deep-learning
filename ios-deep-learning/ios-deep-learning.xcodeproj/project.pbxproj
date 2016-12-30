@@ -42,6 +42,9 @@
 		799134371E145CE700424E8F /* CVFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134361E145CE700424E8F /* CVFlowLayout.m */; };
 		799134491E15388B00424E8F /* CVHorizontalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134481E15388B00424E8F /* CVHorizontalLayout.m */; };
 		7991344D1E1538AA00424E8F /* CVCustomLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991344C1E1538AA00424E8F /* CVCustomLayoutViewController.m */; };
+		799134541E1667C100424E8F /* KVOPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134531E1667C100424E8F /* KVOPlayGroundViewController.m */; };
+		799FC3C51E16BFDE005F0503 /* KVCPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3C41E16BFDE005F0503 /* KVCPlayGroundViewController.m */; };
+		799FC3C91E16C0A3005F0503 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3C81E16C0A3005F0503 /* PersonModel.m */; };
 		79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0731DFB5F310049473E /* ProjectTableViewController.m */; };
 		79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0791DFB62DA0049473E /* ProjectController.m */; };
 		79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0821DFB6F830049473E /* ProjectModel.m */; };
@@ -136,6 +139,12 @@
 		799134481E15388B00424E8F /* CVHorizontalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CVHorizontalLayout.m; path = Projects/CollectionView/CustomCollectionViewLayout/CVHorizontalLayout/CVHorizontalLayout.m; sourceTree = "<group>"; };
 		7991344B1E1538AA00424E8F /* CVCustomLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVCustomLayoutViewController.h; sourceTree = "<group>"; };
 		7991344C1E1538AA00424E8F /* CVCustomLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVCustomLayoutViewController.m; sourceTree = "<group>"; };
+		799134521E1667C100424E8F /* KVOPlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KVOPlayGroundViewController.h; path = Projects/KeyValueProgramming/KeyValueObserving/KVOPlayGroundViewController/KVOPlayGroundViewController.h; sourceTree = "<group>"; };
+		799134531E1667C100424E8F /* KVOPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KVOPlayGroundViewController.m; path = Projects/KeyValueProgramming/KeyValueObserving/KVOPlayGroundViewController/KVOPlayGroundViewController.m; sourceTree = "<group>"; };
+		799FC3C31E16BFDE005F0503 /* KVCPlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KVCPlayGroundViewController.h; path = Projects/KeyValueProgramming/KeyValueCoding/KVCPlayGroundViewController/KVCPlayGroundViewController.h; sourceTree = "<group>"; };
+		799FC3C41E16BFDE005F0503 /* KVCPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KVCPlayGroundViewController.m; path = Projects/KeyValueProgramming/KeyValueCoding/KVCPlayGroundViewController/KVCPlayGroundViewController.m; sourceTree = "<group>"; };
+		799FC3C71E16C0A3005F0503 /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonModel.h; path = Projects/KeyValueProgramming/KeyValueCoding/PersonModel/PersonModel.h; sourceTree = "<group>"; };
+		799FC3C81E16C0A3005F0503 /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonModel.m; path = Projects/KeyValueProgramming/KeyValueCoding/PersonModel/PersonModel.m; sourceTree = "<group>"; };
 		79A7C0721DFB5F310049473E /* ProjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectTableViewController.h; path = Application/ProjectTableViewController/ProjectTableViewController.h; sourceTree = "<group>"; };
 		79A7C0731DFB5F310049473E /* ProjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectTableViewController.m; path = Application/ProjectTableViewController/ProjectTableViewController.m; sourceTree = "<group>"; };
 		79A7C0781DFB62DA0049473E /* ProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectController.h; path = Application/ProjectController/ProjectController.h; sourceTree = "<group>"; };
@@ -658,6 +667,59 @@
 			path = Projects/CollectionView/CustomCollectionViewLayout/CVCustomLayoutViewController;
 			sourceTree = "<group>";
 		};
+		7991344E1E15B5CA00424E8F /* KeyValueProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				7991344F1E15B5F600424E8F /* KeyValueCoding */,
+				799134501E15B6B900424E8F /* KeyValueObserving */,
+			);
+			name = KeyValueProgramming;
+			sourceTree = "<group>";
+		};
+		7991344F1E15B5F600424E8F /* KeyValueCoding */ = {
+			isa = PBXGroup;
+			children = (
+				799FC3C61E16C042005F0503 /* PersonModel */,
+				799FC3C21E16BC55005F0503 /* KVCPlayGroundViewController */,
+			);
+			name = KeyValueCoding;
+			sourceTree = "<group>";
+		};
+		799134501E15B6B900424E8F /* KeyValueObserving */ = {
+			isa = PBXGroup;
+			children = (
+				799134511E16610900424E8F /* KVOPlayGroundViewController */,
+			);
+			name = KeyValueObserving;
+			sourceTree = "<group>";
+		};
+		799134511E16610900424E8F /* KVOPlayGroundViewController */ = {
+			isa = PBXGroup;
+			children = (
+				799134521E1667C100424E8F /* KVOPlayGroundViewController.h */,
+				799134531E1667C100424E8F /* KVOPlayGroundViewController.m */,
+			);
+			name = KVOPlayGroundViewController;
+			sourceTree = "<group>";
+		};
+		799FC3C21E16BC55005F0503 /* KVCPlayGroundViewController */ = {
+			isa = PBXGroup;
+			children = (
+				799FC3C31E16BFDE005F0503 /* KVCPlayGroundViewController.h */,
+				799FC3C41E16BFDE005F0503 /* KVCPlayGroundViewController.m */,
+			);
+			name = KVCPlayGroundViewController;
+			sourceTree = "<group>";
+		};
+		799FC3C61E16C042005F0503 /* PersonModel */ = {
+			isa = PBXGroup;
+			children = (
+				799FC3C71E16C0A3005F0503 /* PersonModel.h */,
+				799FC3C81E16C0A3005F0503 /* PersonModel.m */,
+			);
+			name = PersonModel;
+			sourceTree = "<group>";
+		};
 		79A7C06E1DFB51E80049473E /* Projects */ = {
 			isa = PBXGroup;
 			children = (
@@ -666,6 +728,7 @@
 				799134151E13157400424E8F /* CollectionView */,
 				792863D81E05BDA6007F5916 /* CoreGraphics */,
 				7936E65C1E07DC1000CD7A75 /* CoreAnimation */,
+				7991344E1E15B5CA00424E8F /* KeyValueProgramming */,
 				79A879641E11A5DF00D1AFA0 /* ViewController */,
 			);
 			name = Projects;
@@ -930,6 +993,7 @@
 				790EFDDC1DFEEFC0004D97EE /* UIView+Helper.m in Sources */,
 				790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */,
 				794EF2861E018C2F00E8032C /* NSLayoutConstraint+Helper.m in Sources */,
+				799134541E1667C100424E8F /* KVOPlayGroundViewController.m in Sources */,
 				794EF27A1E00A90C00E8032C /* AutoLayoutRect.m in Sources */,
 				799134271E131A2B00424E8F /* CVPlayGroundViewController.m in Sources */,
 				7936E66D1E08075F00CD7A75 /* CoreGraphicsPlayGroundViewController.m in Sources */,
@@ -939,10 +1003,12 @@
 				79A879761E11C24600D1AFA0 /* VCAnimationPopViewController.m in Sources */,
 				79A8795B1E1020A100D1AFA0 /* LoadIngIndicator.m in Sources */,
 				7991342F1E14413E00424E8F /* UIColor+Helper.m in Sources */,
+				799FC3C91E16C0A3005F0503 /* PersonModel.m in Sources */,
 				799134371E145CE700424E8F /* CVFlowLayout.m in Sources */,
 				79A879691E11A6CD00D1AFA0 /* VCAnimationPlayGroundViewController.m in Sources */,
 				79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */,
 				79CB52861E09C8AD00413099 /* GraphicsView.m in Sources */,
+				799FC3C51E16BFDE005F0503 /* KVCPlayGroundViewController.m in Sources */,
 				7991344D1E1538AA00424E8F /* CVCustomLayoutViewController.m in Sources */,
 				791BAB881E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m in Sources */,
 				79752E601DFAB4EF00D10272 /* main.m in Sources */,

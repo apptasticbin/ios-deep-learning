@@ -8,10 +8,11 @@
 
 #import "ProjectGroupNames.h"
 
-NSString * const ProjectGroupNameAutoLayout         = @"Auto Layout";
-NSString * const ProjectGroupNameViewController     = @"View Controller";
-NSString * const ProjectGroupNameBasicKnowledge     = @"Basic Knowledge";
-NSString * const ProjectGroupNameCoreGraphics       = @"Core Graphics";
-NSString * const ProjectGroupNameCoreAnimation      = @"Core Animation";
-NSString * const ProjectGroupNameCollectionView     = @"Collection View";
+NSString * const ProjectGroupNameAutoLayout             = @"Auto Layout";
+NSString * const ProjectGroupNameViewController         = @"View Controller";
+NSString * const ProjectGroupNameBasicKnowledge         = @"Basic Knowledge";
+NSString * const ProjectGroupNameCoreGraphics           = @"Core Graphics";
+NSString * const ProjectGroupNameCoreAnimation          = @"Core Animation";
+NSString * const ProjectGroupNameCollectionView         = @"Collection View";
+NSString * const ProjectGroupNameKeyValueProgramming    = @"Key Value Programming";
 

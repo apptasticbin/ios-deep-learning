@@ -11,10 +11,10 @@
 @interface CRCHViewController ()
 
 @property (nonatomic, strong) UILabel *nameLabel;
-@property (nonatomic, strong) UITextField *nameTextField;
+@property (nonatomic, readwrite, strong) UITextField *nameTextField;
 
 @property (nonatomic, strong) UILabel *addressLabel;
-@property (nonatomic, strong) UITextField *addressTextField;
+@property (nonatomic, readwrite, strong) UITextField *addressTextField;
 
 @property (nonatomic, strong) UIStackView *verticalStackView;
 
