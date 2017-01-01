@@ -15,4 +15,5 @@ NSString * const ProjectGroupNameCoreGraphics           = @"Core Graphics";
 NSString * const ProjectGroupNameCoreAnimation          = @"Core Animation";
 NSString * const ProjectGroupNameCollectionView         = @"Collection View";
 NSString * const ProjectGroupNameKeyValueProgramming    = @"Key Value Programming";
+NSString * const ProjectGroupNameEventHandling          = @"Event Handling";
 

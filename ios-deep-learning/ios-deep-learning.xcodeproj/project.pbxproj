@@ -45,6 +45,9 @@
 		799134541E1667C100424E8F /* KVOPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134531E1667C100424E8F /* KVOPlayGroundViewController.m */; };
 		799FC3C51E16BFDE005F0503 /* KVCPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3C41E16BFDE005F0503 /* KVCPlayGroundViewController.m */; };
 		799FC3C91E16C0A3005F0503 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3C81E16C0A3005F0503 /* PersonModel.m */; };
+		799FC3D91E193C09005F0503 /* EHPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3D81E193C09005F0503 /* EHPlayGroundViewController.m */; };
+		799FC3DD1E1990D1005F0503 /* EHRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3DC1E1990D1005F0503 /* EHRect.m */; };
+		799FC3E11E199CDB005F0503 /* EHGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3E01E199CDA005F0503 /* EHGestureRecognizer.m */; };
 		79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0731DFB5F310049473E /* ProjectTableViewController.m */; };
 		79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0791DFB62DA0049473E /* ProjectController.m */; };
 		79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0821DFB6F830049473E /* ProjectModel.m */; };
@@ -145,6 +148,12 @@
 		799FC3C41E16BFDE005F0503 /* KVCPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KVCPlayGroundViewController.m; path = Projects/KeyValueProgramming/KeyValueCoding/KVCPlayGroundViewController/KVCPlayGroundViewController.m; sourceTree = "<group>"; };
 		799FC3C71E16C0A3005F0503 /* PersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PersonModel.h; path = Projects/KeyValueProgramming/KeyValueCoding/PersonModel/PersonModel.h; sourceTree = "<group>"; };
 		799FC3C81E16C0A3005F0503 /* PersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersonModel.m; path = Projects/KeyValueProgramming/KeyValueCoding/PersonModel/PersonModel.m; sourceTree = "<group>"; };
+		799FC3D71E193C09005F0503 /* EHPlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHPlayGroundViewController.h; sourceTree = "<group>"; };
+		799FC3D81E193C09005F0503 /* EHPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHPlayGroundViewController.m; sourceTree = "<group>"; };
+		799FC3DB1E1990D1005F0503 /* EHRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EHRect.h; path = EHRect/EHRect.h; sourceTree = "<group>"; };
+		799FC3DC1E1990D1005F0503 /* EHRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EHRect.m; path = EHRect/EHRect.m; sourceTree = "<group>"; };
+		799FC3DF1E199CDA005F0503 /* EHGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EHGestureRecognizer.h; path = EHGestureRecognizer/EHGestureRecognizer.h; sourceTree = "<group>"; };
+		799FC3E01E199CDA005F0503 /* EHGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EHGestureRecognizer.m; path = EHGestureRecognizer/EHGestureRecognizer.m; sourceTree = "<group>"; };
 		79A7C0721DFB5F310049473E /* ProjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectTableViewController.h; path = Application/ProjectTableViewController/ProjectTableViewController.h; sourceTree = "<group>"; };
 		79A7C0731DFB5F310049473E /* ProjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectTableViewController.m; path = Application/ProjectTableViewController/ProjectTableViewController.m; sourceTree = "<group>"; };
 		79A7C0781DFB62DA0049473E /* ProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectController.h; path = Application/ProjectController/ProjectController.h; sourceTree = "<group>"; };
@@ -720,6 +729,52 @@
 			name = PersonModel;
 			sourceTree = "<group>";
 		};
+		799FC3CA1E16EC44005F0503 /* EventHandling */ = {
+			isa = PBXGroup;
+			children = (
+				799FC3D51E193C09005F0503 /* EventHandlingBasis */,
+			);
+			name = EventHandling;
+			sourceTree = "<group>";
+		};
+		799FC3D51E193C09005F0503 /* EventHandlingBasis */ = {
+			isa = PBXGroup;
+			children = (
+				799FC3DA1E199014005F0503 /* EHRect */,
+				799FC3DE1E199CB4005F0503 /* EHGestureRecognizer */,
+				799FC3D61E193C09005F0503 /* EHPlayGroundViewController */,
+			);
+			name = EventHandlingBasis;
+			path = Projects/EventHandling/EventHandlingBasis;
+			sourceTree = "<group>";
+		};
+		799FC3D61E193C09005F0503 /* EHPlayGroundViewController */ = {
+			isa = PBXGroup;
+			children = (
+				799FC3D71E193C09005F0503 /* EHPlayGroundViewController.h */,
+				799FC3D81E193C09005F0503 /* EHPlayGroundViewController.m */,
+			);
+			path = EHPlayGroundViewController;
+			sourceTree = "<group>";
+		};
+		799FC3DA1E199014005F0503 /* EHRect */ = {
+			isa = PBXGroup;
+			children = (
+				799FC3DB1E1990D1005F0503 /* EHRect.h */,
+				799FC3DC1E1990D1005F0503 /* EHRect.m */,
+			);
+			name = EHRect;
+			sourceTree = "<group>";
+		};
+		799FC3DE1E199CB4005F0503 /* EHGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				799FC3DF1E199CDA005F0503 /* EHGestureRecognizer.h */,
+				799FC3E01E199CDA005F0503 /* EHGestureRecognizer.m */,
+			);
+			name = EHGestureRecognizer;
+			sourceTree = "<group>";
+		};
 		79A7C06E1DFB51E80049473E /* Projects */ = {
 			isa = PBXGroup;
 			children = (
@@ -728,6 +783,7 @@
 				799134151E13157400424E8F /* CollectionView */,
 				792863D81E05BDA6007F5916 /* CoreGraphics */,
 				7936E65C1E07DC1000CD7A75 /* CoreAnimation */,
+				799FC3CA1E16EC44005F0503 /* EventHandling */,
 				7991344E1E15B5CA00424E8F /* KeyValueProgramming */,
 				79A879641E11A5DF00D1AFA0 /* ViewController */,
 			);
@@ -982,6 +1038,7 @@
 				790EFDBF1DFDB257004D97EE /* UIStoryboard+Helper.m in Sources */,
 				7991342B1E143E5B00424E8F /* CVSupplementaryView.m in Sources */,
 				799134331E1442FD00424E8F /* CVCellView.m in Sources */,
+				799FC3D91E193C09005F0503 /* EHPlayGroundViewController.m in Sources */,
 				79CB52821E09C81C00413099 /* CircleProgressBarView.m in Sources */,
 				79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */,
 				797ADDFB1E02D7C0001F82D9 /* CRCHViewController.m in Sources */,
@@ -1000,6 +1057,7 @@
 				794EF2821E00AF1E00E8032C /* CustomIntransicRect.m in Sources */,
 				79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */,
 				7936E66A1E08069400CD7A75 /* CustomUIViewController.m in Sources */,
+				799FC3E11E199CDB005F0503 /* EHGestureRecognizer.m in Sources */,
 				79A879761E11C24600D1AFA0 /* VCAnimationPopViewController.m in Sources */,
 				79A8795B1E1020A100D1AFA0 /* LoadIngIndicator.m in Sources */,
 				7991342F1E14413E00424E8F /* UIColor+Helper.m in Sources */,
@@ -1012,6 +1070,7 @@
 				7991344D1E1538AA00424E8F /* CVCustomLayoutViewController.m in Sources */,
 				791BAB881E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m in Sources */,
 				79752E601DFAB4EF00D10272 /* main.m in Sources */,
+				799FC3DD1E1990D1005F0503 /* EHRect.m in Sources */,
 				790EFDBB1DFCBE86004D97EE /* ProjectGroupNames.m in Sources */,
 				79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */,
 				794EF27E1E00AA6400E8032C /* IntransicContentSizeViewController.m in Sources */,
