@@ -48,6 +48,10 @@
 		799FC3D91E193C09005F0503 /* EHPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3D81E193C09005F0503 /* EHPlayGroundViewController.m */; };
 		799FC3DD1E1990D1005F0503 /* EHRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3DC1E1990D1005F0503 /* EHRect.m */; };
 		799FC3E11E199CDB005F0503 /* EHGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3E01E199CDA005F0503 /* EHGestureRecognizer.m */; };
+		799FC3EB1E1A75ED005F0503 /* EHDoubleScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3EA1E1A75ED005F0503 /* EHDoubleScrollViewController.m */; };
+		799FC3EF1E1A9194005F0503 /* EHCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3EE1E1A9194005F0503 /* EHCollectionViewController.m */; };
+		799FC3F31E1A91DC005F0503 /* EHCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3F21E1A91DC005F0503 /* EHCollectionView.m */; };
+		799FC3F71E1AFB1F005F0503 /* EHScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3F61E1AFB1F005F0503 /* EHScrollView.m */; };
 		79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0731DFB5F310049473E /* ProjectTableViewController.m */; };
 		79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0791DFB62DA0049473E /* ProjectController.m */; };
 		79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0821DFB6F830049473E /* ProjectModel.m */; };
@@ -154,6 +158,14 @@
 		799FC3DC1E1990D1005F0503 /* EHRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EHRect.m; path = EHRect/EHRect.m; sourceTree = "<group>"; };
 		799FC3DF1E199CDA005F0503 /* EHGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EHGestureRecognizer.h; path = EHGestureRecognizer/EHGestureRecognizer.h; sourceTree = "<group>"; };
 		799FC3E01E199CDA005F0503 /* EHGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EHGestureRecognizer.m; path = EHGestureRecognizer/EHGestureRecognizer.m; sourceTree = "<group>"; };
+		799FC3E91E1A75ED005F0503 /* EHDoubleScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EHDoubleScrollViewController.h; path = Projects/EventHandling/EventHandlingAdvanced/EHDoubleScrollViewController/EHDoubleScrollViewController.h; sourceTree = "<group>"; };
+		799FC3EA1E1A75ED005F0503 /* EHDoubleScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EHDoubleScrollViewController.m; path = Projects/EventHandling/EventHandlingAdvanced/EHDoubleScrollViewController/EHDoubleScrollViewController.m; sourceTree = "<group>"; };
+		799FC3ED1E1A9194005F0503 /* EHCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EHCollectionViewController.h; path = Projects/EventHandling/EventHandlingAdvanced/EHCollectionViewController/EHCollectionViewController.h; sourceTree = "<group>"; };
+		799FC3EE1E1A9194005F0503 /* EHCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EHCollectionViewController.m; path = Projects/EventHandling/EventHandlingAdvanced/EHCollectionViewController/EHCollectionViewController.m; sourceTree = "<group>"; };
+		799FC3F11E1A91DC005F0503 /* EHCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EHCollectionView.h; path = Projects/EventHandling/EventHandlingAdvanced/EHCollectionView/EHCollectionView.h; sourceTree = "<group>"; };
+		799FC3F21E1A91DC005F0503 /* EHCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EHCollectionView.m; path = Projects/EventHandling/EventHandlingAdvanced/EHCollectionView/EHCollectionView.m; sourceTree = "<group>"; };
+		799FC3F51E1AFB1F005F0503 /* EHScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EHScrollView.h; path = Projects/EventHandling/EventHandlingAdvanced/EHScrollView/EHScrollView.h; sourceTree = "<group>"; };
+		799FC3F61E1AFB1F005F0503 /* EHScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EHScrollView.m; path = Projects/EventHandling/EventHandlingAdvanced/EHScrollView/EHScrollView.m; sourceTree = "<group>"; };
 		79A7C0721DFB5F310049473E /* ProjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectTableViewController.h; path = Application/ProjectTableViewController/ProjectTableViewController.h; sourceTree = "<group>"; };
 		79A7C0731DFB5F310049473E /* ProjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectTableViewController.m; path = Application/ProjectTableViewController/ProjectTableViewController.m; sourceTree = "<group>"; };
 		79A7C0781DFB62DA0049473E /* ProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectController.h; path = Application/ProjectController/ProjectController.h; sourceTree = "<group>"; };
@@ -733,6 +745,7 @@
 			isa = PBXGroup;
 			children = (
 				799FC3D51E193C09005F0503 /* EventHandlingBasis */,
+				799FC3E21E1A5D5A005F0503 /* EventHandlingAdvanced */,
 			);
 			name = EventHandling;
 			sourceTree = "<group>";
@@ -773,6 +786,53 @@
 				799FC3E01E199CDA005F0503 /* EHGestureRecognizer.m */,
 			);
 			name = EHGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		799FC3E21E1A5D5A005F0503 /* EventHandlingAdvanced */ = {
+			isa = PBXGroup;
+			children = (
+				799FC3F41E1AFAEF005F0503 /* EHScrollView */,
+				799FC3F01E1A919C005F0503 /* EHCollectionView */,
+				799FC3EC1E1A8C85005F0503 /* EHCollectionViewController */,
+				799FC3E31E1A5D6C005F0503 /* EHDoubleScrollViewController */,
+			);
+			name = EventHandlingAdvanced;
+			sourceTree = "<group>";
+		};
+		799FC3E31E1A5D6C005F0503 /* EHDoubleScrollViewController */ = {
+			isa = PBXGroup;
+			children = (
+				799FC3E91E1A75ED005F0503 /* EHDoubleScrollViewController.h */,
+				799FC3EA1E1A75ED005F0503 /* EHDoubleScrollViewController.m */,
+			);
+			name = EHDoubleScrollViewController;
+			sourceTree = "<group>";
+		};
+		799FC3EC1E1A8C85005F0503 /* EHCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				799FC3ED1E1A9194005F0503 /* EHCollectionViewController.h */,
+				799FC3EE1E1A9194005F0503 /* EHCollectionViewController.m */,
+			);
+			name = EHCollectionViewController;
+			sourceTree = "<group>";
+		};
+		799FC3F01E1A919C005F0503 /* EHCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				799FC3F11E1A91DC005F0503 /* EHCollectionView.h */,
+				799FC3F21E1A91DC005F0503 /* EHCollectionView.m */,
+			);
+			name = EHCollectionView;
+			sourceTree = "<group>";
+		};
+		799FC3F41E1AFAEF005F0503 /* EHScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				799FC3F51E1AFB1F005F0503 /* EHScrollView.h */,
+				799FC3F61E1AFB1F005F0503 /* EHScrollView.m */,
+			);
+			name = EHScrollView;
 			sourceTree = "<group>";
 		};
 		79A7C06E1DFB51E80049473E /* Projects */ = {
@@ -1042,14 +1102,17 @@
 				79CB52821E09C81C00413099 /* CircleProgressBarView.m in Sources */,
 				79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */,
 				797ADDFB1E02D7C0001F82D9 /* CRCHViewController.m in Sources */,
+				799FC3F71E1AFB1F005F0503 /* EHScrollView.m in Sources */,
 				794EF2791E00A90C00E8032C /* AutoLayoutPlayGroundViewController.m in Sources */,
 				7936E6661E08059300CD7A75 /* SimpleRoundButton.m in Sources */,
 				791277A41E096E3A00C69671 /* ShowOffViewController.m in Sources */,
 				79040D701E0BEC6D00111757 /* AnimatableLayer.m in Sources */,
 				799134491E15388B00424E8F /* CVHorizontalLayout.m in Sources */,
 				790EFDDC1DFEEFC0004D97EE /* UIView+Helper.m in Sources */,
+				799FC3F31E1A91DC005F0503 /* EHCollectionView.m in Sources */,
 				790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */,
 				794EF2861E018C2F00E8032C /* NSLayoutConstraint+Helper.m in Sources */,
+				799FC3EB1E1A75ED005F0503 /* EHDoubleScrollViewController.m in Sources */,
 				799134541E1667C100424E8F /* KVOPlayGroundViewController.m in Sources */,
 				794EF27A1E00A90C00E8032C /* AutoLayoutRect.m in Sources */,
 				799134271E131A2B00424E8F /* CVPlayGroundViewController.m in Sources */,
@@ -1060,6 +1123,7 @@
 				799FC3E11E199CDB005F0503 /* EHGestureRecognizer.m in Sources */,
 				79A879761E11C24600D1AFA0 /* VCAnimationPopViewController.m in Sources */,
 				79A8795B1E1020A100D1AFA0 /* LoadIngIndicator.m in Sources */,
+				799FC3EF1E1A9194005F0503 /* EHCollectionViewController.m in Sources */,
 				7991342F1E14413E00424E8F /* UIColor+Helper.m in Sources */,
 				799FC3C91E16C0A3005F0503 /* PersonModel.m in Sources */,
 				799134371E145CE700424E8F /* CVFlowLayout.m in Sources */,

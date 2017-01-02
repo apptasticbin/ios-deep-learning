@@ -11,5 +11,6 @@
 @interface NSLayoutConstraint (Helper)
 
 + (NSArray<NSLayoutConstraint *> *)constraintsForCenterView:(UIView *)subview inView:(UIView *)superView;
++ (NSArray<NSLayoutConstraint *> *)constraintsToFitSuperView:(UIView *)subview;
 
 @end

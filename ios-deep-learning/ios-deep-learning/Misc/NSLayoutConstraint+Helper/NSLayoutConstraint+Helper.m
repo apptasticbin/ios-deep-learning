@@ -29,4 +29,19 @@
     return @[centerXConstriant, centerYConstriant];
 }
 
++ (NSArray<NSLayoutConstraint *> *)constraintsToFitSuperView:(UIView *)subview {
+    NSDictionary *layoutViews = @{
+                                  @"subview" : subview,
+                                  };
+    NSArray *horizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|[subview]|"
+                                                                             options:0
+                                                                             metrics:nil
+                                                                               views:layoutViews];
+    NSArray *verticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|[subview]|"
+                                                                             options:0
+                                                                             metrics:nil
+                                                                               views:layoutViews];
+    return [horizontalConstraints arrayByAddingObjectsFromArray:verticalConstraints];
+}
+
 @end
