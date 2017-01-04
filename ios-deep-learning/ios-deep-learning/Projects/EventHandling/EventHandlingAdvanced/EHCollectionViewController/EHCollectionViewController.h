@@ -6,8 +6,8 @@
 //  Copyright © 2017 Bin Yu. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "PlayGroundViewController.h"
 
-@interface EHCollectionViewController : BaseViewController
+@interface EHCollectionViewController : PlayGroundViewController
 
 @end

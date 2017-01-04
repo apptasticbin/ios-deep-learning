@@ -24,24 +24,23 @@ static NSString * const CollectionViewCellID = @"CollectionViewCellID";
 
 - (void)initializeViews {
     [super initializeViews];
+    
     [self setupScrollView];
 //    [self setupCollectionView];
 }
 
 - (void)initializeViewConstraints {
     [super initializeViewConstraints];
+    
     [self setupScrollViewConstraints];
 //    [self setupCollectionViewConstraints];
 }
 
+#pragma mark - View Setups
+
 - (void)setupScrollView {
     _scrollView = [EHScrollView new];
-    [self.view addSubviewWithoutAutoResizing:self.scrollView];
-}
-
-- (void)setupScrollViewConstraints {
-    NSArray *collectionViewConstraints = [NSLayoutConstraint constraintsToFitSuperView:self.scrollView];
-    [self.view addConstraints:collectionViewConstraints];
+    [self.playStage addSubviewWithoutAutoResizing:self.scrollView];
 }
 
 - (void)setupCollectionView {
@@ -62,10 +61,29 @@ static NSString * const CollectionViewCellID = @"CollectionViewCellID";
     [self.view addSubviewWithoutAutoResizing:self.collectionView];
 }
 
+#pragma mark - Constraints Setups
+
+- (void)setupScrollViewConstraints {
+    NSArray *collectionViewConstraints = [NSLayoutConstraint constraintsToFitSuperView:self.scrollView];
+    [self.view addConstraints:collectionViewConstraints];
+}
+
 - (void)setupCollectionViewConstraints {
     NSArray *collectionViewConstraints = [NSLayoutConstraint constraintsToFitSuperView:self.collectionView];
     [self.view addConstraints:collectionViewConstraints];
 }
+
+#pragma mark - Control Panel
+
+- (NSArray<PlayGroundControlAction *> *)controlPanelActions {
+    return @[
+             [[PlayGroundControlAction alloc] initWithName:@"Hi There!"
+                                                    target:self
+                                                    action:nil]
+             ];
+}
+
+#pragma mark - UICollectionViewDataSource
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return 5;
