@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PlayRect : UIView
+@interface PlayRect : UIView<NSCopying>
 
 @property (nonatomic, strong) NSString *name;
 

@@ -17,6 +17,9 @@
 		791277A41E096E3A00C69671 /* ShowOffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791277A31E096E3A00C69671 /* ShowOffViewController.m */; };
 		791BAB881E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791BAB871E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m */; };
 		792863D71E04BE43007F5916 /* DynamicHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792863D61E04BE43007F5916 /* DynamicHeightViewController.m */; };
+		792D0ECF1E1C32A900942484 /* CPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 792D0ECE1E1C32A900942484 /* CPOperation.m */; };
+		792D0ED41E1D167100942484 /* CPAdvancedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792D0ED31E1D167100942484 /* CPAdvancedViewController.m */; };
+		792D0EDB1E1D3D3300942484 /* NSNumber+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 792D0EDA1E1D3D3300942484 /* NSNumber+Helper.m */; };
 		79350AC01E1306D400542BED /* VCAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 79350ABF1E1306D400542BED /* VCAnimator.m */; };
 		7936E6651E08059300CD7A75 /* MaskedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7936E6611E08059300CD7A75 /* MaskedButton.m */; };
 		7936E6661E08059300CD7A75 /* SimpleRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7936E6641E08059300CD7A75 /* SimpleRoundButton.m */; };
@@ -52,6 +55,8 @@
 		799FC3EF1E1A9194005F0503 /* EHCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3EE1E1A9194005F0503 /* EHCollectionViewController.m */; };
 		799FC3F31E1A91DC005F0503 /* EHCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3F21E1A91DC005F0503 /* EHCollectionView.m */; };
 		799FC3F71E1AFB1F005F0503 /* EHScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3F61E1AFB1F005F0503 /* EHScrollView.m */; };
+		799FC3FD1E1BB2F5005F0503 /* CPPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC3FC1E1BB2F5005F0503 /* CPPlayGroundViewController.m */; };
+		799FC4011E1BC8A5005F0503 /* CPThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FC4001E1BC8A5005F0503 /* CPThread.m */; };
 		79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0731DFB5F310049473E /* ProjectTableViewController.m */; };
 		79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0791DFB62DA0049473E /* ProjectController.m */; };
 		79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A7C0821DFB6F830049473E /* ProjectModel.m */; };
@@ -97,6 +102,12 @@
 		791BAB871E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreAnimationPlayGroundViewController.m; path = Projects/CoreAnimation/CoreAnimationBasis/CoreAnimationPlayGroundViewController/CoreAnimationPlayGroundViewController.m; sourceTree = "<group>"; };
 		792863D51E04BE43007F5916 /* DynamicHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DynamicHeightViewController.h; path = UnderstandCRCH/DynamicHeightViewController/DynamicHeightViewController.h; sourceTree = "<group>"; };
 		792863D61E04BE43007F5916 /* DynamicHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DynamicHeightViewController.m; path = UnderstandCRCH/DynamicHeightViewController/DynamicHeightViewController.m; sourceTree = "<group>"; };
+		792D0ECD1E1C32A900942484 /* CPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPOperation.h; path = Projects/ConcurrentProgramming/ConcurrentBasis/CPOperation/CPOperation.h; sourceTree = "<group>"; };
+		792D0ECE1E1C32A900942484 /* CPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPOperation.m; path = Projects/ConcurrentProgramming/ConcurrentBasis/CPOperation/CPOperation.m; sourceTree = "<group>"; };
+		792D0ED21E1D167100942484 /* CPAdvancedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPAdvancedViewController.h; path = Projects/ConcurrentProgramming/ConcurrentAdvanced/CPAdvancedViewController/CPAdvancedViewController.h; sourceTree = "<group>"; };
+		792D0ED31E1D167100942484 /* CPAdvancedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPAdvancedViewController.m; path = Projects/ConcurrentProgramming/ConcurrentAdvanced/CPAdvancedViewController/CPAdvancedViewController.m; sourceTree = "<group>"; };
+		792D0ED91E1D3D3300942484 /* NSNumber+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Helper.h"; path = "Misc/NSNumber+Helper/NSNumber+Helper.h"; sourceTree = "<group>"; };
+		792D0EDA1E1D3D3300942484 /* NSNumber+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Helper.m"; path = "Misc/NSNumber+Helper/NSNumber+Helper.m"; sourceTree = "<group>"; };
 		79350ABE1E1306D400542BED /* VCAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAnimator.h; sourceTree = "<group>"; };
 		79350ABF1E1306D400542BED /* VCAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAnimator.m; sourceTree = "<group>"; };
 		7936E6601E08059300CD7A75 /* MaskedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskedButton.h; sourceTree = "<group>"; };
@@ -166,6 +177,10 @@
 		799FC3F21E1A91DC005F0503 /* EHCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EHCollectionView.m; path = Projects/EventHandling/EventHandlingAdvanced/EHCollectionView/EHCollectionView.m; sourceTree = "<group>"; };
 		799FC3F51E1AFB1F005F0503 /* EHScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EHScrollView.h; path = Projects/EventHandling/EventHandlingAdvanced/EHScrollView/EHScrollView.h; sourceTree = "<group>"; };
 		799FC3F61E1AFB1F005F0503 /* EHScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EHScrollView.m; path = Projects/EventHandling/EventHandlingAdvanced/EHScrollView/EHScrollView.m; sourceTree = "<group>"; };
+		799FC3FB1E1BB2F5005F0503 /* CPPlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPPlayGroundViewController.h; path = Projects/ConcurrentProgramming/ConcurrentBasis/CPPlayGroundViewController/CPPlayGroundViewController.h; sourceTree = "<group>"; };
+		799FC3FC1E1BB2F5005F0503 /* CPPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPPlayGroundViewController.m; path = Projects/ConcurrentProgramming/ConcurrentBasis/CPPlayGroundViewController/CPPlayGroundViewController.m; sourceTree = "<group>"; };
+		799FC3FF1E1BC8A5005F0503 /* CPThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPThread.h; path = Projects/ConcurrentProgramming/ConcurrentBasis/CPThread/CPThread.h; sourceTree = "<group>"; };
+		799FC4001E1BC8A5005F0503 /* CPThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPThread.m; path = Projects/ConcurrentProgramming/ConcurrentBasis/CPThread/CPThread.m; sourceTree = "<group>"; };
 		79A7C0721DFB5F310049473E /* ProjectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectTableViewController.h; path = Application/ProjectTableViewController/ProjectTableViewController.h; sourceTree = "<group>"; };
 		79A7C0731DFB5F310049473E /* ProjectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProjectTableViewController.m; path = Application/ProjectTableViewController/ProjectTableViewController.m; sourceTree = "<group>"; };
 		79A7C0781DFB62DA0049473E /* ProjectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectController.h; path = Application/ProjectController/ProjectController.h; sourceTree = "<group>"; };
@@ -336,6 +351,41 @@
 				7936E66C1E08075F00CD7A75 /* CoreGraphicsPlayGroundViewController.m */,
 			);
 			name = CoreGraphicsPlayGroundViewController;
+			sourceTree = "<group>";
+		};
+		792D0ECC1E1C328700942484 /* CPOperation */ = {
+			isa = PBXGroup;
+			children = (
+				792D0ECD1E1C32A900942484 /* CPOperation.h */,
+				792D0ECE1E1C32A900942484 /* CPOperation.m */,
+			);
+			name = CPOperation;
+			sourceTree = "<group>";
+		};
+		792D0ED01E1C6BFE00942484 /* ConcurrentAdvanced */ = {
+			isa = PBXGroup;
+			children = (
+				792D0ED11E1D15CD00942484 /* CPAdvancedViewController */,
+			);
+			name = ConcurrentAdvanced;
+			sourceTree = "<group>";
+		};
+		792D0ED11E1D15CD00942484 /* CPAdvancedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				792D0ED21E1D167100942484 /* CPAdvancedViewController.h */,
+				792D0ED31E1D167100942484 /* CPAdvancedViewController.m */,
+			);
+			name = CPAdvancedViewController;
+			sourceTree = "<group>";
+		};
+		792D0ED51E1D3CEC00942484 /* NSNumber+Helper */ = {
+			isa = PBXGroup;
+			children = (
+				792D0ED91E1D3D3300942484 /* NSNumber+Helper.h */,
+				792D0EDA1E1D3D3300942484 /* NSNumber+Helper.m */,
+			);
+			name = "NSNumber+Helper";
 			sourceTree = "<group>";
 		};
 		79350ABD1E1306D400542BED /* VCAnimator */ = {
@@ -560,6 +610,7 @@
 			isa = PBXGroup;
 			children = (
 				794EF2831E018C0500E8032C /* NSLayoutConstraint+Helper */,
+				792D0ED51E1D3CEC00942484 /* NSNumber+Helper */,
 				790EFDD61DFEEF82004D97EE /* UIView+Helper */,
 				790EFDBC1DFDB1FF004D97EE /* UIStoryBoard+Helper */,
 				7991342C1E143FB900424E8F /* UIColor+Helper */,
@@ -835,12 +886,50 @@
 			name = EHScrollView;
 			sourceTree = "<group>";
 		};
+		799FC3F81E1BAF42005F0503 /* ConcurrentProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				799FC3F91E1BAFD5005F0503 /* ConcurrentBasis */,
+				792D0ED01E1C6BFE00942484 /* ConcurrentAdvanced */,
+			);
+			name = ConcurrentProgramming;
+			sourceTree = "<group>";
+		};
+		799FC3F91E1BAFD5005F0503 /* ConcurrentBasis */ = {
+			isa = PBXGroup;
+			children = (
+				792D0ECC1E1C328700942484 /* CPOperation */,
+				799FC3FE1E1BC838005F0503 /* CPThread */,
+				799FC3FA1E1BB095005F0503 /* CPPlayGroundViewController */,
+			);
+			name = ConcurrentBasis;
+			sourceTree = "<group>";
+		};
+		799FC3FA1E1BB095005F0503 /* CPPlayGroundViewController */ = {
+			isa = PBXGroup;
+			children = (
+				799FC3FB1E1BB2F5005F0503 /* CPPlayGroundViewController.h */,
+				799FC3FC1E1BB2F5005F0503 /* CPPlayGroundViewController.m */,
+			);
+			name = CPPlayGroundViewController;
+			sourceTree = "<group>";
+		};
+		799FC3FE1E1BC838005F0503 /* CPThread */ = {
+			isa = PBXGroup;
+			children = (
+				799FC3FF1E1BC8A5005F0503 /* CPThread.h */,
+				799FC4001E1BC8A5005F0503 /* CPThread.m */,
+			);
+			name = CPThread;
+			sourceTree = "<group>";
+		};
 		79A7C06E1DFB51E80049473E /* Projects */ = {
 			isa = PBXGroup;
 			children = (
 				790EFDC91DFDF6E1004D97EE /* Base */,
 				794EF2711E00A90C00E8032C /* AutoLayout */,
 				799134151E13157400424E8F /* CollectionView */,
+				799FC3F81E1BAF42005F0503 /* ConcurrentProgramming */,
 				792863D81E05BDA6007F5916 /* CoreGraphics */,
 				7936E65C1E07DC1000CD7A75 /* CoreAnimation */,
 				799FC3CA1E16EC44005F0503 /* EventHandling */,
@@ -1096,10 +1185,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				790EFDBF1DFDB257004D97EE /* UIStoryboard+Helper.m in Sources */,
+				792D0EDB1E1D3D3300942484 /* NSNumber+Helper.m in Sources */,
 				7991342B1E143E5B00424E8F /* CVSupplementaryView.m in Sources */,
 				799134331E1442FD00424E8F /* CVCellView.m in Sources */,
 				799FC3D91E193C09005F0503 /* EHPlayGroundViewController.m in Sources */,
 				79CB52821E09C81C00413099 /* CircleProgressBarView.m in Sources */,
+				799FC4011E1BC8A5005F0503 /* CPThread.m in Sources */,
 				79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */,
 				797ADDFB1E02D7C0001F82D9 /* CRCHViewController.m in Sources */,
 				799FC3F71E1AFB1F005F0503 /* EHScrollView.m in Sources */,
@@ -1117,6 +1208,7 @@
 				794EF27A1E00A90C00E8032C /* AutoLayoutRect.m in Sources */,
 				799134271E131A2B00424E8F /* CVPlayGroundViewController.m in Sources */,
 				7936E66D1E08075F00CD7A75 /* CoreGraphicsPlayGroundViewController.m in Sources */,
+				799FC3FD1E1BB2F5005F0503 /* CPPlayGroundViewController.m in Sources */,
 				794EF2821E00AF1E00E8032C /* CustomIntransicRect.m in Sources */,
 				79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */,
 				7936E66A1E08069400CD7A75 /* CustomUIViewController.m in Sources */,
@@ -1133,12 +1225,14 @@
 				799FC3C51E16BFDE005F0503 /* KVCPlayGroundViewController.m in Sources */,
 				7991344D1E1538AA00424E8F /* CVCustomLayoutViewController.m in Sources */,
 				791BAB881E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m in Sources */,
+				792D0ECF1E1C32A900942484 /* CPOperation.m in Sources */,
 				79752E601DFAB4EF00D10272 /* main.m in Sources */,
 				799FC3DD1E1990D1005F0503 /* EHRect.m in Sources */,
 				790EFDBB1DFCBE86004D97EE /* ProjectGroupNames.m in Sources */,
 				79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */,
 				794EF27E1E00AA6400E8032C /* IntransicContentSizeViewController.m in Sources */,
 				799134241E1318A700424E8F /* BaseViewController.m in Sources */,
+				792D0ED41E1D167100942484 /* CPAdvancedViewController.m in Sources */,
 				79A8795E1E1020FC00D1AFA0 /* CAAdvancedViewController.m in Sources */,
 				79A879631E1083D000D1AFA0 /* NumberCounter.m in Sources */,
 				790EFDD51DFEB80C004D97EE /* PlayGroundViewController.m in Sources */,

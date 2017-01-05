@@ -16,3 +16,4 @@ FOUNDATION_EXPORT NSString * const ProjectGroupNameCoreAnimation;
 FOUNDATION_EXPORT NSString * const ProjectGroupNameCollectionView;
 FOUNDATION_EXPORT NSString * const ProjectGroupNameKeyValueProgramming;
 FOUNDATION_EXPORT NSString * const ProjectGroupNameEventHandling;
+FOUNDATION_EXPORT NSString * const ProjectGroupNameConcurrentProgramming;

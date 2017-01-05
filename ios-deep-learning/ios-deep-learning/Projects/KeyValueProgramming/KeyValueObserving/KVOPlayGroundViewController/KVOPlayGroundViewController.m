@@ -101,12 +101,15 @@ static int /*const*/ KVOContext;
 }
 
 - (void)setNumber:(NSInteger)number {
-    if (_number == number) {
-        return;
+    // lock the critical section ONLY for one thread access
+    @synchronized(self) {
+        if (_number == number) {
+            return;
+        }
+        [self willChangeValueForKey:@"number"];
+        _number = number;
+        [self didChangeValueForKey:@"number"];
     }
-    [self willChangeValueForKey:@"number"];
-    _number = number;
-    [self didChangeValueForKey:@"number"];
 }
 
 + (BOOL)automaticallyNotifiesObserversOfNumber {

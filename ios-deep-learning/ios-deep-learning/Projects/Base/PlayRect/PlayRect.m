@@ -72,4 +72,10 @@
     return [self rectWithColor:[UIColor greenColor] name:@"Green Rect"];
 }
 
+#pragma mark - NSCopying
+
+- (id)copyWithZone:(nullable NSZone *)zone {
+    return [self copy];
+}
+
 @end
