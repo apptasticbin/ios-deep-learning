@@ -37,6 +37,13 @@
 		79752E6E1DFAB4EF00D10272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79752E6C1DFAB4EF00D10272 /* LaunchScreen.storyboard */; };
 		79752E791DFAB4EF00D10272 /* ios_deep_learningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79752E781DFAB4EF00D10272 /* ios_deep_learningTests.m */; };
 		797ADDFB1E02D7C0001F82D9 /* CRCHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ADDFA1E02D7C0001F82D9 /* CRCHViewController.m */; };
+		797E646A1E22464000533319 /* CoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797E64691E22464000533319 /* CoreDataController.m */; };
+		797E646D1E22467E00533319 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797E646C1E22467E00533319 /* CoreData.framework */; };
+		797E64701E22495400533319 /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 797E646E1E22495400533319 /* CoreDataModel.xcdatamodeld */; };
+		797E64751E2399FA00533319 /* CDPersonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 797E64741E2399FA00533319 /* CDPersonObject.m */; };
+		797E64781E239A5B00533319 /* CDFriendshipObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 797E64771E239A5B00533319 /* CDFriendshipObject.m */; };
+		797E64AA1E23C6E800533319 /* CoreDataBasisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797E64A91E23C6E800533319 /* CoreDataBasisViewController.m */; };
+		797E64B11E2651E100533319 /* CDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 797E64B01E2651E100533319 /* CDTableViewCell.m */; };
 		799134241E1318A700424E8F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134231E1318A700424E8F /* BaseViewController.m */; };
 		799134271E131A2B00424E8F /* CVPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134261E131A2B00424E8F /* CVPlayGroundViewController.m */; };
 		7991342B1E143E5B00424E8F /* CVSupplementaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991342A1E143E5B00424E8F /* CVSupplementaryView.m */; };
@@ -141,6 +148,19 @@
 		79752E7A1DFAB4EF00D10272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		797ADDF91E02D7C0001F82D9 /* CRCHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRCHViewController.h; path = Projects/AutoLayout/UnderstandCRCH/CRCHViewController/CRCHViewController.h; sourceTree = "<group>"; };
 		797ADDFA1E02D7C0001F82D9 /* CRCHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRCHViewController.m; path = Projects/AutoLayout/UnderstandCRCH/CRCHViewController/CRCHViewController.m; sourceTree = "<group>"; };
+		797E64681E22464000533319 /* CoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataController.h; path = Projects/CoreData/CoreDataBasis/CoreDataController/CoreDataController.h; sourceTree = "<group>"; };
+		797E64691E22464000533319 /* CoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataController.m; path = Projects/CoreData/CoreDataBasis/CoreDataController/CoreDataController.m; sourceTree = "<group>"; };
+		797E646C1E22467E00533319 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		797E646F1E22495400533319 /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
+		797E64731E2399FA00533319 /* CDPersonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDPersonObject.h; path = Projects/CoreData/CoreDataBasis/CDPersonObject/CDPersonObject.h; sourceTree = "<group>"; };
+		797E64741E2399FA00533319 /* CDPersonObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDPersonObject.m; path = Projects/CoreData/CoreDataBasis/CDPersonObject/CDPersonObject.m; sourceTree = "<group>"; };
+		797E64761E239A5B00533319 /* CDFriendshipObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDFriendshipObject.h; path = Projects/CoreData/CoreDataBasis/CDFriendshipObject/CDFriendshipObject.h; sourceTree = "<group>"; };
+		797E64771E239A5B00533319 /* CDFriendshipObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDFriendshipObject.m; path = Projects/CoreData/CoreDataBasis/CDFriendshipObject/CDFriendshipObject.m; sourceTree = "<group>"; };
+		797E64791E239C4500533319 /* ios-deep-learning-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ios-deep-learning-Bridging-Header.h"; sourceTree = "<group>"; };
+		797E64A81E23C6E800533319 /* CoreDataBasisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataBasisViewController.h; path = Projects/CoreData/CoreDataBasis/CoreDataBasisViewController/CoreDataBasisViewController.h; sourceTree = "<group>"; };
+		797E64A91E23C6E800533319 /* CoreDataBasisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataBasisViewController.m; path = Projects/CoreData/CoreDataBasis/CoreDataBasisViewController/CoreDataBasisViewController.m; sourceTree = "<group>"; };
+		797E64AF1E2651E100533319 /* CDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDTableViewCell.h; path = Projects/CoreData/CoreDataBasis/CDTableViewCell/CDTableViewCell.h; sourceTree = "<group>"; };
+		797E64B01E2651E100533319 /* CDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDTableViewCell.m; path = Projects/CoreData/CoreDataBasis/CDTableViewCell/CDTableViewCell.m; sourceTree = "<group>"; };
 		799134221E1318A700424E8F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = Projects/Base/BaseViewController/BaseViewController.h; sourceTree = "<group>"; };
 		799134231E1318A700424E8F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = Projects/Base/BaseViewController/BaseViewController.m; sourceTree = "<group>"; };
 		799134251E131A2B00424E8F /* CVPlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVPlayGroundViewController.h; path = Projects/CollectionView/CollectionViewPlayGround/CVPlayGroundViewController/CVPlayGroundViewController.h; sourceTree = "<group>"; };
@@ -210,6 +230,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				797E646D1E22467E00533319 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +409,44 @@
 			name = "NSNumber+Helper";
 			sourceTree = "<group>";
 		};
+		792D0EE01E1F09BD00942484 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				792D0EE11E1FE5BE00942484 /* CoreDataBasis */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		792D0EE11E1FE5BE00942484 /* CoreDataBasis */ = {
+			isa = PBXGroup;
+			children = (
+				797E64AE1E2651BD00533319 /* CDTableViewCell */,
+				797E64711E23998F00533319 /* CDPersonObject */,
+				797E64721E2399A500533319 /* CDFriendshipObject */,
+				792D0EE31E1FE5FF00942484 /* CoreDataController */,
+				792D0EE21E1FE5CA00942484 /* CoreDataBasisViewController */,
+			);
+			name = CoreDataBasis;
+			sourceTree = "<group>";
+		};
+		792D0EE21E1FE5CA00942484 /* CoreDataBasisViewController */ = {
+			isa = PBXGroup;
+			children = (
+				797E64A81E23C6E800533319 /* CoreDataBasisViewController.h */,
+				797E64A91E23C6E800533319 /* CoreDataBasisViewController.m */,
+			);
+			name = CoreDataBasisViewController;
+			sourceTree = "<group>";
+		};
+		792D0EE31E1FE5FF00942484 /* CoreDataController */ = {
+			isa = PBXGroup;
+			children = (
+				797E64681E22464000533319 /* CoreDataController.h */,
+				797E64691E22464000533319 /* CoreDataController.m */,
+			);
+			name = CoreDataController;
+			sourceTree = "<group>";
+		};
 		79350ABD1E1306D400542BED /* VCAnimator */ = {
 			isa = PBXGroup;
 			children = (
@@ -535,6 +594,8 @@
 				79752E5D1DFAB4EF00D10272 /* ios-deep-learning */,
 				79752E771DFAB4EF00D10272 /* ios-deep-learningTests */,
 				79752E5C1DFAB4EF00D10272 /* Products */,
+				797E646B1E22467E00533319 /* Frameworks */,
+				797E64791E239C4500533319 /* ios-deep-learning-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -566,6 +627,7 @@
 			children = (
 				79752E5F1DFAB4EF00D10272 /* main.m */,
 				790EFDD11DFEA61C004D97EE /* PrefixHeader.pch */,
+				797E646E1E22495400533319 /* CoreDataModel.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -635,6 +697,41 @@
 				792863D41E04BDE5007F5916 /* DynamicHeightViewController */,
 			);
 			name = UnderstandCRCH;
+			sourceTree = "<group>";
+		};
+		797E646B1E22467E00533319 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				797E646C1E22467E00533319 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		797E64711E23998F00533319 /* CDPersonObject */ = {
+			isa = PBXGroup;
+			children = (
+				797E64731E2399FA00533319 /* CDPersonObject.h */,
+				797E64741E2399FA00533319 /* CDPersonObject.m */,
+			);
+			name = CDPersonObject;
+			sourceTree = "<group>";
+		};
+		797E64721E2399A500533319 /* CDFriendshipObject */ = {
+			isa = PBXGroup;
+			children = (
+				797E64761E239A5B00533319 /* CDFriendshipObject.h */,
+				797E64771E239A5B00533319 /* CDFriendshipObject.m */,
+			);
+			name = CDFriendshipObject;
+			sourceTree = "<group>";
+		};
+		797E64AE1E2651BD00533319 /* CDTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				797E64AF1E2651E100533319 /* CDTableViewCell.h */,
+				797E64B01E2651E100533319 /* CDTableViewCell.m */,
+			);
+			name = CDTableViewCell;
 			sourceTree = "<group>";
 		};
 		799134151E13157400424E8F /* CollectionView */ = {
@@ -930,6 +1027,7 @@
 				794EF2711E00A90C00E8032C /* AutoLayout */,
 				799134151E13157400424E8F /* CollectionView */,
 				799FC3F81E1BAF42005F0503 /* ConcurrentProgramming */,
+				792D0EE01E1F09BD00942484 /* CoreData */,
 				792863D81E05BDA6007F5916 /* CoreGraphics */,
 				7936E65C1E07DC1000CD7A75 /* CoreAnimation */,
 				799FC3CA1E16EC44005F0503 /* EventHandling */,
@@ -1129,6 +1227,7 @@
 					79752E5A1DFAB4EF00D10272 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 8BMD2QL62M;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					79752E731DFAB4EF00D10272 = {
@@ -1197,6 +1296,7 @@
 				794EF2791E00A90C00E8032C /* AutoLayoutPlayGroundViewController.m in Sources */,
 				7936E6661E08059300CD7A75 /* SimpleRoundButton.m in Sources */,
 				791277A41E096E3A00C69671 /* ShowOffViewController.m in Sources */,
+				797E64751E2399FA00533319 /* CDPersonObject.m in Sources */,
 				79040D701E0BEC6D00111757 /* AnimatableLayer.m in Sources */,
 				799134491E15388B00424E8F /* CVHorizontalLayout.m in Sources */,
 				790EFDDC1DFEEFC0004D97EE /* UIView+Helper.m in Sources */,
@@ -1204,6 +1304,7 @@
 				790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */,
 				794EF2861E018C2F00E8032C /* NSLayoutConstraint+Helper.m in Sources */,
 				799FC3EB1E1A75ED005F0503 /* EHDoubleScrollViewController.m in Sources */,
+				797E646A1E22464000533319 /* CoreDataController.m in Sources */,
 				799134541E1667C100424E8F /* KVOPlayGroundViewController.m in Sources */,
 				794EF27A1E00A90C00E8032C /* AutoLayoutRect.m in Sources */,
 				799134271E131A2B00424E8F /* CVPlayGroundViewController.m in Sources */,
@@ -1213,6 +1314,7 @@
 				79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */,
 				7936E66A1E08069400CD7A75 /* CustomUIViewController.m in Sources */,
 				799FC3E11E199CDB005F0503 /* EHGestureRecognizer.m in Sources */,
+				797E64701E22495400533319 /* CoreDataModel.xcdatamodeld in Sources */,
 				79A879761E11C24600D1AFA0 /* VCAnimationPopViewController.m in Sources */,
 				79A8795B1E1020A100D1AFA0 /* LoadIngIndicator.m in Sources */,
 				799FC3EF1E1A9194005F0503 /* EHCollectionViewController.m in Sources */,
@@ -1223,6 +1325,7 @@
 				79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */,
 				79CB52861E09C8AD00413099 /* GraphicsView.m in Sources */,
 				799FC3C51E16BFDE005F0503 /* KVCPlayGroundViewController.m in Sources */,
+				797E64AA1E23C6E800533319 /* CoreDataBasisViewController.m in Sources */,
 				7991344D1E1538AA00424E8F /* CVCustomLayoutViewController.m in Sources */,
 				791BAB881E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m in Sources */,
 				792D0ECF1E1C32A900942484 /* CPOperation.m in Sources */,
@@ -1230,10 +1333,12 @@
 				799FC3DD1E1990D1005F0503 /* EHRect.m in Sources */,
 				790EFDBB1DFCBE86004D97EE /* ProjectGroupNames.m in Sources */,
 				79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */,
+				797E64B11E2651E100533319 /* CDTableViewCell.m in Sources */,
 				794EF27E1E00AA6400E8032C /* IntransicContentSizeViewController.m in Sources */,
 				799134241E1318A700424E8F /* BaseViewController.m in Sources */,
 				792D0ED41E1D167100942484 /* CPAdvancedViewController.m in Sources */,
 				79A8795E1E1020FC00D1AFA0 /* CAAdvancedViewController.m in Sources */,
+				797E64781E239A5B00533319 /* CDFriendshipObject.m in Sources */,
 				79A879631E1083D000D1AFA0 /* NumberCounter.m in Sources */,
 				790EFDD51DFEB80C004D97EE /* PlayGroundViewController.m in Sources */,
 				79350AC01E1306D400542BED /* VCAnimator.m in Sources */,
@@ -1373,6 +1478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8BMD2QL62M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ios-deep-learning/PrefixHeader.pch";
@@ -1380,6 +1486,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "biyu.ios-deep-learning";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-deep-learning-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1387,6 +1496,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8BMD2QL62M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ios-deep-learning/PrefixHeader.pch";
@@ -1394,6 +1504,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "biyu.ios-deep-learning";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ios-deep-learning-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -1454,6 +1566,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		797E646E1E22495400533319 /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				797E646F1E22495400533319 /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = 797E646F1E22495400533319 /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 79752E531DFAB4EF00D10272 /* Project object */;
 }

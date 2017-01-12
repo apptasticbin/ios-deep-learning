@@ -16,8 +16,15 @@
 #define MustOverride  @throw [NSException exceptionWithName:@"MustOverrideException" reason:[NSString stringWithFormat:@"%@ must be overrided in subclasses.", NSStringFromSelector(_cmd)] userInfo:nil]
 
 #import "UIView+Helper.h"
+#import "NSNumber+Helper.h"
 #import "NSLayoutConstraint+Helper.h"
 #import "ProjectGroupNames.h"
 #import "Project.h"
+
+#ifdef __OBJC__
+
+#import <CoreData/CoreData.h>
+
+#endif
 
 #endif /* PrefixHeader_pch */
