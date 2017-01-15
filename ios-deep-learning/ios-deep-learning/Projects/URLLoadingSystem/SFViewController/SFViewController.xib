@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SFViewController">
+            <connections>
+                <outlet property="friendsTableView" destination="HgX-AP-CGD" id="KEB-qH-LF4"/>
+                <outlet property="nameLabel" destination="isR-gh-6ms" id="2sI-7h-Pcq"/>
+                <outlet property="pictureImageView" destination="y2O-2P-kzq" id="tgs-Rh-6sq"/>
+                <outlet property="userIdLabel" destination="fWx-9D-NqJ" id="CU3-HJ-GU7"/>
+                <outlet property="view" destination="iN0-l3-epB" id="kou-yc-Dvt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q3Q-H4-Cba" userLabel="User Info View">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="y2O-2P-kzq" userLabel="Picture Image View">
+                            <rect key="frame" x="8" y="8" width="168" height="184"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="168" id="e3K-7I-0IL"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isR-gh-6ms" userLabel="Name Label">
+                            <rect key="frame" x="194" y="24" width="173" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Id" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWx-9D-NqJ" userLabel="ID Label">
+                            <rect key="frame" x="194" y="53" width="173" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.88477536849175409" green="0.88752767203895566" blue="0.89947265624999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="fWx-9D-NqJ" firstAttribute="top" secondItem="isR-gh-6ms" secondAttribute="bottom" constant="8" id="3gn-cv-UUh"/>
+                        <constraint firstItem="isR-gh-6ms" firstAttribute="leading" secondItem="y2O-2P-kzq" secondAttribute="trailing" constant="18" id="4am-ZI-whm"/>
+                        <constraint firstAttribute="bottom" secondItem="y2O-2P-kzq" secondAttribute="bottom" constant="8" id="8ig-Zo-qDV"/>
+                        <constraint firstAttribute="trailing" secondItem="isR-gh-6ms" secondAttribute="trailing" constant="8" id="9IU-Ux-foj"/>
+                        <constraint firstAttribute="trailing" secondItem="fWx-9D-NqJ" secondAttribute="trailing" constant="8" id="BKz-hU-yHp"/>
+                        <constraint firstItem="isR-gh-6ms" firstAttribute="top" secondItem="y2O-2P-kzq" secondAttribute="top" constant="16" id="RsT-nA-9g6"/>
+                        <constraint firstItem="y2O-2P-kzq" firstAttribute="leading" secondItem="Q3Q-H4-Cba" secondAttribute="leading" constant="8" id="dpe-vx-xXR"/>
+                        <constraint firstItem="fWx-9D-NqJ" firstAttribute="leading" secondItem="isR-gh-6ms" secondAttribute="leading" id="ecQ-7q-WMf"/>
+                        <constraint firstItem="y2O-2P-kzq" firstAttribute="top" secondItem="Q3Q-H4-Cba" secondAttribute="top" constant="8" id="kXh-bq-Nzd"/>
+                        <constraint firstAttribute="height" constant="200" id="qVI-Y6-z8E"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="HgX-AP-CGD" userLabel="Friend List Table View">
+                    <rect key="frame" x="0.0" y="201" width="375" height="466"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Q3Q-H4-Cba" secondAttribute="trailing" id="2fh-ua-Ehg"/>
+                <constraint firstAttribute="bottom" secondItem="HgX-AP-CGD" secondAttribute="bottom" id="4Rh-On-yef"/>
+                <constraint firstItem="HgX-AP-CGD" firstAttribute="top" secondItem="Q3Q-H4-Cba" secondAttribute="bottom" constant="1" id="6Mb-B2-r4Y"/>
+                <constraint firstItem="HgX-AP-CGD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Da8-Xg-4Nq"/>
+                <constraint firstAttribute="trailing" secondItem="HgX-AP-CGD" secondAttribute="trailing" id="KZG-AI-6rl"/>
+                <constraint firstItem="Q3Q-H4-Cba" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="PdS-FB-nPC"/>
+                <constraint firstItem="Q3Q-H4-Cba" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ZmG-B5-7yU"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="34.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

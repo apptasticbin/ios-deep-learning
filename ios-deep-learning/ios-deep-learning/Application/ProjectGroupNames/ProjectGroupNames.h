@@ -18,3 +18,4 @@ FOUNDATION_EXPORT NSString * const ProjectGroupNameKeyValueProgramming;
 FOUNDATION_EXPORT NSString * const ProjectGroupNameEventHandling;
 FOUNDATION_EXPORT NSString * const ProjectGroupNameConcurrentProgramming;
 FOUNDATION_EXPORT NSString * const ProjectGroupNameCoreData;
+FOUNDATION_EXPORT NSString * const ProjectGroupNameURLLoadingSystem;
