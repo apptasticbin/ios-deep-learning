@@ -81,6 +81,14 @@
 		79BBBCD21E2BFAA900054964 /* SFFriendListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BBBCD11E2BFAA900054964 /* SFFriendListTableViewCell.m */; };
 		79CB52821E09C81C00413099 /* CircleProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB52811E09C81C00413099 /* CircleProgressBarView.m */; };
 		79CB52861E09C8AD00413099 /* GraphicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB52851E09C8AD00413099 /* GraphicsView.m */; };
+		79D661491E2D4D17002BCC42 /* CALayerFamilyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D661481E2D4D17002BCC42 /* CALayerFamilyViewController.m */; };
+		79D6614D1E2D4E84002BCC42 /* CAScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D6614C1E2D4E84002BCC42 /* CAScrollView.m */; };
+		79D661511E2DFC0B002BCC42 /* CATextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D661501E2DFC0B002BCC42 /* CATextView.m */; };
+		79D661531E2E0744002BCC42 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D661521E2E0744002BCC42 /* CoreText.framework */; };
+		79D6615F1E2E32B8002BCC42 /* CAReplicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D6615E1E2E32B8002BCC42 /* CAReplicatorView.m */; };
+		79D661631E2E4BE9002BCC42 /* CATiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D661621E2E4BE9002BCC42 /* CATiledView.m */; };
+		79D661671E2EA6C2002BCC42 /* CATiledImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D661661E2EA6C2002BCC42 /* CATiledImageView.m */; };
+		79D6616B1E2F51E1002BCC42 /* CAEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D6616A1E2F51E1002BCC42 /* CAEmitterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -240,6 +248,21 @@
 		79CB52811E09C81C00413099 /* CircleProgressBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressBarView.m; sourceTree = "<group>"; };
 		79CB52841E09C8AD00413099 /* GraphicsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphicsView.h; path = Projects/CoreGraphics/CoreGraphicsBasis/GraphicsView/GraphicsView.h; sourceTree = "<group>"; };
 		79CB52851E09C8AD00413099 /* GraphicsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphicsView.m; path = Projects/CoreGraphics/CoreGraphicsBasis/GraphicsView/GraphicsView.m; sourceTree = "<group>"; };
+		79D661471E2D4D17002BCC42 /* CALayerFamilyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerFamilyViewController.h; sourceTree = "<group>"; };
+		79D661481E2D4D17002BCC42 /* CALayerFamilyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerFamilyViewController.m; sourceTree = "<group>"; };
+		79D6614B1E2D4E84002BCC42 /* CAScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAScrollView.h; path = Projects/CoreAnimation/CoreAnimationLayerFamily/CAScrollView/CAScrollView.h; sourceTree = "<group>"; };
+		79D6614C1E2D4E84002BCC42 /* CAScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAScrollView.m; path = Projects/CoreAnimation/CoreAnimationLayerFamily/CAScrollView/CAScrollView.m; sourceTree = "<group>"; };
+		79D6614F1E2DFC0B002BCC42 /* CATextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CATextView.h; path = Projects/CoreAnimation/CoreAnimationLayerFamily/CATextView/CATextView.h; sourceTree = "<group>"; };
+		79D661501E2DFC0B002BCC42 /* CATextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CATextView.m; path = Projects/CoreAnimation/CoreAnimationLayerFamily/CATextView/CATextView.m; sourceTree = "<group>"; };
+		79D661521E2E0744002BCC42 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		79D6615D1E2E32B8002BCC42 /* CAReplicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAReplicatorView.h; path = Projects/CoreAnimation/CoreAnimationLayerFamily/CAReplicatorView/CAReplicatorView.h; sourceTree = "<group>"; };
+		79D6615E1E2E32B8002BCC42 /* CAReplicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAReplicatorView.m; path = Projects/CoreAnimation/CoreAnimationLayerFamily/CAReplicatorView/CAReplicatorView.m; sourceTree = "<group>"; };
+		79D661611E2E4BE9002BCC42 /* CATiledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CATiledView.h; path = Projects/CoreAnimation/CoreAnimationLayerFamily/CATiledView/CATiledView.h; sourceTree = "<group>"; };
+		79D661621E2E4BE9002BCC42 /* CATiledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CATiledView.m; path = Projects/CoreAnimation/CoreAnimationLayerFamily/CATiledView/CATiledView.m; sourceTree = "<group>"; };
+		79D661651E2EA6C2002BCC42 /* CATiledImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CATiledImageView.h; path = Projects/CoreAnimation/CoreAnimationLayerFamily/CATiledImageView/CATiledImageView.h; sourceTree = "<group>"; };
+		79D661661E2EA6C2002BCC42 /* CATiledImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CATiledImageView.m; path = Projects/CoreAnimation/CoreAnimationLayerFamily/CATiledImageView/CATiledImageView.m; sourceTree = "<group>"; };
+		79D661691E2F51E1002BCC42 /* CAEmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAEmitterView.h; path = Projects/CoreAnimation/CoreAnimationLayerFamily/CAEmitterView/CAEmitterView.h; sourceTree = "<group>"; };
+		79D6616A1E2F51E1002BCC42 /* CAEmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAEmitterView.m; path = Projects/CoreAnimation/CoreAnimationLayerFamily/CAEmitterView/CAEmitterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +270,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D661531E2E0744002BCC42 /* CoreText.framework in Frameworks */,
 				797E646D1E22467E00533319 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,6 +503,7 @@
 			children = (
 				7936E65D1E07DC2100CD7A75 /* CoreAnimationBasis */,
 				79A879571E0FF77000D1AFA0 /* CoreAnimationAdvanced */,
+				79BBBCD51E2CD57900054964 /* CoreAnimationLayerFamily */,
 			);
 			name = CoreAnimation;
 			sourceTree = "<group>";
@@ -719,6 +744,7 @@
 		797E646B1E22467E00533319 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79D661521E2E0744002BCC42 /* CoreText.framework */,
 				797E646C1E22467E00533319 /* CoreData.framework */,
 			);
 			name = Frameworks;
@@ -1243,6 +1269,20 @@
 			name = SFFriendListTableViewCell;
 			sourceTree = "<group>";
 		};
+		79BBBCD51E2CD57900054964 /* CoreAnimationLayerFamily */ = {
+			isa = PBXGroup;
+			children = (
+				79D6614A1E2D4DA6002BCC42 /* CAScrollView */,
+				79D6614E1E2DF8E8002BCC42 /* CATextView */,
+				79D6615C1E2E3297002BCC42 /* CAReplicatorView */,
+				79D661601E2E3E5F002BCC42 /* CATiledView */,
+				79D661641E2EA6A3002BCC42 /* CATiledImageView */,
+				79D661681E2F4EFB002BCC42 /* CAEmitterView */,
+				79D661461E2D4D17002BCC42 /* CALayerFamilyViewController */,
+			);
+			name = CoreAnimationLayerFamily;
+			sourceTree = "<group>";
+		};
 		79CB527F1E09C81C00413099 /* CircleProgressBarView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1260,6 +1300,70 @@
 				79CB52851E09C8AD00413099 /* GraphicsView.m */,
 			);
 			name = GraphicsView;
+			sourceTree = "<group>";
+		};
+		79D661461E2D4D17002BCC42 /* CALayerFamilyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				79D661471E2D4D17002BCC42 /* CALayerFamilyViewController.h */,
+				79D661481E2D4D17002BCC42 /* CALayerFamilyViewController.m */,
+			);
+			name = CALayerFamilyViewController;
+			path = Projects/CoreAnimation/CoreAnimationLayerFamily/CALayerFamilyViewController;
+			sourceTree = "<group>";
+		};
+		79D6614A1E2D4DA6002BCC42 /* CAScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				79D6614B1E2D4E84002BCC42 /* CAScrollView.h */,
+				79D6614C1E2D4E84002BCC42 /* CAScrollView.m */,
+			);
+			name = CAScrollView;
+			sourceTree = "<group>";
+		};
+		79D6614E1E2DF8E8002BCC42 /* CATextView */ = {
+			isa = PBXGroup;
+			children = (
+				79D6614F1E2DFC0B002BCC42 /* CATextView.h */,
+				79D661501E2DFC0B002BCC42 /* CATextView.m */,
+			);
+			name = CATextView;
+			sourceTree = "<group>";
+		};
+		79D6615C1E2E3297002BCC42 /* CAReplicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				79D6615D1E2E32B8002BCC42 /* CAReplicatorView.h */,
+				79D6615E1E2E32B8002BCC42 /* CAReplicatorView.m */,
+			);
+			name = CAReplicatorView;
+			sourceTree = "<group>";
+		};
+		79D661601E2E3E5F002BCC42 /* CATiledView */ = {
+			isa = PBXGroup;
+			children = (
+				79D661611E2E4BE9002BCC42 /* CATiledView.h */,
+				79D661621E2E4BE9002BCC42 /* CATiledView.m */,
+			);
+			name = CATiledView;
+			sourceTree = "<group>";
+		};
+		79D661641E2EA6A3002BCC42 /* CATiledImageView */ = {
+			isa = PBXGroup;
+			children = (
+				79D661651E2EA6C2002BCC42 /* CATiledImageView.h */,
+				79D661661E2EA6C2002BCC42 /* CATiledImageView.m */,
+			);
+			name = CATiledImageView;
+			sourceTree = "<group>";
+		};
+		79D661681E2F4EFB002BCC42 /* CAEmitterView */ = {
+			isa = PBXGroup;
+			children = (
+				79D661691E2F51E1002BCC42 /* CAEmitterView.h */,
+				79D6616A1E2F51E1002BCC42 /* CAEmitterView.m */,
+			);
+			name = CAEmitterView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1371,6 +1475,7 @@
 			files = (
 				790EFDBF1DFDB257004D97EE /* UIStoryboard+Helper.m in Sources */,
 				792D0EDB1E1D3D3300942484 /* NSNumber+Helper.m in Sources */,
+				79D6615F1E2E32B8002BCC42 /* CAReplicatorView.m in Sources */,
 				7991342B1E143E5B00424E8F /* CVSupplementaryView.m in Sources */,
 				799134331E1442FD00424E8F /* CVCellView.m in Sources */,
 				799FC3D91E193C09005F0503 /* EHPlayGroundViewController.m in Sources */,
@@ -1378,6 +1483,7 @@
 				79BBBCC81E2B82CB00054964 /* SFUserModel.m in Sources */,
 				79CB52821E09C81C00413099 /* CircleProgressBarView.m in Sources */,
 				799FC4011E1BC8A5005F0503 /* CPThread.m in Sources */,
+				79D661511E2DFC0B002BCC42 /* CATextView.m in Sources */,
 				79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */,
 				797ADDFB1E02D7C0001F82D9 /* CRCHViewController.m in Sources */,
 				799FC3F71E1AFB1F005F0503 /* EHScrollView.m in Sources */,
@@ -1390,6 +1496,7 @@
 				790EFDDC1DFEEFC0004D97EE /* UIView+Helper.m in Sources */,
 				799FC3F31E1A91DC005F0503 /* EHCollectionView.m in Sources */,
 				790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */,
+				79D6616B1E2F51E1002BCC42 /* CAEmitterView.m in Sources */,
 				794EF2861E018C2F00E8032C /* NSLayoutConstraint+Helper.m in Sources */,
 				799FC3EB1E1A75ED005F0503 /* EHDoubleScrollViewController.m in Sources */,
 				797E646A1E22464000533319 /* CoreDataController.m in Sources */,
@@ -1403,6 +1510,7 @@
 				7936E66A1E08069400CD7A75 /* CustomUIViewController.m in Sources */,
 				799FC3E11E199CDB005F0503 /* EHGestureRecognizer.m in Sources */,
 				797E64701E22495400533319 /* CoreDataModel.xcdatamodeld in Sources */,
+				79D661671E2EA6C2002BCC42 /* CATiledImageView.m in Sources */,
 				79A879761E11C24600D1AFA0 /* VCAnimationPopViewController.m in Sources */,
 				79A8795B1E1020A100D1AFA0 /* LoadIngIndicator.m in Sources */,
 				799FC3EF1E1A9194005F0503 /* EHCollectionViewController.m in Sources */,
@@ -1424,12 +1532,15 @@
 				790EFDBB1DFCBE86004D97EE /* ProjectGroupNames.m in Sources */,
 				79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */,
 				797E64B11E2651E100533319 /* CDTableViewCell.m in Sources */,
+				79D661631E2E4BE9002BCC42 /* CATiledView.m in Sources */,
 				794EF27E1E00AA6400E8032C /* IntransicContentSizeViewController.m in Sources */,
 				799134241E1318A700424E8F /* BaseViewController.m in Sources */,
 				792D0ED41E1D167100942484 /* CPAdvancedViewController.m in Sources */,
+				79D6614D1E2D4E84002BCC42 /* CAScrollView.m in Sources */,
 				79BBBCD21E2BFAA900054964 /* SFFriendListTableViewCell.m in Sources */,
 				79A8795E1E1020FC00D1AFA0 /* CAAdvancedViewController.m in Sources */,
 				797E64781E239A5B00533319 /* CDFriendshipObject.m in Sources */,
+				79D661491E2D4D17002BCC42 /* CALayerFamilyViewController.m in Sources */,
 				79A879631E1083D000D1AFA0 /* NumberCounter.m in Sources */,
 				790EFDD51DFEB80C004D97EE /* PlayGroundViewController.m in Sources */,
 				79350AC01E1306D400542BED /* VCAnimator.m in Sources */,
