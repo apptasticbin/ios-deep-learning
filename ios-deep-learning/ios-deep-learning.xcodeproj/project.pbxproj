@@ -20,6 +20,14 @@
 		792D0ECF1E1C32A900942484 /* CPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 792D0ECE1E1C32A900942484 /* CPOperation.m */; };
 		792D0ED41E1D167100942484 /* CPAdvancedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792D0ED31E1D167100942484 /* CPAdvancedViewController.m */; };
 		792D0EDB1E1D3D3300942484 /* NSNumber+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 792D0EDA1E1D3D3300942484 /* NSNumber+Helper.m */; };
+		792E4A2B1E2FEC0300D20A30 /* SimpleItunesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792E4A2A1E2FEC0300D20A30 /* SimpleItunesViewController.m */; };
+		792E4A2E1E2FEC2800D20A30 /* SimpleItunesDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 792E4A2D1E2FEC2800D20A30 /* SimpleItunesDownloader.m */; };
+		792E4A401E2FEC4C00D20A30 /* SFFriendListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 792E4A321E2FEC4C00D20A30 /* SFFriendListTableViewCell.m */; };
+		792E4A411E2FEC4C00D20A30 /* SFGraphApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 792E4A351E2FEC4C00D20A30 /* SFGraphApiClient.m */; };
+		792E4A421E2FEC4C00D20A30 /* SFJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 792E4A381E2FEC4C00D20A30 /* SFJSONObject.m */; };
+		792E4A431E2FEC4C00D20A30 /* SFUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 792E4A3B1E2FEC4C00D20A30 /* SFUserModel.m */; };
+		792E4A441E2FEC4C00D20A30 /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792E4A3E1E2FEC4C00D20A30 /* SFViewController.m */; };
+		792E4A451E2FEC4C00D20A30 /* SFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792E4A3F1E2FEC4C00D20A30 /* SFViewController.xib */; };
 		79350AC01E1306D400542BED /* VCAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 79350ABF1E1306D400542BED /* VCAnimator.m */; };
 		7936E6651E08059300CD7A75 /* MaskedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7936E6611E08059300CD7A75 /* MaskedButton.m */; };
 		7936E6661E08059300CD7A75 /* SimpleRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7936E6641E08059300CD7A75 /* SimpleRoundButton.m */; };
@@ -73,12 +81,6 @@
 		79A879691E11A6CD00D1AFA0 /* VCAnimationPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A879681E11A6CD00D1AFA0 /* VCAnimationPlayGroundViewController.m */; };
 		79A879761E11C24600D1AFA0 /* VCAnimationPopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A879741E11C24600D1AFA0 /* VCAnimationPopViewController.m */; };
 		79A879771E11C24600D1AFA0 /* VCAnimationPopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79A879751E11C24600D1AFA0 /* VCAnimationPopViewController.xib */; };
-		79BBBCB91E281A7800054964 /* SFGraphApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BBBCB81E281A7800054964 /* SFGraphApiClient.m */; };
-		79BBBCBC1E290B2F00054964 /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BBBCBB1E290B2F00054964 /* SFViewController.m */; };
-		79BBBCC01E2970B700054964 /* SFJSONObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BBBCBF1E2970B700054964 /* SFJSONObject.m */; };
-		79BBBCC81E2B82CB00054964 /* SFUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BBBCC71E2B82CB00054964 /* SFUserModel.m */; };
-		79BBBCCA1E2B91D200054964 /* SFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79BBBCC91E2B91D200054964 /* SFViewController.xib */; };
-		79BBBCD21E2BFAA900054964 /* SFFriendListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BBBCD11E2BFAA900054964 /* SFFriendListTableViewCell.m */; };
 		79CB52821E09C81C00413099 /* CircleProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB52811E09C81C00413099 /* CircleProgressBarView.m */; };
 		79CB52861E09C8AD00413099 /* GraphicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB52851E09C8AD00413099 /* GraphicsView.m */; };
 		79D661491E2D4D17002BCC42 /* CALayerFamilyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D661481E2D4D17002BCC42 /* CALayerFamilyViewController.m */; };
@@ -129,6 +131,21 @@
 		792D0ED31E1D167100942484 /* CPAdvancedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPAdvancedViewController.m; path = Projects/ConcurrentProgramming/ConcurrentAdvanced/CPAdvancedViewController/CPAdvancedViewController.m; sourceTree = "<group>"; };
 		792D0ED91E1D3D3300942484 /* NSNumber+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+Helper.h"; path = "Misc/NSNumber+Helper/NSNumber+Helper.h"; sourceTree = "<group>"; };
 		792D0EDA1E1D3D3300942484 /* NSNumber+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+Helper.m"; path = "Misc/NSNumber+Helper/NSNumber+Helper.m"; sourceTree = "<group>"; };
+		792E4A291E2FEC0300D20A30 /* SimpleItunesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleItunesViewController.h; path = Projects/URLLoadingSystem/SimpleItunes/SimpleItunesViewController/SimpleItunesViewController.h; sourceTree = "<group>"; };
+		792E4A2A1E2FEC0300D20A30 /* SimpleItunesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleItunesViewController.m; path = Projects/URLLoadingSystem/SimpleItunes/SimpleItunesViewController/SimpleItunesViewController.m; sourceTree = "<group>"; };
+		792E4A2C1E2FEC2800D20A30 /* SimpleItunesDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleItunesDownloader.h; path = Projects/URLLoadingSystem/SimpleItunes/SimpleItunesDownloader/SimpleItunesDownloader.h; sourceTree = "<group>"; };
+		792E4A2D1E2FEC2800D20A30 /* SimpleItunesDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleItunesDownloader.m; path = Projects/URLLoadingSystem/SimpleItunes/SimpleItunesDownloader/SimpleItunesDownloader.m; sourceTree = "<group>"; };
+		792E4A311E2FEC4C00D20A30 /* SFFriendListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFriendListTableViewCell.h; sourceTree = "<group>"; };
+		792E4A321E2FEC4C00D20A30 /* SFFriendListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFriendListTableViewCell.m; sourceTree = "<group>"; };
+		792E4A341E2FEC4C00D20A30 /* SFGraphApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGraphApiClient.h; sourceTree = "<group>"; };
+		792E4A351E2FEC4C00D20A30 /* SFGraphApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFGraphApiClient.m; sourceTree = "<group>"; };
+		792E4A371E2FEC4C00D20A30 /* SFJSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJSONObject.h; sourceTree = "<group>"; };
+		792E4A381E2FEC4C00D20A30 /* SFJSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJSONObject.m; sourceTree = "<group>"; };
+		792E4A3A1E2FEC4C00D20A30 /* SFUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFUserModel.h; sourceTree = "<group>"; };
+		792E4A3B1E2FEC4C00D20A30 /* SFUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFUserModel.m; sourceTree = "<group>"; };
+		792E4A3D1E2FEC4C00D20A30 /* SFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFViewController.h; sourceTree = "<group>"; };
+		792E4A3E1E2FEC4C00D20A30 /* SFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFViewController.m; sourceTree = "<group>"; };
+		792E4A3F1E2FEC4C00D20A30 /* SFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFViewController.xib; sourceTree = "<group>"; };
 		79350ABE1E1306D400542BED /* VCAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAnimator.h; sourceTree = "<group>"; };
 		79350ABF1E1306D400542BED /* VCAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAnimator.m; sourceTree = "<group>"; };
 		7936E6601E08059300CD7A75 /* MaskedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskedButton.h; sourceTree = "<group>"; };
@@ -233,17 +250,6 @@
 		79A879731E11C24600D1AFA0 /* VCAnimationPopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCAnimationPopViewController.h; path = Projects/ViewController/ViewControllerAnimation/VCAnimationPopViewController/VCAnimationPopViewController.h; sourceTree = "<group>"; };
 		79A879741E11C24600D1AFA0 /* VCAnimationPopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCAnimationPopViewController.m; path = Projects/ViewController/ViewControllerAnimation/VCAnimationPopViewController/VCAnimationPopViewController.m; sourceTree = "<group>"; };
 		79A879751E11C24600D1AFA0 /* VCAnimationPopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VCAnimationPopViewController.xib; path = Projects/ViewController/ViewControllerAnimation/VCAnimationPopViewController/VCAnimationPopViewController.xib; sourceTree = "<group>"; };
-		79BBBCB71E281A7800054964 /* SFGraphApiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFGraphApiClient.h; path = Projects/URLLoadingSystem/SFGraphApiClient/SFGraphApiClient.h; sourceTree = "<group>"; };
-		79BBBCB81E281A7800054964 /* SFGraphApiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFGraphApiClient.m; path = Projects/URLLoadingSystem/SFGraphApiClient/SFGraphApiClient.m; sourceTree = "<group>"; };
-		79BBBCBA1E290B2F00054964 /* SFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFViewController.h; path = Projects/URLLoadingSystem/SFViewController/SFViewController.h; sourceTree = "<group>"; };
-		79BBBCBB1E290B2F00054964 /* SFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFViewController.m; path = Projects/URLLoadingSystem/SFViewController/SFViewController.m; sourceTree = "<group>"; };
-		79BBBCBE1E2970B700054964 /* SFJSONObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFJSONObject.h; path = Projects/URLLoadingSystem/SFJSONObject/SFJSONObject.h; sourceTree = "<group>"; };
-		79BBBCBF1E2970B700054964 /* SFJSONObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFJSONObject.m; path = Projects/URLLoadingSystem/SFJSONObject/SFJSONObject.m; sourceTree = "<group>"; };
-		79BBBCC61E2B82CB00054964 /* SFUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFUserModel.h; sourceTree = "<group>"; };
-		79BBBCC71E2B82CB00054964 /* SFUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFUserModel.m; sourceTree = "<group>"; };
-		79BBBCC91E2B91D200054964 /* SFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SFViewController.xib; path = Projects/URLLoadingSystem/SFViewController/SFViewController.xib; sourceTree = "<group>"; };
-		79BBBCD01E2BFAA900054964 /* SFFriendListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFFriendListTableViewCell.h; path = Projects/URLLoadingSystem/SFFriendListTableViewCell/SFFriendListTableViewCell.h; sourceTree = "<group>"; };
-		79BBBCD11E2BFAA900054964 /* SFFriendListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFFriendListTableViewCell.m; path = Projects/URLLoadingSystem/SFFriendListTableViewCell/SFFriendListTableViewCell.m; sourceTree = "<group>"; };
 		79CB52801E09C81C00413099 /* CircleProgressBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressBarView.h; sourceTree = "<group>"; };
 		79CB52811E09C81C00413099 /* CircleProgressBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressBarView.m; sourceTree = "<group>"; };
 		79CB52841E09C8AD00413099 /* GraphicsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphicsView.h; path = Projects/CoreGraphics/CoreGraphicsBasis/GraphicsView/GraphicsView.h; sourceTree = "<group>"; };
@@ -358,6 +364,15 @@
 				790EFDDF1DFF2A81004D97EE /* PlayGroundControlAction.m */,
 			);
 			name = PlayGroundControlAction;
+			sourceTree = "<group>";
+		};
+		790FBD9A1E2FE3E3005AF8A5 /* SimpleItunes */ = {
+			isa = PBXGroup;
+			children = (
+				792E4A281E2FEB6300D20A30 /* SimpleItunesDownloader */,
+				792E4A271E2FE97A00D20A30 /* SimpleItunesViewController */,
+			);
+			name = SimpleItunes;
 			sourceTree = "<group>";
 		};
 		791277A11E096CE500C69671 /* ShowOffViewController */ = {
@@ -486,6 +501,83 @@
 				797E64691E22464000533319 /* CoreDataController.m */,
 			);
 			name = CoreDataController;
+			sourceTree = "<group>";
+		};
+		792E4A271E2FE97A00D20A30 /* SimpleItunesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				792E4A291E2FEC0300D20A30 /* SimpleItunesViewController.h */,
+				792E4A2A1E2FEC0300D20A30 /* SimpleItunesViewController.m */,
+			);
+			name = SimpleItunesViewController;
+			sourceTree = "<group>";
+		};
+		792E4A281E2FEB6300D20A30 /* SimpleItunesDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				792E4A2C1E2FEC2800D20A30 /* SimpleItunesDownloader.h */,
+				792E4A2D1E2FEC2800D20A30 /* SimpleItunesDownloader.m */,
+			);
+			name = SimpleItunesDownloader;
+			sourceTree = "<group>";
+		};
+		792E4A2F1E2FEC4C00D20A30 /* SimpleFacebook */ = {
+			isa = PBXGroup;
+			children = (
+				792E4A301E2FEC4C00D20A30 /* SFFriendListTableViewCell */,
+				792E4A331E2FEC4C00D20A30 /* SFGraphApiClient */,
+				792E4A361E2FEC4C00D20A30 /* SFJSONObject */,
+				792E4A391E2FEC4C00D20A30 /* SFUserModel */,
+				792E4A3C1E2FEC4C00D20A30 /* SFViewController */,
+			);
+			name = SimpleFacebook;
+			path = Projects/URLLoadingSystem/SimpleFacebook;
+			sourceTree = "<group>";
+		};
+		792E4A301E2FEC4C00D20A30 /* SFFriendListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				792E4A311E2FEC4C00D20A30 /* SFFriendListTableViewCell.h */,
+				792E4A321E2FEC4C00D20A30 /* SFFriendListTableViewCell.m */,
+			);
+			path = SFFriendListTableViewCell;
+			sourceTree = "<group>";
+		};
+		792E4A331E2FEC4C00D20A30 /* SFGraphApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				792E4A341E2FEC4C00D20A30 /* SFGraphApiClient.h */,
+				792E4A351E2FEC4C00D20A30 /* SFGraphApiClient.m */,
+			);
+			path = SFGraphApiClient;
+			sourceTree = "<group>";
+		};
+		792E4A361E2FEC4C00D20A30 /* SFJSONObject */ = {
+			isa = PBXGroup;
+			children = (
+				792E4A371E2FEC4C00D20A30 /* SFJSONObject.h */,
+				792E4A381E2FEC4C00D20A30 /* SFJSONObject.m */,
+			);
+			path = SFJSONObject;
+			sourceTree = "<group>";
+		};
+		792E4A391E2FEC4C00D20A30 /* SFUserModel */ = {
+			isa = PBXGroup;
+			children = (
+				792E4A3A1E2FEC4C00D20A30 /* SFUserModel.h */,
+				792E4A3B1E2FEC4C00D20A30 /* SFUserModel.m */,
+			);
+			path = SFUserModel;
+			sourceTree = "<group>";
+		};
+		792E4A3C1E2FEC4C00D20A30 /* SFViewController */ = {
+			isa = PBXGroup;
+			children = (
+				792E4A3D1E2FEC4C00D20A30 /* SFViewController.h */,
+				792E4A3E1E2FEC4C00D20A30 /* SFViewController.m */,
+				792E4A3F1E2FEC4C00D20A30 /* SFViewController.xib */,
+			);
+			path = SFViewController;
 			sourceTree = "<group>";
 		};
 		79350ABD1E1306D400542BED /* VCAnimator */ = {
@@ -1205,68 +1297,10 @@
 		79BBBCB31E2816F200054964 /* URLLoadingSystem */ = {
 			isa = PBXGroup;
 			children = (
-				79BBBCB41E28171600054964 /* SimpleFacebook */,
+				790FBD9A1E2FE3E3005AF8A5 /* SimpleItunes */,
+				792E4A2F1E2FEC4C00D20A30 /* SimpleFacebook */,
 			);
 			name = URLLoadingSystem;
-			sourceTree = "<group>";
-		};
-		79BBBCB41E28171600054964 /* SimpleFacebook */ = {
-			isa = PBXGroup;
-			children = (
-				79BBBCCF1E2BFA7E00054964 /* SFFriendListTableViewCell */,
-				79BBBCC51E2B82CB00054964 /* SFUserModel */,
-				79BBBCBD1E296FC500054964 /* SFJSONObject */,
-				79BBBCB61E28173A00054964 /* SFGraphApiClient */,
-				79BBBCB51E28172D00054964 /* SFViewController */,
-			);
-			name = SimpleFacebook;
-			sourceTree = "<group>";
-		};
-		79BBBCB51E28172D00054964 /* SFViewController */ = {
-			isa = PBXGroup;
-			children = (
-				79BBBCBA1E290B2F00054964 /* SFViewController.h */,
-				79BBBCBB1E290B2F00054964 /* SFViewController.m */,
-				79BBBCC91E2B91D200054964 /* SFViewController.xib */,
-			);
-			name = SFViewController;
-			sourceTree = "<group>";
-		};
-		79BBBCB61E28173A00054964 /* SFGraphApiClient */ = {
-			isa = PBXGroup;
-			children = (
-				79BBBCB71E281A7800054964 /* SFGraphApiClient.h */,
-				79BBBCB81E281A7800054964 /* SFGraphApiClient.m */,
-			);
-			name = SFGraphApiClient;
-			sourceTree = "<group>";
-		};
-		79BBBCBD1E296FC500054964 /* SFJSONObject */ = {
-			isa = PBXGroup;
-			children = (
-				79BBBCBE1E2970B700054964 /* SFJSONObject.h */,
-				79BBBCBF1E2970B700054964 /* SFJSONObject.m */,
-			);
-			name = SFJSONObject;
-			sourceTree = "<group>";
-		};
-		79BBBCC51E2B82CB00054964 /* SFUserModel */ = {
-			isa = PBXGroup;
-			children = (
-				79BBBCC61E2B82CB00054964 /* SFUserModel.h */,
-				79BBBCC71E2B82CB00054964 /* SFUserModel.m */,
-			);
-			name = SFUserModel;
-			path = Projects/URLLoadingSystem/SFUserModel;
-			sourceTree = "<group>";
-		};
-		79BBBCCF1E2BFA7E00054964 /* SFFriendListTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				79BBBCD01E2BFAA900054964 /* SFFriendListTableViewCell.h */,
-				79BBBCD11E2BFAA900054964 /* SFFriendListTableViewCell.m */,
-			);
-			name = SFFriendListTableViewCell;
 			sourceTree = "<group>";
 		};
 		79BBBCD51E2CD57900054964 /* CoreAnimationLayerFamily */ = {
@@ -1452,9 +1486,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				79A879771E11C24600D1AFA0 /* VCAnimationPopViewController.xib in Resources */,
+				792E4A451E2FEC4C00D20A30 /* SFViewController.xib in Resources */,
 				79752E6E1DFAB4EF00D10272 /* LaunchScreen.storyboard in Resources */,
 				79752E6B1DFAB4EF00D10272 /* Assets.xcassets in Resources */,
-				79BBBCCA1E2B91D200054964 /* SFViewController.xib in Resources */,
 				79752E691DFAB4EF00D10272 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1477,16 +1511,18 @@
 				792D0EDB1E1D3D3300942484 /* NSNumber+Helper.m in Sources */,
 				79D6615F1E2E32B8002BCC42 /* CAReplicatorView.m in Sources */,
 				7991342B1E143E5B00424E8F /* CVSupplementaryView.m in Sources */,
+				792E4A441E2FEC4C00D20A30 /* SFViewController.m in Sources */,
 				799134331E1442FD00424E8F /* CVCellView.m in Sources */,
+				792E4A401E2FEC4C00D20A30 /* SFFriendListTableViewCell.m in Sources */,
 				799FC3D91E193C09005F0503 /* EHPlayGroundViewController.m in Sources */,
-				79BBBCBC1E290B2F00054964 /* SFViewController.m in Sources */,
-				79BBBCC81E2B82CB00054964 /* SFUserModel.m in Sources */,
 				79CB52821E09C81C00413099 /* CircleProgressBarView.m in Sources */,
 				799FC4011E1BC8A5005F0503 /* CPThread.m in Sources */,
 				79D661511E2DFC0B002BCC42 /* CATextView.m in Sources */,
 				79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */,
 				797ADDFB1E02D7C0001F82D9 /* CRCHViewController.m in Sources */,
+				792E4A421E2FEC4C00D20A30 /* SFJSONObject.m in Sources */,
 				799FC3F71E1AFB1F005F0503 /* EHScrollView.m in Sources */,
+				792E4A411E2FEC4C00D20A30 /* SFGraphApiClient.m in Sources */,
 				794EF2791E00A90C00E8032C /* AutoLayoutPlayGroundViewController.m in Sources */,
 				7936E6661E08059300CD7A75 /* SimpleRoundButton.m in Sources */,
 				791277A41E096E3A00C69671 /* ShowOffViewController.m in Sources */,
@@ -1509,6 +1545,7 @@
 				79A7C0831DFB6F830049473E /* ProjectModel.m in Sources */,
 				7936E66A1E08069400CD7A75 /* CustomUIViewController.m in Sources */,
 				799FC3E11E199CDB005F0503 /* EHGestureRecognizer.m in Sources */,
+				792E4A2E1E2FEC2800D20A30 /* SimpleItunesDownloader.m in Sources */,
 				797E64701E22495400533319 /* CoreDataModel.xcdatamodeld in Sources */,
 				79D661671E2EA6C2002BCC42 /* CATiledImageView.m in Sources */,
 				79A879761E11C24600D1AFA0 /* VCAnimationPopViewController.m in Sources */,
@@ -1518,14 +1555,13 @@
 				799FC3C91E16C0A3005F0503 /* PersonModel.m in Sources */,
 				799134371E145CE700424E8F /* CVFlowLayout.m in Sources */,
 				79A879691E11A6CD00D1AFA0 /* VCAnimationPlayGroundViewController.m in Sources */,
+				792E4A431E2FEC4C00D20A30 /* SFUserModel.m in Sources */,
 				79A7C07A1DFB62DA0049473E /* ProjectController.m in Sources */,
 				79CB52861E09C8AD00413099 /* GraphicsView.m in Sources */,
-				79BBBCC01E2970B700054964 /* SFJSONObject.m in Sources */,
 				799FC3C51E16BFDE005F0503 /* KVCPlayGroundViewController.m in Sources */,
 				797E64AA1E23C6E800533319 /* CoreDataBasisViewController.m in Sources */,
 				7991344D1E1538AA00424E8F /* CVCustomLayoutViewController.m in Sources */,
 				791BAB881E0B2FD3008BF2F5 /* CoreAnimationPlayGroundViewController.m in Sources */,
-				79BBBCB91E281A7800054964 /* SFGraphApiClient.m in Sources */,
 				792D0ECF1E1C32A900942484 /* CPOperation.m in Sources */,
 				79752E601DFAB4EF00D10272 /* main.m in Sources */,
 				799FC3DD1E1990D1005F0503 /* EHRect.m in Sources */,
@@ -1537,7 +1573,7 @@
 				799134241E1318A700424E8F /* BaseViewController.m in Sources */,
 				792D0ED41E1D167100942484 /* CPAdvancedViewController.m in Sources */,
 				79D6614D1E2D4E84002BCC42 /* CAScrollView.m in Sources */,
-				79BBBCD21E2BFAA900054964 /* SFFriendListTableViewCell.m in Sources */,
+				792E4A2B1E2FEC0300D20A30 /* SimpleItunesViewController.m in Sources */,
 				79A8795E1E1020FC00D1AFA0 /* CAAdvancedViewController.m in Sources */,
 				797E64781E239A5B00533319 /* CDFriendshipObject.m in Sources */,
 				79D661491E2D4D17002BCC42 /* CALayerFamilyViewController.m in Sources */,
