@@ -28,6 +28,8 @@
 		792E4A431E2FEC4C00D20A30 /* SFUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 792E4A3B1E2FEC4C00D20A30 /* SFUserModel.m */; };
 		792E4A441E2FEC4C00D20A30 /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 792E4A3E1E2FEC4C00D20A30 /* SFViewController.m */; };
 		792E4A451E2FEC4C00D20A30 /* SFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 792E4A3F1E2FEC4C00D20A30 /* SFViewController.xib */; };
+		792E4A471E301DE800D20A30 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792E4A461E301DE800D20A30 /* AVKit.framework */; };
+		792E4A491E301EF200D20A30 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 792E4A481E301EF200D20A30 /* AVFoundation.framework */; };
 		79350AC01E1306D400542BED /* VCAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 79350ABF1E1306D400542BED /* VCAnimator.m */; };
 		7936E6651E08059300CD7A75 /* MaskedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7936E6611E08059300CD7A75 /* MaskedButton.m */; };
 		7936E6661E08059300CD7A75 /* SimpleRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7936E6641E08059300CD7A75 /* SimpleRoundButton.m */; };
@@ -146,6 +148,8 @@
 		792E4A3D1E2FEC4C00D20A30 /* SFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFViewController.h; sourceTree = "<group>"; };
 		792E4A3E1E2FEC4C00D20A30 /* SFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFViewController.m; sourceTree = "<group>"; };
 		792E4A3F1E2FEC4C00D20A30 /* SFViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SFViewController.xib; sourceTree = "<group>"; };
+		792E4A461E301DE800D20A30 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		792E4A481E301EF200D20A30 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		79350ABE1E1306D400542BED /* VCAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAnimator.h; sourceTree = "<group>"; };
 		79350ABF1E1306D400542BED /* VCAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAnimator.m; sourceTree = "<group>"; };
 		7936E6601E08059300CD7A75 /* MaskedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskedButton.h; sourceTree = "<group>"; };
@@ -276,6 +280,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				792E4A491E301EF200D20A30 /* AVFoundation.framework in Frameworks */,
+				792E4A471E301DE800D20A30 /* AVKit.framework in Frameworks */,
 				79D661531E2E0744002BCC42 /* CoreText.framework in Frameworks */,
 				797E646D1E22467E00533319 /* CoreData.framework in Frameworks */,
 			);
@@ -836,6 +842,8 @@
 		797E646B1E22467E00533319 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				792E4A481E301EF200D20A30 /* AVFoundation.framework */,
+				792E4A461E301DE800D20A30 /* AVKit.framework */,
 				79D661521E2E0744002BCC42 /* CoreText.framework */,
 				797E646C1E22467E00533319 /* CoreData.framework */,
 			);
