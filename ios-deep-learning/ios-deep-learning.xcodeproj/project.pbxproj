@@ -40,6 +40,8 @@
 		794EF27E1E00AA6400E8032C /* IntransicContentSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 794EF27D1E00AA6400E8032C /* IntransicContentSizeViewController.m */; };
 		794EF2821E00AF1E00E8032C /* CustomIntransicRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 794EF2811E00AF1E00E8032C /* CustomIntransicRect.m */; };
 		794EF2861E018C2F00E8032C /* NSLayoutConstraint+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 794EF2851E018C2F00E8032C /* NSLayoutConstraint+Helper.m */; };
+		79601F7B1E35F5C200F44EC0 /* ObjectiveCppViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79601F7A1E35F5C200F44EC0 /* ObjectiveCppViewController.mm */; };
+		79601F821E35F8CE00F44EC0 /* ObjectiveCppWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79601F811E35F8CE00F44EC0 /* ObjectiveCppWrapper.mm */; };
 		79752E601DFAB4EF00D10272 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79752E5F1DFAB4EF00D10272 /* main.m */; };
 		79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79752E621DFAB4EF00D10272 /* AppDelegate.m */; };
 		79752E691DFAB4EF00D10272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79752E671DFAB4EF00D10272 /* Main.storyboard */; };
@@ -170,6 +172,10 @@
 		794EF2811E00AF1E00E8032C /* CustomIntransicRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomIntransicRect.m; path = Projects/AutoLayout/CustomViewForAutoLayout/CustomIntransicRect/CustomIntransicRect.m; sourceTree = "<group>"; };
 		794EF2841E018C2F00E8032C /* NSLayoutConstraint+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+Helper.h"; path = "Misc/NSLayoutConstraint+Helper/NSLayoutConstraint+Helper.h"; sourceTree = "<group>"; };
 		794EF2851E018C2F00E8032C /* NSLayoutConstraint+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+Helper.m"; path = "Misc/NSLayoutConstraint+Helper/NSLayoutConstraint+Helper.m"; sourceTree = "<group>"; };
+		79601F791E35F5C200F44EC0 /* ObjectiveCppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectiveCppViewController.h; path = Projects/HybridProgramming/ObjectiveCpp/ObjectiveCppViewController/ObjectiveCppViewController.h; sourceTree = "<group>"; };
+		79601F7A1E35F5C200F44EC0 /* ObjectiveCppViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ObjectiveCppViewController.mm; path = Projects/HybridProgramming/ObjectiveCpp/ObjectiveCppViewController/ObjectiveCppViewController.mm; sourceTree = "<group>"; };
+		79601F801E35F8CE00F44EC0 /* ObjectiveCppWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectiveCppWrapper.h; path = Projects/HybridProgramming/ObjectiveCpp/ObjectiveCppWrapper/ObjectiveCppWrapper.h; sourceTree = "<group>"; };
+		79601F811E35F8CE00F44EC0 /* ObjectiveCppWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ObjectiveCppWrapper.mm; path = Projects/HybridProgramming/ObjectiveCpp/ObjectiveCppWrapper/ObjectiveCppWrapper.mm; sourceTree = "<group>"; };
 		79752E5B1DFAB4EF00D10272 /* ios-deep-learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-deep-learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79752E5F1DFAB4EF00D10272 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79752E611DFAB4EF00D10272 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -728,6 +734,33 @@
 			name = "NSLayoutConstraint+Helper";
 			sourceTree = "<group>";
 		};
+		79601F771E35F33800F44EC0 /* ObjectiveCpp */ = {
+			isa = PBXGroup;
+			children = (
+				79601F7C1E35F65700F44EC0 /* ObjectiveCppWrapper */,
+				79601F781E35F39900F44EC0 /* ObjectiveCppViewController */,
+			);
+			name = ObjectiveCpp;
+			sourceTree = "<group>";
+		};
+		79601F781E35F39900F44EC0 /* ObjectiveCppViewController */ = {
+			isa = PBXGroup;
+			children = (
+				79601F791E35F5C200F44EC0 /* ObjectiveCppViewController.h */,
+				79601F7A1E35F5C200F44EC0 /* ObjectiveCppViewController.mm */,
+			);
+			name = ObjectiveCppViewController;
+			sourceTree = "<group>";
+		};
+		79601F7C1E35F65700F44EC0 /* ObjectiveCppWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				79601F801E35F8CE00F44EC0 /* ObjectiveCppWrapper.h */,
+				79601F811E35F8CE00F44EC0 /* ObjectiveCppWrapper.mm */,
+			);
+			name = ObjectiveCppWrapper;
+			sourceTree = "<group>";
+		};
 		79752E521DFAB4EF00D10272 = {
 			isa = PBXGroup;
 			children = (
@@ -1174,6 +1207,7 @@
 				792863D81E05BDA6007F5916 /* CoreGraphics */,
 				7936E65C1E07DC1000CD7A75 /* CoreAnimation */,
 				799FC3CA1E16EC44005F0503 /* EventHandling */,
+				79E171351E3146D600390918 /* HybridProgramming */,
 				7991344E1E15B5CA00424E8F /* KeyValueProgramming */,
 				79BBBCB31E2816F200054964 /* URLLoadingSystem */,
 				79A879641E11A5DF00D1AFA0 /* ViewController */,
@@ -1408,6 +1442,14 @@
 			name = CAEmitterView;
 			sourceTree = "<group>";
 		};
+		79E171351E3146D600390918 /* HybridProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				79601F771E35F33800F44EC0 /* ObjectiveCpp */,
+			);
+			name = HybridProgramming;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1528,6 +1570,7 @@
 				79D661511E2DFC0B002BCC42 /* CATextView.m in Sources */,
 				79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */,
 				797ADDFB1E02D7C0001F82D9 /* CRCHViewController.m in Sources */,
+				79601F821E35F8CE00F44EC0 /* ObjectiveCppWrapper.mm in Sources */,
 				792E4A421E2FEC4C00D20A30 /* SFJSONObject.m in Sources */,
 				799FC3F71E1AFB1F005F0503 /* EHScrollView.m in Sources */,
 				792E4A411E2FEC4C00D20A30 /* SFGraphApiClient.m in Sources */,
@@ -1573,6 +1616,7 @@
 				792D0ECF1E1C32A900942484 /* CPOperation.m in Sources */,
 				79752E601DFAB4EF00D10272 /* main.m in Sources */,
 				799FC3DD1E1990D1005F0503 /* EHRect.m in Sources */,
+				79601F7B1E35F5C200F44EC0 /* ObjectiveCppViewController.mm in Sources */,
 				790EFDBB1DFCBE86004D97EE /* ProjectGroupNames.m in Sources */,
 				79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */,
 				797E64B11E2651E100533319 /* CDTableViewCell.m in Sources */,

@@ -19,4 +19,5 @@ NSString * const ProjectGroupNameEventHandling          = @"Event Handling";
 NSString * const ProjectGroupNameConcurrentProgramming  = @"Concurrent Programming";
 NSString * const ProjectGroupNameCoreData               = @"Core Data";
 NSString * const ProjectGroupNameURLLoadingSystem       = @"URL Loading System";
+NSString * const ProjectGroupNameHybridProgramming      = @"Hybrid Programming";
 

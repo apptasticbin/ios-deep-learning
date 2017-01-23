@@ -20,9 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self initializeViewController];
     [self initializeControlPanel];
-    [self initializeViewConstraints];
 }
 
 #pragma mark - Initialization
