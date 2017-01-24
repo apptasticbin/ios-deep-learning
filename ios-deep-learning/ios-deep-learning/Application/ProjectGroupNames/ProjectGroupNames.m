@@ -21,4 +21,5 @@ NSString * const ProjectGroupNameCoreData               = @"Core Data";
 NSString * const ProjectGroupNameURLLoadingSystem       = @"URL Loading System";
 NSString * const ProjectGroupNameHybridProgramming      = @"Hybrid Programming";
 NSString * const ProjectGroupNameObjectiveCRuntime      = @"Objective-C Runtime";
+NSString * const ProjectGroupNameFoundation             = @"Foundation";
 

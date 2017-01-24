@@ -59,6 +59,8 @@
 		7990FCB71E3683160093884D /* MethodSwizzlingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7990FCB61E3683160093884D /* MethodSwizzlingViewController.m */; };
 		7990FCBB1E36857A0093884D /* SwizzlingRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 7990FCBA1E36857A0093884D /* SwizzlingRect.m */; };
 		7990FCBF1E3690010093884D /* SwizzlingRect+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7990FCBE1E3690010093884D /* SwizzlingRect+Tracking.m */; };
+		7990FCC71E3779D80093884D /* ProxyPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7990FCC61E3779D80093884D /* ProxyPlayGroundViewController.m */; };
+		7990FCCA1E377E830093884D /* ProxyCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7990FCC91E377E830093884D /* ProxyCounter.m */; };
 		799134241E1318A700424E8F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134231E1318A700424E8F /* BaseViewController.m */; };
 		799134271E131A2B00424E8F /* CVPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134261E131A2B00424E8F /* CVPlayGroundViewController.m */; };
 		7991342B1E143E5B00424E8F /* CVSupplementaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991342A1E143E5B00424E8F /* CVSupplementaryView.m */; };
@@ -211,6 +213,10 @@
 		7990FCBA1E36857A0093884D /* SwizzlingRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwizzlingRect.m; path = Projects/ObjectiveCRuntime/MethodSwizzling/SwizzlingRect/SwizzlingRect.m; sourceTree = "<group>"; };
 		7990FCBD1E3690010093884D /* SwizzlingRect+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SwizzlingRect+Tracking.h"; path = "Projects/ObjectiveCRuntime/MethodSwizzling/SwizzlingRect+Tracking/SwizzlingRect+Tracking.h"; sourceTree = "<group>"; };
 		7990FCBE1E3690010093884D /* SwizzlingRect+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SwizzlingRect+Tracking.m"; path = "Projects/ObjectiveCRuntime/MethodSwizzling/SwizzlingRect+Tracking/SwizzlingRect+Tracking.m"; sourceTree = "<group>"; };
+		7990FCC51E3779D80093884D /* ProxyPlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProxyPlayGroundViewController.h; path = Projects/Foundation/NSProxy/ProxyPlayGroundViewController/ProxyPlayGroundViewController.h; sourceTree = "<group>"; };
+		7990FCC61E3779D80093884D /* ProxyPlayGroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProxyPlayGroundViewController.m; path = Projects/Foundation/NSProxy/ProxyPlayGroundViewController/ProxyPlayGroundViewController.m; sourceTree = "<group>"; };
+		7990FCC81E377E830093884D /* ProxyCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProxyCounter.h; path = Projects/Foundation/NSProxy/ProxyCounter/ProxyCounter.h; sourceTree = "<group>"; };
+		7990FCC91E377E830093884D /* ProxyCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProxyCounter.m; path = Projects/Foundation/NSProxy/ProxyCounter/ProxyCounter.m; sourceTree = "<group>"; };
 		799134221E1318A700424E8F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = Projects/Base/BaseViewController/BaseViewController.h; sourceTree = "<group>"; };
 		799134231E1318A700424E8F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = Projects/Base/BaseViewController/BaseViewController.m; sourceTree = "<group>"; };
 		799134251E131A2B00424E8F /* CVPlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVPlayGroundViewController.h; path = Projects/CollectionView/CollectionViewPlayGround/CVPlayGroundViewController/CVPlayGroundViewController.h; sourceTree = "<group>"; };
@@ -964,6 +970,41 @@
 			name = "SwizzlingRect+Tracking";
 			sourceTree = "<group>";
 		};
+		7990FCC01E37551A0093884D /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				7990FCC11E3755350093884D /* NSProxy */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		7990FCC11E3755350093884D /* NSProxy */ = {
+			isa = PBXGroup;
+			children = (
+				7990FCC41E37780F0093884D /* ProxyCounter */,
+				7990FCC31E3777FC0093884D /* ProxyPlayGroundViewController */,
+			);
+			name = NSProxy;
+			sourceTree = "<group>";
+		};
+		7990FCC31E3777FC0093884D /* ProxyPlayGroundViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7990FCC51E3779D80093884D /* ProxyPlayGroundViewController.h */,
+				7990FCC61E3779D80093884D /* ProxyPlayGroundViewController.m */,
+			);
+			name = ProxyPlayGroundViewController;
+			sourceTree = "<group>";
+		};
+		7990FCC41E37780F0093884D /* ProxyCounter */ = {
+			isa = PBXGroup;
+			children = (
+				7990FCC81E377E830093884D /* ProxyCounter.h */,
+				7990FCC91E377E830093884D /* ProxyCounter.m */,
+			);
+			name = ProxyCounter;
+			sourceTree = "<group>";
+		};
 		799134151E13157400424E8F /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1261,6 +1302,7 @@
 				792863D81E05BDA6007F5916 /* CoreGraphics */,
 				7936E65C1E07DC1000CD7A75 /* CoreAnimation */,
 				799FC3CA1E16EC44005F0503 /* EventHandling */,
+				7990FCC01E37551A0093884D /* Foundation */,
 				79E171351E3146D600390918 /* HybridProgramming */,
 				7990FCB21E367B490093884D /* ObjectiveCRuntime */,
 				7991344E1E15B5CA00424E8F /* KeyValueProgramming */,
@@ -1678,6 +1720,7 @@
 				79A7C0751DFB5F310049473E /* ProjectTableViewController.m in Sources */,
 				797E64B11E2651E100533319 /* CDTableViewCell.m in Sources */,
 				79D661631E2E4BE9002BCC42 /* CATiledView.m in Sources */,
+				7990FCC71E3779D80093884D /* ProxyPlayGroundViewController.m in Sources */,
 				794EF27E1E00AA6400E8032C /* IntransicContentSizeViewController.m in Sources */,
 				799134241E1318A700424E8F /* BaseViewController.m in Sources */,
 				792D0ED41E1D167100942484 /* CPAdvancedViewController.m in Sources */,
@@ -1686,6 +1729,7 @@
 				7990FCBF1E3690010093884D /* SwizzlingRect+Tracking.m in Sources */,
 				79A8795E1E1020FC00D1AFA0 /* CAAdvancedViewController.m in Sources */,
 				797E64781E239A5B00533319 /* CDFriendshipObject.m in Sources */,
+				7990FCCA1E377E830093884D /* ProxyCounter.m in Sources */,
 				79D661491E2D4D17002BCC42 /* CALayerFamilyViewController.m in Sources */,
 				79A879631E1083D000D1AFA0 /* NumberCounter.m in Sources */,
 				790EFDD51DFEB80C004D97EE /* PlayGroundViewController.m in Sources */,

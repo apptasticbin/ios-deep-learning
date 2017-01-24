@@ -21,3 +21,4 @@ FOUNDATION_EXPORT NSString * const ProjectGroupNameCoreData;
 FOUNDATION_EXPORT NSString * const ProjectGroupNameURLLoadingSystem;
 FOUNDATION_EXPORT NSString * const ProjectGroupNameHybridProgramming;
 FOUNDATION_EXPORT NSString * const ProjectGroupNameObjectiveCRuntime;
+FOUNDATION_EXPORT NSString * const ProjectGroupNameFoundation;
