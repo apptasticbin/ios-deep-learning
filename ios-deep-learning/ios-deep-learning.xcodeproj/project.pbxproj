@@ -56,6 +56,9 @@
 		797E64781E239A5B00533319 /* CDFriendshipObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 797E64771E239A5B00533319 /* CDFriendshipObject.m */; };
 		797E64AA1E23C6E800533319 /* CoreDataBasisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797E64A91E23C6E800533319 /* CoreDataBasisViewController.m */; };
 		797E64B11E2651E100533319 /* CDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 797E64B01E2651E100533319 /* CDTableViewCell.m */; };
+		7990FCB71E3683160093884D /* MethodSwizzlingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7990FCB61E3683160093884D /* MethodSwizzlingViewController.m */; };
+		7990FCBB1E36857A0093884D /* SwizzlingRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 7990FCBA1E36857A0093884D /* SwizzlingRect.m */; };
+		7990FCBF1E3690010093884D /* SwizzlingRect+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7990FCBE1E3690010093884D /* SwizzlingRect+Tracking.m */; };
 		799134241E1318A700424E8F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134231E1318A700424E8F /* BaseViewController.m */; };
 		799134271E131A2B00424E8F /* CVPlayGroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799134261E131A2B00424E8F /* CVPlayGroundViewController.m */; };
 		7991342B1E143E5B00424E8F /* CVSupplementaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991342A1E143E5B00424E8F /* CVSupplementaryView.m */; };
@@ -202,6 +205,12 @@
 		797E64A91E23C6E800533319 /* CoreDataBasisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataBasisViewController.m; path = Projects/CoreData/CoreDataBasis/CoreDataBasisViewController/CoreDataBasisViewController.m; sourceTree = "<group>"; };
 		797E64AF1E2651E100533319 /* CDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDTableViewCell.h; path = Projects/CoreData/CoreDataBasis/CDTableViewCell/CDTableViewCell.h; sourceTree = "<group>"; };
 		797E64B01E2651E100533319 /* CDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDTableViewCell.m; path = Projects/CoreData/CoreDataBasis/CDTableViewCell/CDTableViewCell.m; sourceTree = "<group>"; };
+		7990FCB51E3683160093884D /* MethodSwizzlingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MethodSwizzlingViewController.h; path = Projects/ObjectiveCRuntime/MethodSwizzling/MethodSwizzlingViewController/MethodSwizzlingViewController.h; sourceTree = "<group>"; };
+		7990FCB61E3683160093884D /* MethodSwizzlingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MethodSwizzlingViewController.m; path = Projects/ObjectiveCRuntime/MethodSwizzling/MethodSwizzlingViewController/MethodSwizzlingViewController.m; sourceTree = "<group>"; };
+		7990FCB91E36857A0093884D /* SwizzlingRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwizzlingRect.h; path = Projects/ObjectiveCRuntime/MethodSwizzling/SwizzlingRect/SwizzlingRect.h; sourceTree = "<group>"; };
+		7990FCBA1E36857A0093884D /* SwizzlingRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SwizzlingRect.m; path = Projects/ObjectiveCRuntime/MethodSwizzling/SwizzlingRect/SwizzlingRect.m; sourceTree = "<group>"; };
+		7990FCBD1E3690010093884D /* SwizzlingRect+Tracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SwizzlingRect+Tracking.h"; path = "Projects/ObjectiveCRuntime/MethodSwizzling/SwizzlingRect+Tracking/SwizzlingRect+Tracking.h"; sourceTree = "<group>"; };
+		7990FCBE1E3690010093884D /* SwizzlingRect+Tracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SwizzlingRect+Tracking.m"; path = "Projects/ObjectiveCRuntime/MethodSwizzling/SwizzlingRect+Tracking/SwizzlingRect+Tracking.m"; sourceTree = "<group>"; };
 		799134221E1318A700424E8F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = Projects/Base/BaseViewController/BaseViewController.h; sourceTree = "<group>"; };
 		799134231E1318A700424E8F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = Projects/Base/BaseViewController/BaseViewController.m; sourceTree = "<group>"; };
 		799134251E131A2B00424E8F /* CVPlayGroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVPlayGroundViewController.h; path = Projects/CollectionView/CollectionViewPlayGround/CVPlayGroundViewController/CVPlayGroundViewController.h; sourceTree = "<group>"; };
@@ -910,6 +919,51 @@
 			name = CDTableViewCell;
 			sourceTree = "<group>";
 		};
+		7990FCB21E367B490093884D /* ObjectiveCRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				7990FCB31E3682980093884D /* MethodSwizzling */,
+			);
+			name = ObjectiveCRuntime;
+			sourceTree = "<group>";
+		};
+		7990FCB31E3682980093884D /* MethodSwizzling */ = {
+			isa = PBXGroup;
+			children = (
+				7990FCBC1E368E730093884D /* SwizzlingRect+Tracking */,
+				7990FCB81E3683C40093884D /* SwizzlingRect */,
+				7990FCB41E3682AF0093884D /* MethodSwizzlingViewController */,
+			);
+			name = MethodSwizzling;
+			sourceTree = "<group>";
+		};
+		7990FCB41E3682AF0093884D /* MethodSwizzlingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7990FCB51E3683160093884D /* MethodSwizzlingViewController.h */,
+				7990FCB61E3683160093884D /* MethodSwizzlingViewController.m */,
+			);
+			name = MethodSwizzlingViewController;
+			sourceTree = "<group>";
+		};
+		7990FCB81E3683C40093884D /* SwizzlingRect */ = {
+			isa = PBXGroup;
+			children = (
+				7990FCB91E36857A0093884D /* SwizzlingRect.h */,
+				7990FCBA1E36857A0093884D /* SwizzlingRect.m */,
+			);
+			name = SwizzlingRect;
+			sourceTree = "<group>";
+		};
+		7990FCBC1E368E730093884D /* SwizzlingRect+Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				7990FCBD1E3690010093884D /* SwizzlingRect+Tracking.h */,
+				7990FCBE1E3690010093884D /* SwizzlingRect+Tracking.m */,
+			);
+			name = "SwizzlingRect+Tracking";
+			sourceTree = "<group>";
+		};
 		799134151E13157400424E8F /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1208,6 +1262,7 @@
 				7936E65C1E07DC1000CD7A75 /* CoreAnimation */,
 				799FC3CA1E16EC44005F0503 /* EventHandling */,
 				79E171351E3146D600390918 /* HybridProgramming */,
+				7990FCB21E367B490093884D /* ObjectiveCRuntime */,
 				7991344E1E15B5CA00424E8F /* KeyValueProgramming */,
 				79BBBCB31E2816F200054964 /* URLLoadingSystem */,
 				79A879641E11A5DF00D1AFA0 /* ViewController */,
@@ -1566,6 +1621,7 @@
 				792E4A401E2FEC4C00D20A30 /* SFFriendListTableViewCell.m in Sources */,
 				799FC3D91E193C09005F0503 /* EHPlayGroundViewController.m in Sources */,
 				79CB52821E09C81C00413099 /* CircleProgressBarView.m in Sources */,
+				7990FCBB1E36857A0093884D /* SwizzlingRect.m in Sources */,
 				799FC4011E1BC8A5005F0503 /* CPThread.m in Sources */,
 				79D661511E2DFC0B002BCC42 /* CATextView.m in Sources */,
 				79752E631DFAB4EF00D10272 /* AppDelegate.m in Sources */,
@@ -1585,6 +1641,7 @@
 				790EFDE01DFF2A81004D97EE /* PlayGroundControlAction.m in Sources */,
 				79D6616B1E2F51E1002BCC42 /* CAEmitterView.m in Sources */,
 				794EF2861E018C2F00E8032C /* NSLayoutConstraint+Helper.m in Sources */,
+				7990FCB71E3683160093884D /* MethodSwizzlingViewController.m in Sources */,
 				799FC3EB1E1A75ED005F0503 /* EHDoubleScrollViewController.m in Sources */,
 				797E646A1E22464000533319 /* CoreDataController.m in Sources */,
 				799134541E1667C100424E8F /* KVOPlayGroundViewController.m in Sources */,
@@ -1626,6 +1683,7 @@
 				792D0ED41E1D167100942484 /* CPAdvancedViewController.m in Sources */,
 				79D6614D1E2D4E84002BCC42 /* CAScrollView.m in Sources */,
 				792E4A2B1E2FEC0300D20A30 /* SimpleItunesViewController.m in Sources */,
+				7990FCBF1E3690010093884D /* SwizzlingRect+Tracking.m in Sources */,
 				79A8795E1E1020FC00D1AFA0 /* CAAdvancedViewController.m in Sources */,
 				797E64781E239A5B00533319 /* CDFriendshipObject.m in Sources */,
 				79D661491E2D4D17002BCC42 /* CALayerFamilyViewController.m in Sources */,
